@@ -1,0 +1,42 @@
+h3.block-title Basic Example
+	p Along with Headings
+	
+	h1
+		| Example heading
+		span.label.label-default New
+	h2
+		| Example heading
+		span.label.label-default New
+	h3
+		| Example heading
+		span.label.label-default New
+	h4
+		| Example heading
+		span.label.label-default New
+	h5
+		| Example heading
+		span.label.label-default New
+	h6
+		| Example heading
+		span.label.label-default New
+	
+	br
+	
+	h1
+		| Example heading
+		span.label.label-default Default
+	h2
+		| Example heading
+		span.label.label-primary Primary
+	h3
+		| Example heading
+		span.label.label-info Info
+	h4
+		| Example heading
+		span.label.label-success Success
+	h5
+		| Example heading
+		span.label.label-warning Warning
+	h6
+		| Example heading
+		span.label.label-danger Danger

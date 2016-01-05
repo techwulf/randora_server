@@ -1,0 +1,138 @@
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow.f-bold Christian Bale
+		.pull-right.list-date 9.46 am
+		.media-body.hidden-xs
+			span.t-overflow Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow.f-bold Angel Norton Junior
+		.pull-right.list-date 7.56 am
+		.media-body.hidden-xs
+			span.t-overflow
+				| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sem ligula, vulputate et
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Stirling Sheard
+		.pull-right.list-date Feb 1
+		.media-body.hidden-xs
+			span.t-overflow
+				| Nullam adipiscing tempus ornare. Sed varius nisl ac feugiat feugiat. Nam rhoncus nibh a eros ullamcorper pulvinar
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Reginald Horace
+		.pull-right.list-date Jan 31
+		.media-body.hidden-xs
+			span.t-overflow Sed varius nisl ac feugiat feugiat. Nam rhoncus nibh a eros ullamcorper pulvinar
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Jeremy Robbins
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Mark Henry
+		.pull-right.list-date Jan 28
+		.media-body.hidden-xs
+			span.t-overflow Li Europan lingues es membres del sam familie. Lor separat existentie es
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow David Mirage Paul
+		.pull-right.list-date Jan 27
+		.media-body.hidden-xs
+			span.t-overflow
+				| Suscipit lorem. Cras felis nunc, semper ac tristique ac, tincidunt ac odio. Nulla semper scelerisque
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Thomus Alva Edition
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Alexandar Ven Dixxin
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow Nunc porta metus quis quam bibendum, ac egestas mauris feugiat.
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Jeremy Robbins
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow Quisque placerat turpis elementum, lobortis neque ut, consequat lorem.
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Vin Diesel
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow Morbi varius ipsum faucibus, sodales dolor eu, tempus massa.
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Hendrick Wotkinson
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Donec dapibus porta nunc a lacinia. Praesent non odio sed elit posuere venenatis eget ut massa. Nullam convallis commodo
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow James Anderon
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Dnunc, faucibus tempus quam ultrices vitae. Nullam eget elit posuere mi aliquam vehicula. Suspendisse potenti.
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Steve Saphires
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Quisque tristique pellentesque lacus ac aliquet. Maecenas condimentum aliquam ligula tincidunt commodo
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Mendes Carolina
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Sed pretium nulla et lacus cursus porttitor. Morbi pellentesque mauris vitae magna facilisis facilisis
+.media
+	input.pull-left.list-check(type="checkbox")
+	a.media-body(href="message-detail.html")
+		.pull-left.list-title
+			span.t-overflow Paul Ven Deck
+		.pull-right.list-date Jan 30
+		.media-body.hidden-xs
+			span.t-overflow
+				| Ut tristique suscipit lorem. Cras felis nunc, semper ac tristique ac, tincidunt ac odio. Nulla semper scelerisque

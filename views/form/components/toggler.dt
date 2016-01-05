@@ -1,0 +1,43 @@
+// Toggler
+#toggle-switch.block-area
+	h3.block-title Toggle Switch
+	br
+	p Default Tag selector
+	.make-switch.switch-large(data-on="info", data-off="success")
+		input(type="checkbox")
+	.make-switch
+		input(type="checkbox")
+	.make-switch.switch-small
+		input(type="checkbox")
+	.make-switch.switch-mini
+		input(type="checkbox")
+	p
+	p Custom Text Labels
+	.make-switch(data-text-label="TV")
+		input(type="checkbox")
+	.make-switch(data-text-label="MT")
+		input(type="checkbox")
+	.make-switch(data-text-label="ab")
+		input(type="checkbox")
+	.make-switch(data-text-label="Zr")
+		input(type="checkbox")
+	p
+	p With Icons
+	.make-switch(data-label-icon="fa fa-phone", data-on-label="<i class='fa fa-check'></i>", data-off-label="<i class='fa fa-times'></i>")
+		input(type="checkbox")
+	.make-switch(data-label-icon="fa fa-facebook", data-on-label="<i class='fa fa-thumbs-up'></i>", data-off-label="<i class='fa fa-thumbs-down'></i>")
+		input(type="checkbox")
+	.make-switch(data-label-icon="fa fa-globe", data-on-label="<i class='fa fa-angle-left'></i>", data-off-label="<i class='fa fa-angle-right'></i>")
+		input(type="checkbox")
+	.make-switch(data-label-icon="fa fa-comment", data-on-label="<i class='fa fa-undo'></i>", data-off-label="<i class='fa fa-rotate-right'></i>")
+		input(type="checkbox")
+	p
+	p Disabled
+	.make-switch.switch-large(data-on="info", data-off="success")
+		input(type="checkbox", checked="", disabled="")
+	.make-switch
+		input(type="checkbox", checked="", disabled="")
+	.make-switch.switch-small
+		input(type="checkbox", checked="", disabled="")
+	.make-switch.switch-mini
+		input(type="checkbox", checked="", disabled="")

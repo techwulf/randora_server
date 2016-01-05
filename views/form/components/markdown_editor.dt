@@ -1,0 +1,6 @@
+// Markdown Editor
+#markdown-editor.block-area
+	h3.block-title Markdown Editor
+	br
+	p Super Simple Markdown Editor
+	textarea.markdown-editor(name="content", rows="10")

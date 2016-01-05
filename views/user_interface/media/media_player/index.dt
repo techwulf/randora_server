@@ -1,0 +1,7 @@
+// Media Player
+.block-area
+	h3.block-title Media Player
+	
+	include user_interface/media/media_player/video
+	
+	include user_interface/media/media_player/audio

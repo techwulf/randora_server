@@ -1,0 +1,18 @@
+.media.message-header.o-visible
+	img.pull-left(src="/img/profile-pics/6.jpg", alt="", width="40")
+	.pull-right.dropdown.m-t-10
+		a.p-5(href="#", data-toggle="dropdown") Options
+		ul.dropdown-menu.text-right
+			li
+				a(href="#") Reply
+			li
+				a(href="#") Forward
+			li
+				a(href="#") Mark as Spam
+	.media-body
+		span.f-bold.pull-left.m-b-5 Malinda Hollaway
+		.clearfix
+		span.dropdown.m-t-5
+			| To
+			a.underline(href="#") Me
+			| on 12th February 2014

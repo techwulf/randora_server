@@ -1,0 +1,28 @@
+// Radio
+#check.block-area
+	h3.block-title Radio
+	
+	p Default Radio
+	
+	p.m-t-20 Radio
+	.radio
+		label
+			input(type="radio", name="radio")
+			| Option one is this and that&#8212;be sure to include why it"s great
+	.radio
+		label
+			input(type="radio", name="radio")
+			| Option one is this and that&#8212;be sure to include why it"s great
+	.clearfix
+	p.m-t-20 Disabled
+	.radio
+		label
+			input(type="radio", checked="", disabled="")
+			| This Radio is checked and disabled
+	.radio
+		label
+			input(type="radio", disabled="")
+			| This Radio is not checked and disabled
+	br
+	br
+	br

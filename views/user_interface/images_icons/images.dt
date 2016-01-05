@@ -1,0 +1,13 @@
+// Images
+#images.block-area.m-b-20
+	h3.block-title Images
+	
+	p Rounded, Circle, Thumbnail and Shadowed
+	
+	img.img-rounded.m-r-10.m-b-10(src="/img/images-doc/rounded.png", alt="")
+	
+	img.img-circle.m-r-10.m-b-10(src="/img/images-doc/circle.png", alt="")
+	
+	img.img-thumbnail.m-r-10.m-b-10(src="/img/images-doc/thumbnail.png", alt="")
+	
+	img.img-circle.img-shadowed.m-b-10(src="/img/images-doc/shadowed.png", alt="")

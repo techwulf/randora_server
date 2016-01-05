@@ -1,0 +1,35 @@
+p Vertical Tabs - Left
+
+.tab-container.tile.media
+	ul.tab.pull-left.tab-vertical.nav.nav-tabs
+		li.active
+			a(href="#home3") Home
+		
+		li
+			a(href="#profile3") Profile
+		
+		li
+			a(href="#messages3") Messages
+		
+		li
+			a(href="#settings3") Settings
+	
+	.tab-content.media-body
+		#home3.tab-pane.active
+			p
+				| Duis eleifend sapien nec nisl semper, vitae accumsan arcu feugiat. Suspendisse potenti. Aenean vestibulum massa ut congue accumsan. Donec sapien nulla, sollicitudin eu odio fringilla, vulputate ornare quam. Morbi congue in sem non congue. Vivamus diam velit, lacinia eu lorem ac, pellentesque lobortis arcu. Morbi congue dolor sed arcu imperdiet posuere.
+			
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim non dui fermentum sollicitudin. In id metus dolor. Suspendisse dapibus, metus vitae posuere gravida, odio orci dictum purus, vitae lobortis elit lacus id sem. Vestibulum ut rhoncus dui. Sed congue vestibulum fermentum. Nulla imperdiet quam et ipsum lobortis laoreet. Phasellus in lectus ligula. Suspendisse potenti. Aliquam massa nulla, congue ut quam sed, scelerisque laoreet massa. Ut ultrices aliquet suscipit.
+		
+		#profile3.tab-pane
+			p
+				| Quisque hendrerit lorem lectus, id vestibulum nibh facilisis lobortis. Vestibulum interdum massa rhoncus lorem vehicula faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin convallis venenatis pulvinar. In hac habitasse platea dictumst. Aliquam quis ipsum commodo, venenatis sapien at, ullamcorper neque. Integer vitae lacus volutpat, molestie elit eget, sollicitudin erat. Aliquam ac nisl ligula. Etiam vulputate sodales elit, et interdum mauris semper eu. Nam rhoncus nibh quis quam ullamcorper volutpat. Nam sed ultricies libero, a commodo lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque sed tincidunt turpis. Vivamus blandit, libero sit amet laoreet convallis, enim nisl tristique dolor, et fringilla arcu ipsum eu quam.
+		
+		#messages3.tab-pane
+			p
+				| Duis eleifend sapien nec nisl semper, vitae accumsan arcu feugiat. Suspendisse potenti. Aenean vestibulum massa ut congue accumsan. Donec sapien nulla, sollicitudin eu odio fringilla, vulputate ornare quam. Morbi congue in sem non congue. Vivamus diam velit, lacinia eu lorem ac, pellentesque lobortis arcu. Morbi congue dolor sed arcu imperdiet posuere.
+		
+		#settings3.tab-pane
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim non dui fermentum sollicitudin. In id metus dolor. Suspendisse dapibus, metus vitae posuere gravida, odio orci dictum purus, vitae lobortis elit lacus id sem. Vestibulum ut rhoncus dui. Sed congue vestibulum fermentum. Nulla imperdiet quam et ipsum lobortis laoreet. Phasellus in lectus ligula. Suspendisse potenti. Aliquam massa nulla, congue ut quam sed, scelerisque laoreet massa. Ut ultrices aliquet suscipit.

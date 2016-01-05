@@ -1,0 +1,30 @@
+// Page Header
+#page-header.block-area
+	h3.block-title Page Header
+	
+	p Default Page Header
+	
+	hr.whiter
+	
+	h2.page-title This is a Page Header
+	
+	p.m-t-20 Page Header with Sub text
+	
+	hr.whiter
+	
+	h2.page-title
+		| This is a Page Header
+		small.s-text and this is a sub text
+	
+	p.m-t-20 Page header with Breadcrumb
+	
+	hr.whiter
+	
+	ol.breadcrumb.hidden-xs
+		li
+			a(href="#") Home
+		li
+			a(href="#") Typography
+		li.active Data
+	
+	h2.page-title Another Page Header

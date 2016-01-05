@@ -1,0 +1,36 @@
+// Lightbox
+.block-area
+	h3.block-title Lightbox
+	
+	p Lightbox is used to open Images without refreshing the page as a popup.
+	
+	p Single Image (Click to open)
+	
+	a.pirobox_gall.img-popup(href="/img/gallery/1.jpg", data-rel="gallery", title="Lovely evening in Noreway")
+		img(src="/img/gallery/thumbs/1.jpg", alt="", width="150")
+	
+	p.m-t-20 Image Album (Click to open)
+	
+	a.pirobox_gall.img-popup(href="/img/gallery/1.jpg", data-rel="gallery", title="Fusce sagittis porta porttitor aliquam tincidunt auctor nibh non convallis")
+		img(src="/img/gallery/thumbs/1.jpg", alt="")
+	
+	a.pirobox_gall.img-popup(href="/img/gallery/2.jpg", data-rel="gallery", title="Sed ultrices orci iaculis augue tincidunt gravida")
+		img(src="/img/gallery/thumbs/2.jpg", alt="")
+	
+	a.pirobox_gall.img-popup(href="/img/gallery/3.jpg", data-rel="gallery", title="Donec ullamcorper malesuada magna mollis pellentesque")
+		img(src="/img/gallery/thumbs/3.jpg", alt="")
+	
+	a.pirobox_gall.img-popup(href="/img/gallery/4.jpg", data-rel="gallery", title="Aliquam tincidunt auctor nibh non convallis")
+		img(src="/img/gallery/thumbs/4.jpg", alt="")
+	
+	a.pirobox_gall.img-popup(href="/img/gallery/5.jpg", data-rel="gallery", title="Quelorem venenatis aliquet enim non venenatis")
+		img(src="/img/gallery/thumbs/5.jpg", alt="")
+	
+	p.m-t-20 Youtube and Vimeo Videos
+	
+	a.pirobox_gall.img-popup(href="../../../../www.youtube.googleapis.com/v/sdUUx5FdySs%26hl%3den_US.html", data-rel="iframe-300-300", rev="1")
+		i.icon-expand
+		img(src="/img/gallery/thumbs/1.jpg", alt="")
+	
+	a.pirobox_gall.img-popup(href="../../../../player.vimeo.com/video/54188173.html", data-rel="iframe-300-300", rev="2")
+		img(src="/img/gallery/thumbs/2.jpg", alt="")

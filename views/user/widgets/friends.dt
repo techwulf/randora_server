@@ -1,0 +1,67 @@
+// Friends
+.tile
+	h2.tile-title Connections
+	
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="", data-original-title="Options")
+		
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Edit
+			li
+				a(href="#") Delete
+	
+	.listview.narrow
+		.media.p-l-5
+			.pull-left
+				img(width="37", src="/img/profile-pics/1.jpg", alt="")
+			
+			.media-body
+				a.news-title(href="#") Mitchell Christein
+				.clearfix
+				a(href="#")
+					small.text-muted Unfriend
+		
+		.media.p-l-5
+			.pull-left
+				img(width="37", src="/img/profile-pics/2.jpg", alt="")
+			
+			.media-body
+				a.news-title(href="#") David Villa
+				.clearfix
+				a(href="#")
+					small.text-muted Unfriend
+		
+		.media
+			.pull-left
+				img(width="37", src="/img/profile-pics/3.jpg", alt="")
+			
+			.media-body
+				a.news-title(href="#") The Iron man Jr.
+				.clearfix
+				a(href="#")
+					small.text-muted Unfriend
+		
+		.media
+			.pull-left
+				img(width="37", src="/img/profile-pics/4.jpg", alt="")
+			
+			.media-body
+				a.news-title(href="#") Stephen Elop
+				.clearfix
+				a(href="#")
+					small.text-muted Unfriend
+		
+		.media
+			.pull-left
+				img(width="37", src="/img/profile-pics/5.jpg", alt="")
+			
+			.media-body
+				a.news-title(href="#") Wendy wenkitson
+				.clearfix
+				a(href="#")
+					small.text-muted Unfriend
+		
+		.media.p-5.text-center.l-100
+			a(href="#")
+				small VIEW ALL

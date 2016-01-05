@@ -1,0 +1,13 @@
+p Basic example
+
+.btn-group.m-b-10
+	button.btn-sm.btn(type="button") Left
+	button.btn-sm.btn(type="button") Middle
+	button.btn-sm.btn(type="button") Right
+
+.clearfix
+
+.btn-group
+	button.btn.btn-sm.btn-alt(type="button") Left
+	button.btn.btn-sm.btn-alt(type="button") Middle
+	button.btn.btn-sm.btn-alt(type="button") Right

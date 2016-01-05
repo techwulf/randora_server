@@ -1,0 +1,26 @@
+// Pies
+.row
+	.col-md-6
+		.tile
+			h2.tile-title Pie Chart
+			.tile-config.dropdown
+				a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+				ul.dropdown-menu.pull-right.text-right
+					li
+						a(href="#") Refresh
+					li
+						a(href="#") Settings
+			.p-10
+				#pie-chart.main-chart(style="height: 300px")
+	.col-md-6
+		.tile
+			h2.tile-title Donut Chart
+			.tile-config.dropdown
+				a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+				ul.dropdown-menu.pull-right.text-right
+					li
+						a(href="#") Refresh
+					li
+						a(href="#") Settings
+			.p-10
+				#donut-chart.main-chart(style="height: 300px")

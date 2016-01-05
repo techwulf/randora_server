@@ -1,0 +1,20 @@
+.block-area
+	h3.block-title With Icon
+	
+	p Above examples can be included an Icon as well.
+	
+	.alert.alert-success.alert-icon
+		| Well done! You successfully read this important alert message.
+		i.icon &#61845;
+	
+	.alert.alert-info.alert-icon
+		| Heads up! This alert needs your attention, but it"s not super important.
+		i.icon &#61770;
+	
+	.alert.alert-warning.alert-icon
+		| Warning! Best check yo self, you"re not looking too good.
+		i.icon &#61730;
+	
+	.alert.alert-danger.alert-icon
+		| Oh snap! Change a few things up and try submitting again.
+		i.icon &#61907;

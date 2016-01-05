@@ -1,0 +1,49 @@
+// File Upload
+#upload.block-area
+	h3.block-title Simple File Upload
+	br
+	p Default with button only
+	.fileupload.fileupload-new(data-provides="fileupload")
+		span.btn.btn-file.btn-sm.btn-alt
+			span.fileupload-new Select file
+			span.fileupload-exists Change
+			input(type="file")
+		span.fileupload-preview
+		a.close.close-pic.fileupload-exists(href="#", data-dismiss="fileupload")
+			i.fa.fa-times
+	br
+	p With remove button
+	.fileupload.fileupload-new.row(data-provides="fileupload")
+		.input-group.col-md-6
+			.uneditable-input.form-control
+				i.fa.fa-file.m-r-5.fileupload-exists
+				span.fileupload-preview
+			.input-group-btn
+				span.btn.btn-file.btn-alt.btn-sm
+					span.fileupload-new Select file
+					span.fileupload-exists Change
+					input(type="file")
+			a.btn.btn-sm.btn-gr-gray.fileupload-exists(href="#", data-dismiss="fileupload") Remove
+	br
+	p Image Preview
+	.fileupload.fileupload-new(data-provides="fileupload")
+		.fileupload-preview.thumbnail.form-control
+		div
+			span.btn.btn-file.btn-alt.btn-sm
+				span.fileupload-new Select image
+				span.fileupload-exists Change
+				input(type="file")
+			a.btn.fileupload-exists.btn-sm(href="#", data-dismiss="fileupload") Remove
+	br
+	p Another preview option
+	.fileupload.fileupload-new(data-provides="fileupload")
+		.fileupload-new.thumbnail.small.form-control
+		.fileupload-preview.form-control.fileupload-exists.thumbnail.small
+		span.btn.btn-file.btn-alt.btn-sm
+			span.fileupload-new Select image
+			span.fileupload-exists Change
+			input(type="file")
+		a.btn-sm.btn.fileupload-exists(href="#", data-dismiss="fileupload") Remove
+	br
+	br
+	br

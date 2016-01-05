@@ -1,0 +1,27 @@
+.block-area
+	h3.block-title VECTOR MAPS
+	.row
+		// World Map
+		.col-md-8
+			.tile
+				h2.tile-title World Map
+				.tile-config.dropdown
+					a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+					ul.dropdown-menu.animated.pull-right.text-right
+						li
+							a(href="#") Refresh
+						li
+							a(href="#") Settings
+				#world-map(style="height: 400px")
+		// USA Map
+		.col-md-4
+			.tile
+				h2.tile-title USA Map with Pointers
+				.tile-config.dropdown
+					a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+					ul.dropdown-menu.animated.pull-right.text-right
+						li
+							a(href="#") Refresh
+						li
+							a(href="#") Settings
+				#usa-map

@@ -1,0 +1,10 @@
+extends error/layout
+
+block error
+	section#error-page.tile
+		h1.m-b-10 ERROR 404
+		p
+			| Sorry, but the page you are looking for has not been found. Try checking the URL for errors. Don"t worry though, we will help you get to the right place.
+		a.underline(href="#") Back to previous page
+		| or
+		a.underline(href="#") Go to Home page

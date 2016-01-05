@@ -1,0 +1,35 @@
+h3.block-title Dropdown
+
+p Default Dropdown with alternative (after Driggering)
+
+.dropdown.open
+	ul.dropdown-menu(role="menu")
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Action
+		
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Another action
+		
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Something else here
+		
+		li.divider(role="presentation")
+		
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Separated link
+
+.dropdown.open(style="margin-left: 180px;")
+	ul.dropdown-menu.dropdown-menu-alt(role="menu")
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Action
+		
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Another action
+		
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Something else here
+		
+		li.divider(role="presentation")
+		
+		li(role="presentation")
+			a(role="menuitem", tabindex="-1", href="#") Separated link

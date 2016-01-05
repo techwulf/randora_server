@@ -1,0 +1,152 @@
+p(style="margin-top: 150px;") With Animation(Only on modern browsers)
+
+// Bounce In
+.btn-group.m-b-5
+	button.btn.btn-sm(type="button") Bounce In
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu.animated.bounceIn
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Fade In
+.btn-group.m-b-5
+	button.btn.btn-sm(type="button") Fade In
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu.animated.fadeIn
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Flip In X
+.btn-group.m-b-5
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown") Flip In X
+	
+	ul.dropdown-menu.animated.flipInX
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Flip In Y
+.btn-group.m-b-5
+	button.btn.btn-sm(type="button") Flip In Y
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu.animated.flipInY
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Roll In
+.btn-group.m-b-5
+	button.btn.btn-sm(type="button") Roll In
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu.animated.rollIn
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// slide In Down
+.btn-group.m-b-5
+	button.btn.btn-sm(type="button") slide In Down
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu.animated.slideInDown
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Speed In
+.btn-group.m-b-5
+	button.btn.btn-sm(type="button") Speed In
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu.animated.lightSpeedIn
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link

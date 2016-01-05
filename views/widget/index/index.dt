@@ -1,0 +1,20 @@
+extends widget/layout
+
+block widget
+	h4.page-title CONTENT WIDGETS
+	.block-area
+		.row.m-container
+			.col-md-5
+				//include message/widgets/recent_postings/recent_postings
+				//include project/widgets/tasks
+				//include home/widgets/activity/activity
+				//include project/widgets/projects
+				//include widget/widgets/activities
+				//include user/widgets/about_me
+				//include photo_gallery/widgets/photos
+			.col-md-7
+				//include calendar/widgets/calendar
+				//include photo_gallery/widgets/carousel
+				//include video/widgets/video
+				//include message/widgets/quick
+			.clearfix

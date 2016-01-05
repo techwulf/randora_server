@@ -1,0 +1,16 @@
+// Inline
+#inline.block-area
+	h3.block-title Inline Form
+	form.form-inline(role="form")
+		.form-group
+			label.sr-only(for="exampleInputEmail2") Email address
+			input#exampleInputEmail2.form-control.input-sm(type="email", placeholder="Enter email")
+		.form-group
+			label.sr-only(for="exampleInputPassword2") Password
+			input#exampleInputPassword2.form-control.input-sm(type="password", placeholder="Password")
+		.checkbox.m-l-5.m-r-10
+			label
+				span.checkableBox
+					input(type="checkbox")
+				span Remember me
+		button.btn.btn-sm(type="submit") Sign in

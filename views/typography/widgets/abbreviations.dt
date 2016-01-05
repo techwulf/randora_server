@@ -1,0 +1,14 @@
+// Abbreviations
+article#abbreviations.block-area
+	h3.block-title Abbreviations
+	p
+		| Consequat ligula Donec
+		abbr(title="attribute") attr
+		| elementum faucibus nulla, at dignissim arcu iaculis vitae.
+		abbr(title="another attribute") Seingvill
+		| Nunc vel augue a risus viverra consequat congue a leo. Curabitur ac fermentum enim. Suspendisse
+		abbr(title="Onemore") goos
+		| non nulla pretium, ultrices nisl feugiat, commodo odio. In
+		abbr(title="consectetur") consectetur
+		| mi sed vestibulum posuere.
+	br

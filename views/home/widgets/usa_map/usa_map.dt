@@ -1,0 +1,11 @@
+// USA Map
+.tile
+	h2.tile-title Live Visits
+	.tile-config.dropdown
+		a.tile-menu(data-toggle="dropdown", href="#")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Refresh
+			li
+				a(href="#") Settings
+	#usa-map

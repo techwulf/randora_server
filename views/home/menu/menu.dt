@@ -1,0 +1,3 @@
+li.active
+	a.sa-side-home(href="/")
+		span.menu-item Dashboard

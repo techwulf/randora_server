@@ -1,0 +1,6 @@
+extends sales/layout
+
+block sales
+	H1 Pies
+	
+	include sales/widgets/pies/pies

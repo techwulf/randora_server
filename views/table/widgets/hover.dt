@@ -1,0 +1,27 @@
+// Table Hover
+#tableHover.block-area
+	h3.block-title Table with Hover Style
+	.table-responsive.overflow
+		table.table.table-bordered.table-hover.tile
+			thead
+				tr
+					th No.
+					th First Name
+					th Last Name
+					th Username
+			tbody
+				tr
+					td 1
+					td Jhon 
+					td Makinton 
+					td @makinton
+				tr
+					td 2
+					td Malinda
+					td Hollaway
+					td @hollway
+				tr
+					td 3
+					td Wayn
+					td Parnel
+					td @wayne123

@@ -1,0 +1,128 @@
+p.m-t-20 Button Dropdowns
+
+.btn-group
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		| Action
+		span.caret
+	
+	ul.dropdown-menu
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+.btn-group
+	button.btn.btn-sm(type="button") Action
+	
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		span.caret
+	
+	ul.dropdown-menu
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+p.m-t-20 Button dropdowns work with buttons of all sizes
+
+// Large button group
+.btn-group
+	button.btn.btn-lg.dropdown-toggle(type="button", data-toggle="dropdown")
+		| Large button
+		span.caret
+	
+	ul.dropdown-menu(role="menu")
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Default button group
+.btn-group
+	button.btn.dropdown-toggle(type="button", data-toggle="dropdown")
+		| Default button
+		span.caret
+	
+	ul.dropdown-menu(role="menu")
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Small button group
+.btn-group
+	button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+		| Small button
+		span.caret
+	
+	ul.dropdown-menu(role="menu")
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link
+
+// Extra small button group
+.btn-group
+	button.btn.btn-xs.dropdown-toggle(type="button", data-toggle="dropdown")
+		| Extra small button
+		span.caret
+	
+	ul.dropdown-menu(role="menu")
+		li
+			a(href="#") Action
+		
+		li
+			a(href="#") Another action
+		
+		li
+			a(href="#") Something else here
+		
+		li.divider
+		
+		li
+			a(href="#") Separated link

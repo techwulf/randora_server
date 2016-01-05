@@ -1,0 +1,6 @@
+p Audio Player
+
+// Audio
+.row.m-b-20
+	.col-md-7
+		audio#audioPlayer(src="media/audio.mp3")

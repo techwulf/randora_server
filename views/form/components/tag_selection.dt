@@ -1,0 +1,74 @@
+// Tag Selection
+#tag-select.block-area
+	h3.block-title Tag Selection
+	br
+	p Default Tag selector
+	select.tag-select(data-placeholder="Select Users...", multiple="")
+		option(value="David Becham") David Becham
+		option(value="Christian Bale") Christian Bale
+		option(value="Malinda Hollaway") Malinda Hollaway
+		option(value="Jason Stathom") Jason Stathom
+		option(value="Wen De Soza") Wen De Soza
+		option(value="Jhon Morrison") Jhon Morrison
+		option(value="William Gale") William Gale
+		option(value="Mark Hakngtosh") Mark Hakngtosh
+		option(value="Angola Jenolia") Angola Jenolia
+		option(value="William Jansen") William Jansen
+		option(value="Kat Steven") Kat Steven
+		option(value="Henry Hadson") Henry Hadson
+		option(value="Joshep Fernandez") Joshep Fernandez
+		option(value="Armani Jens") Armani Jens
+		option(value="Wen Diopal") Wen Diopal
+		option(value="Aura Moringson") Aura Moringson
+		option(value="Peter Robinson") Peter Robinson
+		option(value="Dave Watmore") Dave Watmore
+		option(value="Jordan Orlendo") Jordan Orlendo
+		option(value="Christopher Nolen") Christopher Nolen
+	br
+	br
+	p Disabled Options
+	select.tag-select(data-placeholder="Select Users...", multiple="")
+		option(value="David Becham", disabled="") David Becham
+		option(value="Christian Bale") Christian Bale
+		option(value="Malinda Hollaway", disabled="") Malinda Hollaway
+		option(value="Jason Stathom", disabled="") Jason Stathom
+		option(value="Wen De Soza") Wen De Soza
+		option(value="Jhon Morrison") Jhon Morrison
+		option(value="William Gale") William Gale
+		option(value="Mark Hakngtosh", disabled="") Mark Hakngtosh
+		option(value="Angola Jenolia", disabled="") Angola Jenolia
+		option(value="William Jansen") William Jansen
+		option(value="Kat Steven") Kat Steven
+		option(value="Henry Hadson") Henry Hadson
+		option(value="Joshep Fernandez", disabled="") Joshep Fernandez
+		option(value="Armani Jens", disabled="") Armani Jens
+		option(value="Wen Diopal") Wen Diopal
+		option(value="Aura Moringson") Aura Moringson
+		option(value="Peter Robinson") Peter Robinson
+		option(value="Dave Watmore") Dave Watmore
+		option(value="Jordan Orlendo", disabled="") Jordan Orlendo
+		option(value="Christopher Nolen") Christopher Nolen
+	br
+	br
+	p Limit Selected Options(Set to 5)
+	select.tag-select-limited(data-placeholder="Select Users...", multiple="")
+		option(value="David Becham") David Becham
+		option(value="Christian Bale") Christian Bale
+		option(value="Malinda Hollaway") Malinda Hollaway
+		option(value="Jason Stathom") Jason Stathom
+		option(value="Wen De Soza") Wen De Soza
+		option(value="Jhon Morrison") Jhon Morrison
+		option(value="William Gale") William Gale
+		option(value="Mark Hakngtosh") Mark Hakngtosh
+		option(value="Angola Jenolia") Angola Jenolia
+		option(value="William Jansen") William Jansen
+		option(value="Kat Steven") Kat Steven
+		option(value="Henry Hadson") Henry Hadson
+		option(value="Joshep Fernandez") Joshep Fernandez
+		option(value="Armani Jens") Armani Jens
+		option(value="Wen Diopal") Wen Diopal
+		option(value="Aura Moringson") Aura Moringson
+		option(value="Peter Robinson") Peter Robinson
+		option(value="Dave Watmore") Dave Watmore
+		option(value="Jordan Orlendo") Jordan Orlendo
+		option(value="Christopher Nolen") Christopher Nolen

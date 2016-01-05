@@ -1,0 +1,13 @@
+// Button Groups
+#button-groups.block-area
+	h3.block-title Button Groups
+	
+	include user_interface/buttons/button_groups/basic
+	
+	include user_interface/buttons/button_groups/justified
+	
+	include user_interface/buttons/button_groups/nesting
+	
+	include user_interface/buttons/button_groups/toolbar
+	
+	include user_interface/buttons/button_groups/vertical

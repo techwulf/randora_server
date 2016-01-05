@@ -1,0 +1,30 @@
+// About Me
+.tile
+	h2.tile-title About me
+	
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="", data-original-title="Options")
+		
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Edit
+			
+			li
+				a(href="#") Delete
+	
+	.listview.icon-list
+		.media
+			i.icon.pull-left &#61744
+			.media-body Software Developer at Google
+		
+		.media
+			i.icon.pull-left &#61753
+			.media-body Studied at Oxford University
+		
+		.media
+			i.icon.pull-left &#61713
+			.media-body Lives in Saturn, Milkyway
+		
+		.media
+			i.icon.pull-left &#61742
+			.media-body From Titan, Jupitor

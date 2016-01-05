@@ -1,0 +1,24 @@
+// Required Fields
+#required.block-area
+	h3.block-title Required Fields
+	form.form-validation-1(role="form")
+		.row
+			.col-md-4.form-group
+				label Text field
+				input.input-sm.validate[required].form-control(type="text", placeholder="...")
+			.col-md-4.form-group
+				label Password
+				input.input-sm.validate[required].form-control(type="password", placeholder="...")
+			.col-md-4.form-group
+				label Select
+				select.form-control.input-sm.validate[required](name="sport")
+					option(value="") Choose a sport
+					option(value="option1") Tennis
+					option(value="option2") Football
+					option(value="option3") Golf
+		.clearfix
+		.form-group.m-b-15
+			label Textarea
+			textarea.input-sm.validate[required].form-control(placeholder="...")
+		input.btn.btn-sm(type="submit", value="VALIDATE")
+		button.btn.btn-sm.validation-clear CLOSE PROMPTS

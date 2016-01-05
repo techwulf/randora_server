@@ -1,0 +1,36 @@
+// Content Boxes
+#content-boxes.block-area
+	h3.block-title Content Boxes
+	.row
+		.col-sm-6.col-md-4
+			.thumbnail.tile
+				img(src="/img/gallery/1.jpg", alt="")
+				.p-15
+					h4 Thumbnail label
+					p
+						| Nullam congue mauris at auctor pharetra. Phasellus dictum accumsan justo, sit amet mattis odio semper in. Nulla consectetur quam in dolor faucibus, ac facilisis nunc luctus. Etiam sapien arcu, scelerisque at mollis a, placerat non eros.
+					p
+						a.btn.btn-info.btn-sm(href="#") Button
+						a.btn.btn-info.btn-sm(href="#") Button
+		
+		.col-sm-6.col-md-4
+			.thumbnail.tile
+				img(src="/img/gallery/3.jpg", alt="")
+				.p-15
+					h4 Thumbnail label
+					p
+						| Nullam congue mauris at auctor pharetra. Phasellus dictum accumsan justo, sit amet mattis odio semper in. Nulla consectetur quam in dolor faucibus, ac facilisis nunc luctus. Etiam sapien arcu, scelerisque at mollis a, placerat non eros.
+					p
+						a.btn.btn-info.btn-sm(href="#") Button
+						a.btn.btn-info.btn-sm(href="#") Button
+		
+		.col-sm-6.col-md-4
+			.thumbnail.tile
+				img(src="/img/gallery/5.jpg", alt="")
+				.p-15
+					h4 Thumbnail label
+					p
+						| Nullam congue mauris at auctor pharetra. Phasellus dictum accumsan justo, sit amet mattis odio semper in. Nulla consectetur quam in dolor faucibus, ac facilisis nunc luctus. Etiam sapien arcu, scelerisque at mollis a, placerat non eros.
+					p
+						a.btn.btn-info.btn-sm(href="#") Button
+						a.btn.btn-info.btn-sm(href="#") Button

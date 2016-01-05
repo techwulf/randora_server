@@ -1,0 +1,52 @@
+// Table Striped
+#tableStriped.block-area
+	h3.block-title Table Striped
+	.table-responsive.overflow
+		table.tile.table.table-bordered.table-striped
+			thead
+				tr
+					th No.
+					th First Name
+					th Last Name
+					th Username
+			tbody
+				tr
+					td 1
+					td Jhon 
+					td Makinton 
+					td @makinton
+				tr
+					td 2
+					td Malinda
+					td Hollaway
+					td @hollway
+				tr
+					td 3
+					td Wayn
+					td Parnel
+					td @wayne123
+				tr
+					td 4
+					td TB - Monthly
+					td 05/04/2012
+					td Call in to confirm
+				tr
+					td 5
+					td TB - Monthly
+					td 06/04/2012
+					td Pending
+				tr
+					td 6
+					td TB - Monthly
+					td 07/04/2012
+					td Call in to confirm
+				tr
+					td 7
+					td TB - Monthly
+					td 08/04/2012
+					td Call in to confirm
+				tr
+					td 8
+					td TB - Monthly
+					td 09/04/2012
+					td Call in to confirm

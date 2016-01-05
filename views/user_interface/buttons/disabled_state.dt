@@ -1,0 +1,9 @@
+// Disabled State
+#disable-state.block-area
+	h3.block-title Disabled State
+	
+	p Make buttons look unclickable by fading them back 50%.
+	
+	button.btn.btn-primary(disabled="disabled") Disabled
+	
+	button.btn(disabled="disabled") Disabled

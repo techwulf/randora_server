@@ -1,0 +1,36 @@
+// Activity
+.tile
+	h2.tile-title Social Media activities
+	.tile-config.dropdown
+		a.tile-menu(data-toggle="dropdown", href="#")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Refresh
+			li
+				a(href="#") Settings
+	.listview.narrow
+		.media
+			.pull-right
+				.counts 367892
+			.media-body
+				h6 FACEBOOK LIKES
+		.media
+			.pull-right
+				.counts 2012
+			.media-body
+				h6 GOOGLE +1s
+		.media
+			.pull-right
+				.counts 56312
+			.media-body
+				h6 YOUTUBE VIEWS
+		.media
+			.pull-right
+				.counts 785879
+			.media-body
+				h6 TWITTER FOLLOWERS
+		.media
+			.pull-right
+				.counts 68
+			.media-body
+				h6 WEBSITE COMMENTS

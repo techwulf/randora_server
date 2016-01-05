@@ -1,0 +1,16 @@
+// Addresses
+article#addresses.block-area
+	h3.block-title Addresses
+	address
+		strong Lebaze Templates, Inc.
+		br
+		| 4890/a Silicon Avanue, Mark 900,
+		br
+		| Dubai, UAE
+		br
+		abbr(title="Phone") P:
+		| (123) 456-7890
+	address
+		strong Full Name
+		br
+		a(href="mailto:#") first.last@example.com

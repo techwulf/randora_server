@@ -1,0 +1,17 @@
+// Add event
+#addNew-event.modal.fade
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &#215;
+				h4.modal-title Add an Event
+			.modal-body
+				form.form-validation(role="form")
+					.form-group
+						label(for="eventName") Event Name
+						input#eventName.input-sm.form-control.validate[required](type="text", placeholder="...")
+					input#getStart(type="hidden")
+					input#getEnd(type="hidden")
+			.modal-footer
+				input#addEvent.btn.btn-info.btn-sm(type="submit", value="Add Event")
+				button.btn.btn-info.btn-sm(type="button", data-dismiss="modal") Close

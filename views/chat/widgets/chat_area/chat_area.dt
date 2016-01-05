@@ -1,0 +1,38 @@
+// Chat Area
+.media-body
+	.chat-header
+		a.btn.btn-sm(href="#")
+			i.fa.fa-circle-o.status.m-r-5
+			| Chat with Friends
+	.chat-body
+		.media
+			img.pull-right(src="/img/profile-pics/1.jpg", width="30", alt="")
+			.media-body.pull-right
+				| Hiiii
+				br
+				| How you doing bro?
+				small Me - 10 Mins ago
+		.media.pull-left
+			img.pull-left(src="/img/profile-pics/2.jpg", width="30", alt="")
+			.media-body
+				| I"m doing well buddy.
+				br
+				| How do you do?
+				small David - 9 Mins ago
+		.media.pull-right
+			img.pull-right(src="/img/profile-pics/2.jpg", width="30", alt="")
+			.media-body
+				| I"m Fine bro
+				br
+				| Thank you for asking
+				small Me - 8 Mins ago
+		.media.pull-right
+			img.pull-right(src="/img/profile-pics/2.jpg", width="30", alt="")
+			.media-body
+				| Any idea for a hangout?
+				small Me - 8 Mins ago
+	.chat-footer.media
+		i.chat-list-toggle.pull-left.fa.fa-bars
+		i.pull-right.fa.fa-picture-o
+		.media-body
+			textarea.form-control(placeholder="Type something...")

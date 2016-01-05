@@ -1,0 +1,124 @@
+.block-area
+	#photo-gallery-alt
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-1.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-1.jpg", alt="Sample Image Title")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-2.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-2.jpg", alt="Sample Image Title 2")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-3.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-3.jpg", alt="Sample Image Title 3")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-4.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-4.jpg", alt="Sample Image Title 4")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-5.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-5.jpg", alt="Sample Image Title 5")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-6.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-6.jpg", alt="Sample Image Title 6")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-7.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-7.jpg", alt="Sample Image Title 7")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-8.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-8.jpg", alt="Sample Image Title 8")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-9.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-9.jpg", alt="Sample Image Title 9")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-10.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-10.jpg", alt="Sample Image Title 10")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-11.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-11.jpg", alt="Sample Image Title 11")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-12.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-12.jpg", alt="Sample Image Title 12")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-13.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-13.jpg", alt="Sample Image Title 13")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-14.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-14.jpg", alt="Sample Image Title 14")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-15.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-15.jpg", alt="Sample Image Title 15")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-16.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-16.jpg", alt="Sample Image Title 16")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-17.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-17.jpg", alt="Sample Image Title 17")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-18.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-18.jpg", alt="Sample Image Title 18")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-19.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-19.jpg", alt="Sample Image Title 19")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-20.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-20.jpg", alt="Sample Image Title 20")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-21.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-21.jpg", alt="Sample Image Title 21")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-22.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-22.jpg", alt="Sample Image Title 22")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-23.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-23.jpg", alt="Sample Image Title 23")
+				span
+					i.fa.fa-search
+		.gallery-item.col-md-2.col-sm-3.col-xs-4
+			a(href="/img/photo-gallery/superbox-full-24.jpg")
+				img(src="/img/photo-gallery/superbox-thumb-24.jpg", alt="Sample Image Title 24")
+				span
+					i.fa.fa-search
+
+	script(src="/views/photo_gallery/photo_gallery.js")

@@ -1,0 +1,48 @@
+// Input Masking
+#input-masking.block-area
+	h3.block-title Input Masking
+	br
+	p Start typing on feilds below, It will automatically mask the inputs
+	.row
+		.col-md-3.m-b-15
+			label Date
+			input.input-sm.form-control.mask-date(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Time
+			input.input-sm.form-control.mask-time(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Date Time
+			input.input-sm.form-control.mask-date_time(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label CEP
+			input.input-sm.form-control.mask-cep(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Phone Number
+			input.input-sm.form-control.mask-phone(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Phone with Odd
+			input.input-sm.form-control.mask-phone_with_ddd(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label US Phone Number
+			input.input-sm.form-control.mask-phone_us(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Mixed
+			input.input-sm.form-control.mask-mixed(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label CPF
+			input.input-sm.form-control.mask-cpf(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Money
+			input.input-sm.form-control.mask-money(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Money 2
+			input.input-sm.form-control.mask-money2(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label IP Address
+			input.input-sm.form-control.mask-ip_address(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Percentage
+			input.input-sm.form-control.mask-percent(type="text", placeholder="...")
+		.col-md-3.m-b-15
+			label Credit Card
+			input.input-sm.form-control.mask-credit_card(type="text", placeholder="...")

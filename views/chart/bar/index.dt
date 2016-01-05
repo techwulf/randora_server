@@ -1,0 +1,11 @@
+.tile
+	h2.tile-title Bar Chart
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Refresh
+			li
+				a(href="#") Settings
+	.p-10
+		#bar-chart.main-chart(style="height: 250px")

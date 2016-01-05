@@ -1,0 +1,23 @@
+// Min/Max
+#minmax.block-area
+	h3.block-title Min/Max (Size)
+	form.form-validation-7(role="form")
+		.row
+			// Minimum Character
+			.form-group.col-md-6
+				label Minimum Characters (Set to 6) 
+				input.input-sm.validate[required,minSize[6]].form-control(type="text", placeholder="...")
+			// Maximum Character
+			.form-group.col-md-6
+				label Maximum Characters (Set to 6) 
+				input.input-sm.validate[required,maxSize[6]].form-control(type="text", placeholder="...")
+			// Minimum Integer
+			.form-group.col-md-6
+				label Minimum Integer Value - Integer &#62;= 5 
+				input.input-sm.validate[required,custom[integer],min[5]].form-control(type="text", placeholder="...")
+			// Maximum Integer
+			.form-group.m-b-15.col-md-6
+				label Maximum Integer Value - Integer &#60;= 50 
+				input.input-sm.validate[required,custom[integer],max[50]].form-control(type="text", placeholder="...")
+		input.btn.btn-sm(type="submit", value="VALIDATE")
+		button.btn.btn-sm.validation-clear CLOSE PROMPTS

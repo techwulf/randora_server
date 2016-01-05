@@ -1,0 +1,12 @@
+#calendar.p-relative.p-10.m-b-20
+	// Calendar Views
+	ul.calendar-actions.list-inline.clearfix
+		li.p-r-0
+			a.tooltips(data-view="month", href="#", title="Month")
+				i.sa-list-month
+		li.p-r-0
+			a.tooltips(data-view="agendaWeek", href="#", title="Week")
+				i.sa-list-week
+		li.p-r-0
+			a.tooltips(data-view="agendaDay", href="#", title="Day")
+				i.sa-list-day

@@ -1,0 +1,51 @@
+extends form/layout
+
+block formx
+	h4.page-title FORM COMPONENTS
+
+	include form/components/input_masking
+
+	hr.whiter.m-t-20
+
+	include form/components/custom_select
+
+	hr.whiter.m-t-20
+
+	include form/components/tag_selection
+
+	hr.whiter.m-t-20
+
+	include form/components/toggler
+
+	hr.whiter.m-t-20
+
+	include form/components/buttons
+
+	hr.whiter.m-t-20
+
+	include form/components/text_editor
+
+	hr.whiter.m-t-20
+
+	include form/components/markdown_editor
+
+	hr.whiter.m-t-20
+
+	include form/components/spinner
+
+	hr.whiter.m-t-20
+
+	include form/components/date_time_picker
+
+	hr.whiter.m-t-20
+
+	include form/components/color_picker
+
+	hr.whiter.m-t-20
+
+	include form/components/slider
+
+	hr.whiter.m-t-20
+
+	include form/components/file_upload
+

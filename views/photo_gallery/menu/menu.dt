@@ -1,0 +1,6 @@
+li.dropdown
+	a.sa-side-photos(href="/photo_gallery")
+		span.menu-item PHOTO GALLERY
+	ul.list-unstyled.menu-item
+		li
+			a(href="/photo_gallery/alt") Photo Gallery

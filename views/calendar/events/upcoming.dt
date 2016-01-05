@@ -1,0 +1,60 @@
+h4.m-l-5 Upcoming Events
+.listview.narrow
+	.media.p-l-5
+		.pull-left
+			img(width="40", src="/img/profile-pics/1.jpg", alt="")
+		.media-body
+			small.text-muted Today at 5:30 PM
+			br
+			a.t-overflow(href="#") Cras molestie fermentum nibh, ac semper
+	.media.p-l-5
+		.media-body
+			small.text-muted Tomorrow at 8:56 PM
+			br
+			a.t-overflow(href="#") Suspendisse in purus ut nibh placerat
+	.media.p-l-5
+		.media-body
+			small.text-muted 13/05/2014 at 7:45 AM
+			br
+			a.t-overflow(href="#") Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra
+	.media.p-l-5
+		.pull-left
+			img(width="40", src="/img/profile-pics/2.jpg", alt="")
+		.media-body
+			small.text-muted 15/05/2014 at 10:23 AM
+			br
+			a.t-overflow(href="#") Integer a eros dapibus, vehicula quam accumsan, tincidunt purus
+	.media.p-l-5
+		.pull-left
+			img(width="40", src="/img/profile-pics/3.jpg", alt="")
+		.media-body
+			small.text-muted 15/05/2014 at 11:50 AM
+			br
+			a.t-overflow(href="#") Vehicula regquam accumsan, tincidunt purus
+	.media.p-l-5
+		.media-body
+			small.text-muted 16/05/2014 at 2:40 PM
+			br
+			a.t-overflow(href="#") Lim sutson seruspendisse in purus ut nibh wood
+	.media.p-l-5
+		.media-body
+			small.text-muted 17/05/2014 at 5:23 AM
+			br
+			a.t-overflow(href="#") Palwin pulvinar euismod nunc quis gravida. Pharetra
+	.media.p-l-5
+		.media-body
+			small.text-muted 19/05/2014 at 7:23 PM
+			br
+			a.t-overflow(href="#") Arena soon be cook loas nunc eisumes wentro bin
+	.media.p-l-5
+		.pull-left
+			img(width="40", src="/img/profile-pics/5.jpg", alt="")
+		.media-body
+			small.text-muted 21/05/2014 at 10:10 AM
+			br
+			a.t-overflow(href="#") Lorem regquam accumsan, tincidunt ipsum persit
+	.media.p-l-5
+		.media-body
+			small.text-muted 23/05/2014 at 12:50 PM
+			br
+			a.t-overflow(href="#") Winsoo gravity for twelve eharetra and lorem ipsum

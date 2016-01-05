@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>test</title>
+		<meta name="author" content="Fahim" />
+		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+		<script src="video.js"></script>
+		<!-- <script type="text/javascript" src="../release/toolkitMax-v1001.js"></script> -->
+		<script type="text/javascript" src="../lib/com/utensil/JSInterface.js"></script>
+		<script type="text/javascript" src="../lib/com/utensil/UtensilLight.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/event/Event.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/decorator/Layout.js"></script>
+		<script type="text/javascript" src="../src/com/decorator/GridLayout.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/decorator/ScrollLayout.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/display/DisplayObject.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/component/UIElement.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/component/Sprite.js"></script>
+		<!-- Date: 2012-08-28 -->
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			body {
+				overflow: hidden;
+				background-color: #ccc;
+			}
+			#holder, #videoplayer {
+				position: relative;
+			}
+			#container {
+				position: absolute;
+				left: 0px;
+			}
+			.scrollgeneric {
+				line-height: 1px;
+				font-size: 1px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			.vscrollerbase {
+				width: 10px;
+				background-color: #fff;
+			}
+			.vscrollerbar {
+				width: 5px;
+				background-color: #666;
+				-moz-border-radius: 10px; /* Firefox */
+				-webkit-border-radius: 10px; /* Safari, Chrome */
+				border-radius: 10px; /* CSS3 */
+			}
+			.hscrollerbase {
+				height: 10px;
+				background-color: white;
+			}
+			.hscrollerbar {
+				height: 10px;
+				background-color: black;
+			}
+
+			.scrollerjogbox {
+				width: 10px;
+				height: 10px;
+				top: auto;
+				left: auto;
+				bottom: 0px;
+				right: 0px;
+				background-color: gray;
+			}
+			.scrollTrack {
+				width: 20px;
+				background-color: #000;
+			}
+			.scrollThumb {
+				width: 20px;
+				background-color: #e4e4e4;
+			}
+			.test {
+				background-color: #0f0;
+			}
+
+		</style>
+		<script type="text/javascript">
+			var test;
+			var children=[];
+			var first=true;
+			function onLoad() {
+
+				var GridTest = function() {
+					this.build = function() {
+						Class._super(this, "build");
+						for (var a = 0; a < 10; a++) {
+							this.buildBox();
+						}
+					}
+					this.buildBox = function() {
+						var min = 100;
+						var max = 300;
+						var h = Math.floor(Math.random() * (max - min + 1)) + min;
+						// h=100;
+						var element = new Sprite();
+						element.build();
+						element.drawRect(0, 0, Utensil.stageWidth() / 5, h, "#" + ((1 << 24) * Math.random() | 0).toString(16));
+						element.setStyle();
+						this.addChild(element);
+						element.arrange();
+						children.push(element);
+						var hand = function(event) {
+							element.startDrag(event);
+						}
+						var handUp = function(event) {
+							element.stopDrag(event);
+							// console.log(element.hitTestObject(children[1]));
+							console.log(element.display.style.zIndex);
+						}
+						if(first)
+						
+						
+						{
+							Utensil.addListener(element.display, "mousedown", hand);
+							first=false;
+							Utensil.addListener(document, "mouseup", handUp);
+						}
+					}
+				}
+				Class.extend(GridTest, UIElement);
+
+				test = new GridTest();
+				test.layout(new GridLayout());
+				test.layout().left = 10;
+				test.layout().top = 10;
+				test.layout().verticalGap = 10;
+				test.layout().horizontalGap = 10;
+				test.layout(new ScrollLayout());
+				test.layout().scrollHeight =Utensil.stageHeight();
+				test.width(Utensil.stageWidth());
+				test.height(Utensil.stageHeight());
+				test.build();
+				test.className("test")
+				test.setStyle();
+				test.x(0);
+				test.y(0);
+				document.body.appendChild(test.display);
+
+				test.arrange();
+
+				Utensil.addListener(window, "resize", onResize);
+			}
+
+			function onResize() {
+				test.layout().scrollHeight = Utensil.stageHeight();
+				test.width(Utensil.stageWidth());
+				test.height(Utensil.stageHeight());
+				test.arrange();
+
+			}
+		</script>
+	</head>
+	<body onload="onLoad()">
+
+	</body>
+</html>

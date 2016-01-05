@@ -1,0 +1,12 @@
+extends layout/layout
+
+block body_block
+	body#skin-cloth
+		
+		include layout/header/header
+
+		.clearfix
+
+		block body_contents
+
+		block main_block

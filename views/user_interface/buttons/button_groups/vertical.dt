@@ -1,0 +1,36 @@
+p.m-t-10 Vertical variation
+	.btn-group-vertical.m-r-10
+		button.btn.btn-sm(type="button") 1
+		
+		button.btn.btn-sm(type="button") 2
+		
+		.btn-group
+			button.btn.btn-sm.dropdown-toggle(type="button", data-toggle="dropdown")
+				| Dropdown
+				span.caret
+			
+			ul.dropdown-menu
+				li
+					a(href="#") Dropdown link
+				
+				li
+					a(href="#") Dropdown link
+		
+		button.btn.btn-sm(type="button") 3
+	
+	.btn-group-vertical
+		button.btn.btn-xs.btn-alt(type="button") 1
+		button.btn.btn-xs.btn-alt(type="button") 2
+		
+		.btn-group
+			button.btn.btn-xs.btn-alt.dropdown-toggle(type="button", data-toggle="dropdown")
+				| Dropdown
+				span.caret
+			
+			ul.dropdown-menu
+				li
+					a(href="#") Dropdown link
+				li
+					a(href="#") Dropdown link
+		
+		button.btn.btn-xs.btn-alt(type="button") 3

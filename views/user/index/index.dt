@@ -1,0 +1,22 @@
+extends user/layout
+
+block user
+	H2	#{page.action}
+
+	HR
+
+	TABLE.table.table-striped.table-bordered.table-hover.table-condensed
+		THEAD
+			TR
+				TH	ID
+				TH	Username
+				TH	Password
+				TH	Email
+			
+			- foreach(user; model.records)
+				TR
+					TD
+						A(href="#{user.id}/")= user.id
+					TD= user.username
+					TD= user.password
+					TD= user.email

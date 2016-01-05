@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>test</title>
+		<meta name="author" content="Fahim" />
+		<!-- <script type="text/javascript" src="../release/toolkitMax-v1003.js"></script> -->
+		<script type="text/javascript" src="../lib/com/greensock/easing/EasePack.js"></script>
+		<script type="text/javascript" src="../lib/com/greensock/plugins/CSSPlugin.js"></script>
+		<script type="text/javascript" src="../lib/com/greensock/TweenLite.js"></script>
+		<script type="text/javascript" src="../lib/com/utensil/JSInterface.js"></script>
+		<script type="text/javascript" src="../lib/com/utensil/UtensilLight.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/event/Event.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/decorator/Layout.js"></script>
+		<script type="text/javascript" src="../src/com/decorator/GridLayout.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/decorator/ScrollLayout.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/display/DisplayObject.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/component/UIElement.js"></script>
+		<script type="text/javascript" src="../lib/com/fahimchowdhury/component/MovieClip.js"></script><!--  -->
+		<script type="text/javascript" src="lib/fahimchowdhury/toolkit/test/View.js"></script><!--  -->
+		<!-- Date: 2012-08-28 -->
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			body {
+				overflow: hidden;
+				background-color: #0791a4;
+			}
+
+			.test{
+				background-color: #0f0;
+			}
+
+		</style>
+		<script type="text/javascript">
+		
+			function onLoad() {
+				// creating and using a UIELement
+				// Create a CSS Class
+				//Create a instance of UIElement
+				var element = new UIElement();
+				// you need to call the build method after you create the instance
+				element.build();
+				// set the class name
+				element.className('test');
+				// give the element a width and height
+				element.width(100);
+				element.height(100);
+				// give the element x and y positions
+				element.x(80);
+				element.y(200);
+				// now you call the setStyle function so it can apply the style to the element.
+				element.setStyle();
+				
+				//add the element to the body. The DOM object is called display within the UIElement
+				
+				document.body.appendChild(element.display);
+				
+				// now you have to call arrange to arrange object within the element. in this example it is not required.
+				
+				element.arrange();
+				
+				// now we will log the x position of the element.
+				console.log(element.x());
+				
+				//lets see the result....
+				
+				//the x position reads as 80.
+			}
+
+	
+			
+		</script>
+	</head>
+	<body onload="onLoad()">
+
+	</body>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</html>

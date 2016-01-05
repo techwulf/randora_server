@@ -1,0 +1,26 @@
+header.listview-header.media
+	ul.list-inline.pull-right.m-t-5.m-b-0
+		li.pagin-value.hidden-xs 35-70
+		li
+			a.tooltips(href="messages.html", title="Previous")
+				i.sa-list-back
+		li
+			a.tooltips(href="#", title="Next")
+				i.sa-list-forwad
+	ul.list-inline.list-mass-actions.pull-left
+		li.m-r-10
+			a.tooltips(href="messages.html", title="Back to Inbox")
+				i.sa-list-back
+		li
+			a.tooltips(href="#", title="Archive")
+				i.sa-list-archive
+		li
+			a.tooltips(href="#", title="Spam")
+				i.sa-list-spam
+		li
+			a.tooltips(href="#", title="Delete")
+				i.sa-list-delete
+		li
+			a.tooltips(href="#", title="Move")
+				i.sa-list-move
+	.clearfix

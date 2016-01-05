@@ -1,0 +1,8 @@
+// Well
+#well.block-area
+	h3.block-title Well
+	
+	p Use the well as a simple effect on an element to give it an inset effect.
+	
+	.well.tile
+		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.

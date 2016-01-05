@@ -1,0 +1,2 @@
+#notifications.tile.drawer.animated
+	include notification/widgets/drawer/index

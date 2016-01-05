@@ -1,0 +1,1048 @@
+// Icons
+#Icons.block-area
+	h3.block-title FONT ICONS
+	
+	p
+		| This site also uses FontAwesome Icons. You can check the docs here
+		a(href="../../../../fontawesome.io/icons/index.html") http://fontawesome.io/icons/
+	
+	.row.font-icons
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61696;
+			span.text #61696;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61697;
+			span.text #61697;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61698;
+			span.text #61698;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61699;
+			span.text #61699;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61700;
+			span.text #61700;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61701;
+			span.text #61701;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61702;
+			span.text #61702;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61703;
+			span.text #61703;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61704;
+			span.text #61704;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61705;
+			span.text #61705;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61706;
+			span.text #61706;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61707;
+			span.text #61707;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61708;
+			span.text #61708;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61709;
+			span.text #61709
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61710;
+			span.text #61710;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61711;
+			span.text #61711;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61712;
+			span.text #61712;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61713;
+			span.text #61713;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61714;
+			span.text #61714;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61715;
+			span.text #61715;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61716;
+			span.text #61716;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61717;
+			span.text #61717;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61718;
+			span.text #61718;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61719;
+			span.text #61719;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61720;
+			span.text #61720;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61721;
+			span.text #61721;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61722;
+			span.text #61722;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61723;
+			span.text #61723;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61724;
+			span.text #61724;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61725;
+			span.text #61725;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61726;
+			span.text #61726;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61727;
+			span.text #61727;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61728;
+			span.text #61728;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61729;
+			span.text #61729;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61730;
+			span.text #61730;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61731;
+			span.text #61731;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61732;
+			span.text #61732;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61733;
+			span.text #61733;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61734;
+			span.text #61734;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61735;
+			span.text #61735;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61736;
+			span.text #61736;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61737;
+			span.text #61737;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61738;
+			span.text #61738;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61739;
+			span.text #61739;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61740;
+			span.text #61740;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61741;
+			span.text #61741;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61742;
+			span.text #61742;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61743;
+			span.text #61743;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61744;
+			span.text #61744;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61745;
+			span.text #61745;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61746;
+			span.text #61746;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61747;
+			span.text #61747;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61748;
+			span.text #61748;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61749;
+			span.text #61749;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61750;
+			span.text #61750;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61751;
+			span.text #61751;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61752;
+			span.text #61752;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61753;
+			span.text #61753;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61754;
+			span.text #61754;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61755;
+			span.text #61755;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61756;
+			span.text #61756;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61757;
+			span.text #61757;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61758;
+			span.text #61758;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61759;
+			span.text #61759;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61760;
+			span.text #61760;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61761;
+			span.text #61761;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61762;
+			span.text #61762;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61763;
+			span.text #61763;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61764;
+			span.text #61764;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61765;
+			span.text #61765;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61766;
+			span.text #61766;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61767;
+			span.text #61767;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61768;
+			span.text #61768;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61769;
+			span.text #61769;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61770;
+			span.text #61770;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61771;
+			span.text #61771;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61772;
+			span.text #61772;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61773;
+			span.text #61773;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61774;
+			span.text #61774;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61775;
+			span.text #61775;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61776;
+			span.text #61776;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61777;
+			span.text #61777;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61778;
+			span.text #61778;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61779;
+			span.text #61779;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61780;
+			span.text #61780;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61781;
+			span.text #61781;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61782;
+			span.text #61782;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61783;
+			span.text #61783;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61784;
+			span.text #61784;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61785;
+			span.text #61785;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61786;
+			span.text #61786;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61787;
+			span.text #61787;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61788;
+			span.text #61788;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61789;
+			span.text #61789;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61790;
+			span.text #61790;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61791;
+			span.text #61791;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61792;
+			span.text #61792;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61793;
+			span.text #61793;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61794;
+			span.text #61794;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61795;
+			span.text #61795;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61796;
+			span.text #61796;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61797;
+			span.text #61797;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61798;
+			span.text #61798;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61799;
+			span.text #61799;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61800;
+			span.text #61800;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61801;
+			span.text #61801;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61802;
+			span.text #61802;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61803;
+			span.text #61803;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61804;
+			span.text #61804;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61805;
+			span.text #61805;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61806;
+			span.text #61806;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61807;
+			span.text #61807;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61808;
+			span.text #61808;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61809;
+			span.text #61809;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61810;
+			span.text #61810;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61811;
+			span.text #61811;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61812;
+			span.text #61812;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61813;
+			span.text #61813;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61814;
+			span.text #61814;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61815;
+			span.text #61815;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61816;
+			span.text #61816;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61817;
+			span.text #61817;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61818;
+			span.text #61818;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61819;
+			span.text #61819;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61820;
+			span.text #61820;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61821;
+			span.text #61821;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61822;
+			span.text #61822;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61823;
+			span.text #61823;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61824;
+			span.text #61824;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61825;
+			span.text #61825;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61826;
+			span.text #61826;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61827;
+			span.text #61827;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61828;
+			span.text #61828;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61829;
+			span.text #61829;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61830;
+			span.text #61830;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61831;
+			span.text #61831;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61832;
+			span.text #61832;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61833;
+			span.text #61833;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61834;
+			span.text #61834;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61835;
+			span.text #61835;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61836;
+			span.text #61836;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61837;
+			span.text #61837;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61838;
+			span.text #61838;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61839;
+			span.text #61839;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61840;
+			span.text #61840;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61841;
+			span.text #61841;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61842;
+			span.text #61842;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61843;
+			span.text #61843;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61844;
+			span.text #61844;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61845;
+			span.text #61845;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61846;
+			span.text #61846;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61847;
+			span.text #61847;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61848;
+			span.text #61848;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61849;
+			span.text #61849;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61850;
+			span.text #61850;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61851;
+			span.text #61851;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61852;
+			span.text #61852;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61853;
+			span.text #61853;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61854;
+			span.text #61854;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61855;
+			span.text #61855;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61856;
+			span.text #61856;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61857;
+			span.text #61857;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61858;
+			span.text #61858;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61859;
+			span.text #61859;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61860;
+			span.text #61860;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61861;
+			span.text #61861;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61862;
+			span.text #61862;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61863;
+			span.text #61863;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61864;
+			span.text #61864;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61865;
+			span.text #61865;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61866;
+			span.text #61866;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61867;
+			span.text #61867;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61868;
+			span.text #61868;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61869;
+			span.text #61869;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61870;
+			span.text #61870;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61871;
+			span.text #61871;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61872;
+			span.text #61872;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61873;
+			span.text #61873;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61874;
+			span.text #61874;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61875;
+			span.text #61875;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61876;
+			span.text #61876;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61877;
+			span.text #61877;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61878;
+			span.text #61878;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61879;
+			span.text #61879;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61880;
+			span.text #61880;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61881;
+			span.text #61881;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61882;
+			span.text #61882;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61883;
+			span.text #61883;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61884;
+			span.text #61884;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61885;
+			span.text #61885;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61886;
+			span.text #61886;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61887;
+			span.text #61887;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61888;
+			span.text #61888;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61889;
+			span.text #61889;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61890;
+			span.text #61890;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61891;
+			span.text #61891;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61892;
+			span.text #61892;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61893;
+			span.text #61893;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61894;
+			span.text #61894;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61895;
+			span.text #61895;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61896;
+			span.text #61896;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61897;
+			span.text #61897;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61898;
+			span.text #61898;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61899;
+			span.text #61899;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61900;
+			span.text #61900;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61901;
+			span.text #61901;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61902;
+			span.text #61902;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61903;
+			span.text #61903;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61904;
+			span.text #61904;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61905;
+			span.text #61905;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61906;
+			span.text #61906;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61907;
+			span.text #61907;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61908;
+			span.text #61908;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61909;
+			span.text #61909;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61910;
+			span.text #61910;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61911;
+			span.text #61911;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61912;
+			span.text #61912;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61913;
+			span.text #61913;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61914;
+			span.text #61914;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61915;
+			span.text #61915;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61916;
+			span.text #61916;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61917;
+			span.text #61917;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61918;
+			span.text #61918;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61919;
+			span.text #61919;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61920;
+			span.text #61920;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61921;
+			span.text #61921;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61922;
+			span.text #61922;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61923;
+			span.text #61923;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61924;
+			span.text #61924;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61925;
+			span.text #61925;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61926;
+			span.text #61926;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61927;
+			span.text #61927;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61928;
+			span.text #61928;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61929;
+			span.text #61929;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61930;
+			span.text #61930;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61931;
+			span.text #61931;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61932;
+			span.text #61932;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61933;
+			span.text #61933;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61934;
+			span.text #61934;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61935;
+			span.text #61935;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61936;
+			span.text #61936;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61937;
+			span.text #61937;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61938;
+			span.text #61938;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61939;
+			span.text #61939;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61940;
+			span.text #61940;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61941;
+			span.text #61941;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61942;
+			span.text #61942;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61943;
+			span.text #61943;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61944;
+			span.text #61944;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61945;
+			span.text #61945;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61946;
+			span.text #61946;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61947;
+			span.text #61947;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61948;
+			span.text #61948;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61949;
+			span.text #61949;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61950;
+			span.text #61950;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61951;
+			span.text #61951;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61952;
+			span.text #61952;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61953;
+			span.text #61953;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61954;
+			span.text #61954;
+
+		.col-xs-6.col-md-4.col-lg-3
+			span.icon &#61955;
+			span.text #61955;

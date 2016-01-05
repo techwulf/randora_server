@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>test</title>
+		<meta name="author" content="Fahim" />
+		<script type="text/javascript" src="../release/archive/toolkitMax-v1004.js"></script>
+		<!-- <script type="text/javascript" src="../lib/com/fahimchowdhury/util/manager/ResourceManager.js"></script> -->
+		<!-- Date: 2012-08-28 -->
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			body {
+				overflow: hidden;
+				background-color: #0791a4;
+			}
+
+			.test {
+				background-color: #0f0;
+			}
+
+		</style>
+		<script type="text/javascript">
+			function onLoad() {
+				
+				var rand = new Date().getTime();
+				
+				ResourceManager.addAssets("resource/data/asset.json?rand="+rand);
+				ResourceManager.addCopy("resource/data/copy.json?rand="+rand);
+				Event.addListener(ResourceManager, Event.COMPLETE, onResourceComplete);
+				ResourceManager.init();
+			}
+
+			function onResourceComplete() {
+				console.log("title:",ResourceManager.getCopyByID('title'));
+				console.log("ship:",ResourceManager.getAssetByName("ship"));
+			}
+		</script>
+	</head>
+	<body onload="onLoad()">
+
+	</body>
+</html>

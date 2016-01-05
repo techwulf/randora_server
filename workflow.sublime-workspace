@@ -1,0 +1,475 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/user_interface/controller.d",
+			"settings":
+			{
+				"buffer_size": 2422,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/DKit/D.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/DKit/D.sublime-build",
+					""
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"dub"
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"dub build"
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"dub test"
+				]
+			],
+			[
+				"Packages/DKit/D.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"git",
+				"Set Syntax: Git Graph"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/joshka/apps/vibe/workflow",
+		"/home/joshka/apps/vibe/workflow/source",
+		"/home/joshka/apps/vibe/workflow/views/video/widgets"
+	],
+	"file_history":
+	[
+		"/home/joshka/apps/vibe/workflow/views/video/widgets/video.dt",
+		"/home/joshka/apps/vibe/workflow/views/video/index.dt",
+		"/home/joshka/apps/vibe/workflow/source/video/controller.d",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/page_header.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/panel.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/well.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/media_object/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/media_object/default.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/media_object/threaded.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/media_object.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/content_boxes.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/jumbotron.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/list_groups.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/media_player/audio.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/media_player/video.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/media_player/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/light_box.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/carousel.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/media_player.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/labels/basic.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tooltips/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/images_icons/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/vertical_right.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/vertical_left.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/right.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/bottom.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/basic.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal/example.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal/wider.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal/narrower.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal/default.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/block_level.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_tags.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/collapse/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/dropdown/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/dropdown/button.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/dropdown/alignments.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/dropdown/animation.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/dropdown/default.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/vertical.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/small.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/stacked.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/animated.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/striped.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/default.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/dropdown.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/popover/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bars.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/disabled_state.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/buttons.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/layout.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/justified.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/vertical.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/nesting.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/toolbar.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/basic.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/alternative.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/alerts/disposable.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/alerts/default.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/images_icons/icons.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/images_icons/images.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/collapse.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/popover.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tooltips.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/alerts/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/alerts/with_icon.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/labels/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/index.dt",
+		"/home/joshka/apps/vibe/workflow/source/user/controller.d",
+		"/home/joshka/apps/vibe/workflow/views/feed/widgets/feeds.dt",
+		"/home/joshka/apps/vibe/workflow/views/feed/sidebar/feeds.dt",
+		"/home/joshka/apps/vibe/workflow/views/layout/sidebar/widgets/widgets.dt",
+		"/home/joshka/apps/vibe/workflow/views/project/sidebar/projects.dt",
+		"/home/joshka/apps/vibe/workflow/views/calendar/sidebar/calendar.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/profile/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/sidebar/profile.dt",
+		"/home/joshka/apps/vibe/workflow/views/calendar/sidebar.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/profile.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/works.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/completed.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/friends.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/header.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/in_progress.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/photos.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/recent_activities.dt",
+		"/home/joshka/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/joshka/apps/vibe/workflow/views/user/login/login.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/login/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/forgot_password/forgot_password.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/forgot_password/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/login/forgot_password.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/login/register.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/register/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/register/register.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/login/header.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/about.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/profile/about.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/widgets/about_me.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/login.dt",
+		"/home/joshka/apps/vibe/workflow/views/user/index.dt",
+		"/home/joshka/apps/vibe/workflow/source/typography/controller.d",
+		"/home/joshka/apps/vibe/workflow/views/typography/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/widgets/abbreviations.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/abbreviations/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/alignment_classes/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/blockquote/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/dropcaps/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/headings/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/ordered_list/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/paragraph/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/unordered_list/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/dashboard/dashboard.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/index/abbreviations.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/index/addresses.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/index/alignment_classes.dt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/joshka/apps/vibe/workflow/views",
+			"/home/joshka/apps/vibe/workflow/",
+			"/home/joshka/apps/vibe/workflow/public",
+			"/home/joshka/apps/vibe/workflow/views/",
+			"/home/joshka/apps/vibe/workflow/",
+			"/home/joshka/apps/vibe/workflow/views/",
+			"/home/joshka/apps/vibe/workflow/",
+			"/home/joshka/apps/vibe/workflow/views/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n		.col",
+			"widgets/profile",
+			"super admin",
+			"wrapbootstrap",
+			"index",
+			"\"img",
+			"skin-v",
+			"../img",
+			"'../",
+			"skin-",
+			"\"js/",
+			"\"css/",
+			"\"img/",
+			"img/",
+			"img/profile",
+			"\"js",
+			"project",
+			"calendar",
+			"//",
+			"  ",
+			">'",
+			"'<",
+			" +",
+			"    ",
+			"Change Skin",
+			"#settings",
+			"#changeSkin",
+			",\"",
+			"     ",
+			"<!--*-->",
+			"></script>",
+			"<script ",
+			"jade",
+			"163",
+			"zxog",
+			"vida.io",
+			"vida",
+			"jade2html",
+			"jade",
+			"xhr",
+			"jade",
+			"html2jade",
+			"  ",
+			"radio",
+			"feild",
+			"/elements/",
+			"\")",
+			")\\n",
+			"set_var(\"",
+			"i3.command(\"",
+			"set(",
+			"misc8",
+			"firefox",
+			"",
+			"misc4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"\n\n		.col",
+			"widgets",
+			"\"/img",
+			"'/img",
+			"'/",
+			"\"/img/",
+			"\"/js",
+			"video",
+			"sales",
+			"notification",
+			"message",
+			"video",
+			"sales",
+			"project",
+			"notification",
+			"message",
+			"",
+			"\\t",
+			">",
+			"<",
+			"",
+			"\\t",
+			",\\n    \"",
+			"\\t",
+			"",
+			")",
+			"script(",
+			"\\t",
+			"field",
+			"/components/",
+			"",
+			"set_var("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/user_interface/controller.d",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 101.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/DKit/D.sublime-build",
+	"project": "workflow.sublime-project",
+	"replace":
+	{
+		"height": 104.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

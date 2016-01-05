@@ -1,0 +1,49 @@
+// Recent Postings
+.tile
+	h2.tile-title Recent Postings
+	.tile-config.dropdown
+		a.tile-menu(data-toggle="dropdown", href="#")
+		ul.dropdown-menu.animated.pull-right.text-right
+			li
+				a(href="#") Refresh
+			li
+				a(href="#") Settings
+	.listview.narrow
+		.media.p-l-5
+			.pull-left
+				img(width="40", src="/img/profile-pics/1.jpg", alt="")
+			.media-body
+				small.text-muted 2 Hours ago by Adrien San
+				br
+				a.t-overflow(href="#") Cras molestie fermentum nibh, ac semper
+		.media.p-l-5
+			.pull-left
+				img(width="40", src="/img/profile-pics/2.jpg", alt="")
+			.media-body
+				small.text-muted 5 Hours ago by David Villa
+				br
+				a.t-overflow(href="#") Suspendisse in purus ut nibh placerat
+		.media.p-l-5
+			.pull-left
+				img(width="40", src="/img/profile-pics/3.jpg", alt="")
+			.media-body
+				small.text-muted On 15/12/2013 by Mitch bradberry
+				br
+				a.t-overflow(href="#") Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra
+		.media.p-l-5
+			.pull-left
+				img(width="40", src="/img/profile-pics/4.jpg", alt="")
+			.media-body
+				small.text-muted On 14/12/2013 by Mitch bradberry
+				br
+				a.t-overflow(href="#") Cras pulvinar euismod nunc quis gravida. 
+		.media.p-l-5
+			.pull-left
+				img(width="40", src="/img/profile-pics/5.jpg", alt="")
+			.media-body
+				small.text-muted On 13/12/2013 by Mitch bradberry
+				br
+				a.t-overflow(href="#") Integer a eros dapibus, vehicula quam accumsan, tincidunt purus
+		.media.p-5.text-center.l-100
+			a(href="#")
+				small VIEW ALL

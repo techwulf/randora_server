@@ -1,0 +1,4 @@
+aside#sidebar
+	include layout/sidebar/widgets/widgets
+	
+	include layout/sidebar/side_menu/side_menu
