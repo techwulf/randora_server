@@ -1,0 +1,26 @@
+// Color Picker
+#color-picker.block-area
+	h3.block-title Color Picker
+	br
+	.row
+		.col-md-4.m-b-15
+			p Default - hex
+			.color-pick.input-icon
+				input.form-control.color-picker.input-sm(type="text")
+				span.color-preview
+				span.add-on
+					i.sa-plus
+		.col-md-4.m-b-15
+			p RGB
+			.color-pick.input-icon
+				input.form-control.color-picker-rgb.input-sm(type="text")
+				span.color-preview
+				span.add-on
+					i.sa-plus
+		.col-md-4.m-b-15
+			p RGBA
+			.color-pick.input-icon
+				input.form-control.color-picker-rgba.input-sm(type="text")
+				span.color-preview
+				span.add-on
+					i.sa-plus

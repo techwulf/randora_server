@@ -1,0 +1,54 @@
+// Tasks to do
+.tile
+	h2.tile-title Tasks to do
+	
+	.tile-config.dropdown
+		a.tile-menu(data-toggle="dropdown", href="#")
+		ul.dropdown-menu.pull-right.text-right
+			li#todo-add
+				a(href="#") Add New
+			li#todo-refresh
+				a(href="#") Refresh
+			li#todo-clear
+				a(href="#") Clear All
+	
+	.listview.todo-list.sortable
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox")
+					| Curabitur quis nisi ut nunc gravida suscipis
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox")
+					| Suscipit at feugiat dewoo
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox")
+					| Gravida wendy lorem ipsum seen
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox")
+					| Fedrix quis nisi ut nunc gravida suscipit at feugiat purus
+	
+	h2.tile-title Completed Tasks
+	
+	.listview.todo-list.sortable
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox", checked="checked")
+					| Motor susbect win latictals bin the woodat cool
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox", checked="checked")
+					| Wendy mitchel susbect win latictals bin the woodat cool
+		.media
+			.checkbox.m-0
+				label.t-overflow
+					input(type="checkbox", checked="checked")
+					| Latictals bin the woodat cool for the win

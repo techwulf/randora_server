@@ -1,0 +1,21 @@
+// Basic
+#basic.block-area
+	h3.block-title Basic Example
+	form(role="form")
+		.form-group
+			label(for="exampleInputEmail1") Email address
+			input#exampleInputEmail1.form-control.input-sm(type="email", placeholder="Enter email")
+		.form-group
+			label(for="exampleInputPassword1") Password
+			input#exampleInputPassword1.form-control.input-sm(type="password", placeholder="Password")
+		p Some Help level texts here...
+		.fileupload.fileupload-new(data-provides="fileupload")
+			span.btn.btn-file.btn-sm.btn-alt
+				span.fileupload-new Select file
+				span.fileupload-exists Change
+				input(type="file")
+			span.fileupload-preview
+			a.close.close-pic.fileupload-exists(href="#", data-dismiss="fileupload")
+				i.fa.fa-times
+		button.btn.btn-sm.m-t-10(type="submit") Login
+		button.btn.btn-sm.m-t-10(type="submit") Cancel

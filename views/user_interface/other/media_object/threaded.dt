@@ -1,0 +1,48 @@
+p
+	| With a bit of extra markup, you can use media inside list (useful for comment threads or articles lists).
+
+br
+
+ul.media-list
+	li.media
+		a.pull-left(href="#")
+			img.media-object(src="/img/profile-pics/1.jpg", alt="")
+		
+		.media-body
+			h5.media-heading Media heading
+			| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus fringilla. Donec lacinia congue felis in faucibus.
+			
+			// Nested media object
+			.media
+				a.pull-left(href="#")
+					img.media-object(src="/img/profile-pics/2.jpg", alt="")
+				
+				.media-body
+					h5.media-heading Nested media heading
+					| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus fringilla. Donec lacinia congue felis in faucibus.
+					
+					// Nested media object
+					.media
+						a.pull-left(href="#")
+							img.media-object(src="/img/profile-pics/3.jpg", alt="")
+						
+						.media-body
+							h5.media-heading Nested media heading
+							| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+			
+			// Nested media object
+			.media
+				a.pull-left(href="#")
+					img.media-object(src="/img/profile-pics/4.jpg", alt="")
+				
+				.media-body
+					h5.media-heading Nested media heading
+					| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus fringilla. Donec lacinia congue felis in faucibus.
+	
+	li.media
+		a.pull-right(href="#")
+			img.media-object(src="/img/profile-pics/5.jpg", alt="")
+		
+		.media-body
+			h5.media-heading Media heading
+			| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus fringilla. Donec lacinia congue felis in faucibus.

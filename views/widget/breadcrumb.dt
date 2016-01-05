@@ -1,0 +1,7 @@
+// Breadcrumb
+ol.breadcrumb.hidden-xs
+	li
+		a(href="#") Home
+	li
+		a(href="#") Library
+	li.active Data

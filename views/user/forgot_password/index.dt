@@ -1,0 +1,13 @@
+extends user/layout
+
+block user
+	section#forgot_password
+		header
+			h1 Forgot Password
+			
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu risus. Curabitur commodo lorem fringilla enim feugiat commodo sed ac lacus.
+		
+		.clearfix
+		
+		include user/forgot_password/forgot_password

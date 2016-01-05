@@ -1,0 +1,17 @@
+.tile-light.p-5.m-b-15
+	.cover.p-relative
+		img.w-100(src="/img/cover-bg.jpg", alt="")
+		
+		img.profile-pic(src="/img/profile-pic.jpg", alt="")
+		
+		.profile-btn
+			button.btn.btn-alt.btn-sm
+				i.icon-bubble
+				span Message
+			
+			button.btn.btn-alt.btn-sm
+				i.icon-user-2
+				span Friend
+	
+	.p-5.m-t-15
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget risus rhoncus, cursus purus vitae, venenatis eros. Phasellus at tincidunt risus. Integer sed massa fermentum, feugiat arcu quis, ultrices nisi. Quisque commodo nisi scelerisque, tempus diam ac, dignissim tellus. Mauris adipiscing elit tortor, dignissim auctor diam mollis sed. Nulla eu dui non velit accumsan scelerisque eget et felis.

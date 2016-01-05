@@ -1,0 +1,8 @@
+.row
+	// Works
+	.col-md-7
+		include user/widgets/in_progress
+		include user/widgets/completed
+	
+	.col-md-5
+		include user/widgets/recent_activities

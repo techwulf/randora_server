@@ -1,0 +1,58 @@
+// Checkbox
+#checkbox.block-area
+	h3.block-title Checkbox
+	form.form-validation-9(role="form")
+		p Minimum 2 checkbox
+		.form-group.m-b-15
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox1.validate[minCheckbox[2]](type="checkbox", name="group[group]", value="option1")
+				| 1
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox2.validate[minCheckbox[2]](type="checkbox", name="group[group]", value="option2")
+				| 2
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox3.validate[minCheckbox[2]](type="checkbox", name="group[group]", value="option3")
+				| 3
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox4.validate[minCheckbox[2]](type="checkbox", name="group[group]", value="option4")
+				| 4
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox5.validate[minCheckbox[2]](type="checkbox", name="group[group]", value="option5")
+				| 5
+		.form-group.m-b-15
+			p Maximum 3 checkbox
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox6.validate[maxCheckbox[3]](type="checkbox", name="group[group2]", value="option6")
+				| 6
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox7.validate[maxCheckbox[3]](type="checkbox", name="group[group2]", value="option7")
+				| 7
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox8.validate[maxCheckbox[3]](type="checkbox", name="group[group2]", value="option8")
+				| 8
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox9.validate[maxCheckbox[3]](type="checkbox", name="group[group2]", value="option9")
+				| 9
+			label.checkbox-inline
+				span.checkableBox
+					input#inlineCheckbox10.validate[maxCheckbox[3]](type="checkbox", name="group[group2]", value="option10")
+				| 10
+		.form-group.m-b-15
+			label.checkbox
+				span.checkableBox
+					input.validate[required](type="checkbox", name="agree", value="")
+				| I have read and accepted
+		input.submit.btn.btn-sm(type="submit", value="VALIDATE")
+		button.btn.btn-sm.validation-clear CLOSE PROMPTS
+	br
+	br
+	br

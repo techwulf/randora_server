@@ -1,0 +1,19 @@
+// Horizontal
+#horizontal.block-area
+	h3.block-title Horizontal Form
+	form.form-horizontal(role="form")
+		.form-group
+			label.col-md-2.control-label(for="inputName1") Name
+			.col-md-10
+				input#inputName1.form-control.input-sm(type="text", placeholder="...")
+		.form-group
+			label.col-md-2.control-label(for="inputEmail1") Email Address
+			.col-md-10
+				input#inputEmail1.form-control.input-sm(type="email", placeholder="...")
+		.form-group
+			label.col-md-2.control-label(for="inputMessage") Message
+			.col-md-10
+				textarea#inputMessage.form-control.auto-size.input-sm(placeholder="...")
+		.form-group
+			.col-md-offset-2.col-md-10
+				button.btn.btn-info.btn-sm.m-t-10(type="submit") SUBMIT FORM

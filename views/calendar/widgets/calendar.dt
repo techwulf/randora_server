@@ -1,0 +1,13 @@
+// Calendar
+.tile
+	h2.tile-title Calendar
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="", data-original-title="Options")
+		ul.calendar-actions.dropdown-menu.pull-right.text-right
+			li
+				a(data-view="month", href="#") Monthly View
+			li
+				a(data-view="agendaWeek", href="#") Weekly View
+			li
+				a(data-view="agendaDay", href="#") Daily View
+	#calendar.calendar-widget

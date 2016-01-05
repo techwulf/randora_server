@@ -1,0 +1,72 @@
+p.m-t-15 Vertical Progress bars
+	// Vertical Bottom
+	.progress.progress-vertical.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-success(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="height: 40%")
+	
+	.progress.progress-vertical.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="height: 20%")
+	
+	.progress.progress-vertical.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style="height: 60%")
+	
+	.progress.progress-vertical.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-danger(role="progressbar", aria-valuenow="80", aria-valuemin="0", aria-valuemax="100", style="height: 80%")
+	
+	.progress.progress-vertical.bottom.m-r-20(style="height: 150px;")
+		.progress-bar.progress-bar-success(style="height: 35%")
+			span.sr-only 35% Complete (success)
+		
+		.progress-bar.progress-bar-warning(style="height: 20%")
+			span.sr-only 20% Complete (warning)
+		
+		.progress-bar.progress-bar-danger(style="height: 10%")
+			span.sr-only 10% Complete (danger)
+	
+	// Vertical Top
+	.progress.progress-striped.progress-vertical(style="height: 150px;")
+		.progress-bar.progress-bar-success(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="height: 40%")
+	
+	.progress.progress-striped.progress-vertical(style="height: 150px;")
+		.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="height: 20%")
+	
+	.progress.progress-striped.progress-vertical(style="height: 150px;")
+		.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style="height: 60%")
+	
+	.progress.progress-striped.progress-vertical(style="height: 150px;")
+		.progress-bar.progress-bar-danger(role="progressbar", aria-valuenow="80", aria-valuemin="0", aria-valuemax="100", style="height: 80%")
+	
+	.progress.progress-vertical.m-r-20(style="height: 150px;")
+		.progress-bar.progress-bar-success(style="height: 35%")
+			span.sr-only 35% Complete (success)
+		
+		.progress-bar.progress-bar-warning(style="height: 20%")
+			span.sr-only 20% Complete (warning)
+		
+		.progress-bar.progress-bar-danger(style="height: 10%")
+			span.sr-only 10% Complete (danger)
+	
+	// Small Vertical
+	.progress.progress-striped.progress-vertical.small.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-success(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="height: 40%")
+	
+	.progress.progress-striped.progress-vertical.small.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="height: 20%")
+	
+	.progress.progress-striped.progress-vertical.small.bottom(style="height: 150px;")
+		.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style="height: 60%")
+	
+	.progress.progress-striped.progress-vertical.small.bottom.m-r-20(style="height: 150px;")
+		.progress-bar.progress-bar-danger(role="progressbar", aria-valuenow="80", aria-valuemin="0", aria-valuemax="100", style="height: 80%")
+	
+	// Alternative Styled Vertical
+	.progress.progress-striped.progress-vertical.progress-alt(style="height: 150px;")
+		.progress-bar.progress-bar-success(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="height: 40%")
+	
+	.progress.progress-striped.progress-vertical.progress-alt(style="height: 150px;")
+		.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="height: 20%")
+	
+	.progress.progress-striped.progress-vertical.progress-alt(style="height: 150px;")
+		.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style="height: 60%")
+	
+	.progress.progress-striped.progress-vertical.progress-alt(style="height: 150px;")
+		.progress-bar.progress-bar-danger(role="progressbar", aria-valuenow="80", aria-valuemin="0", aria-valuemax="100", style="height: 80%")

@@ -1,0 +1,3 @@
+li
+	a.sa-side-typography(href="/typography")
+		span.menu-item Typography

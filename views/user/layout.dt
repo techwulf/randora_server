@@ -1,0 +1,14 @@
+extends layout/content/content
+
+block content_contents
+	DIV
+		- if(app.session.authenticated)
+			H1 Authenticated
+		- else
+			H1 Not Authenticated
+
+	HR
+	
+	H1	User
+
+	block user

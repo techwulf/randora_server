@@ -1,0 +1,28 @@
+// Pies
+.tile.text-center
+	.tile-dark.p-10
+		.pie-chart-tiny(data-percent="86")
+			span.percent
+			span.pie-title
+				| New Visitors
+				i.m-l-5.fa.fa-retweet
+		.pie-chart-tiny(data-percent="23")
+			span.percent
+			span.pie-title
+				| Bounce Rate
+				i.m-l-5.fa.fa-retweet
+		.pie-chart-tiny(data-percent="57")
+			span.percent
+			span.pie-title
+				| Emails Sent
+				i.m-l-5.fa.fa-retweet
+		.pie-chart-tiny(data-percent="34")
+			span.percent
+			span.pie-title
+				| Sales Rate
+				i.m-l-5.fa.fa-retweet
+		.pie-chart-tiny(data-percent="81")
+			span.percent
+			span.pie-title
+				| New Signups
+				i.m-l-5.fa.fa-retweet

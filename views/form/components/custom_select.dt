@@ -1,0 +1,63 @@
+// Custom Select
+#custom-select.block-area
+	h3.block-title Custom Select
+	br
+	p Custom Select boxes based on Bootstrap Dropdowns
+	.row
+		.col-md-2.m-b-15
+			select.select
+				option Default
+				option Toyota Avalon
+				option Toyota Crown
+				option Lexus LX570
+		.col-md-2.m-b-15
+			select.select
+				optgroup(label="Toyota")
+					option Grouped
+					option Toyota Avalon
+					option Toyota Crown
+					option Toyota FT86 
+				optgroup(label="Lexus")
+					option Lexus LS600
+					option Lexus LFA
+					option Lexus LX570
+		.col-md-2.m-b-15
+			select.select
+				option Divider
+				option Toyota Avalon
+				option Toyota Crown
+				option Toyota FT86 
+				option(data-divider="true") &#160;
+				option Lexus LS600
+				option Lexus LFA
+				option Lexus LX570
+		.col-md-2.m-b-15
+			select.select
+				option Option Disabled
+				option Toyota Avalon
+				option(disabled="disabled") Toyota Crown
+				option Lexus LX570
+		.col-md-2.m-b-15
+			select.select
+				option(data-icon="fa fa-comment") With Icon
+				option(data-icon="fa fa-flickr") Toyota FT86
+				option(data-icon="fa fa-heart") Toyota Crown
+				option(data-icon="fa fa-star") Lexus LX570
+	p Multiple Selects
+	.row
+		.col-md-5.m-b-15
+			select.select(multiple="")
+				option Toyota Avalon
+				option Toyota Crown
+				option Toyota FT86 
+				option Lexus LS600
+				option Lexus LFA
+				option Lexus LX570
+		.col-md-5.m-b-15
+			select.select(multiple="", data-selected-text-format="count>3")
+				option Toyota Avalon
+				option Toyota Crown
+				option Toyota FT86 
+				option Lexus LS600
+				option Lexus LFA
+				option Lexus LX570

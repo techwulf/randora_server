@@ -1,0 +1,24 @@
+// Date Time Picker
+#date-time.block-area
+	h3.block-title Date Time Picker
+	br
+	p Use Grid Classes to resize the column sizes.
+	.row
+		.col-md-4.m-b-15
+			p Date Picker
+			.input-icon.datetime-pick.date-only
+				input.form-control.input-sm(type="text", data-format="dd/MM/yyyy")
+				span.add-on
+					i.sa-plus
+		.col-md-4.m-b-15
+			p 24hr Time Picker
+			.input-icon.datetime-pick.time-only
+				input.form-control.input-sm(type="text", data-format="hh:mm:ss")
+				span.add-on
+					i.sa-plus
+		.col-md-4.m-b-15
+			p 12hr Time Picker
+			.input-icon.datetime-pick.time-only-12
+				input.form-control.input-sm(type="text", data-format="hh:mm:ss")
+				span.add-on
+					i.sa-plus

@@ -1,0 +1,10 @@
+// Alignment Classes
+article#alignmentClasses.block-area
+	h3.block-title Alignment Classes
+	p.text-left
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus mauris. Ut tempus pellentesque lorem et pulvinar. Aliquam mollis tellus nec nibh ultrices tempor. Duis vehicula arcu a magna venenatis, at interdum nisi dignissim. Curabitur ac nulla.
+	p.text-center
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus mauris. Ut tempus pellentesque lorem et pulvinar. Aliquam mollis tellus nec nibh ultrices tempor. Duis vehicula arcu a magna venenatis, at interdum nisi dignissim. Curabitur ac nulla.
+	p.text-right
+		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus mauris. Ut tempus pellentesque lorem et pulvinar. Aliquam mollis tellus nec nibh ultrices tempor. Duis vehicula arcu a magna venenatis, at interdum nisi dignissim. Curabitur ac nulla.
+	br

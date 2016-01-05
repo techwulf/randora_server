@@ -1,0 +1,38 @@
+// Main Chart
+.tile
+	h2.tile-title Statistics
+		.tile-config.dropdown
+			a.tile-menu(data-toggle="dropdown", href="#")
+			ul.dropdown-menu.pull-right.text-right
+				li
+					a.tile-info-toggle(href="#") Chart Information
+				li
+					a(href="#") Refresh
+				li
+					a(href="#") Settings
+		
+		.p-10
+			#line-chart.main-chart(style="height: 250px")
+			.chart-info
+				ul.list-unstyled
+					li.m-b-10
+						| Total Sales 1200
+						span.pull-right.text-muted.t-s-0
+							i.fa.fa-chevron-up
+							| +12%
+					li
+						small
+							| Local 640
+							span.pull-right.text-muted.t-s-0
+								i.fa.m-l-15.fa-chevron-down
+								| -8%
+						.progress.progress-small
+							.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="width: 40%")
+					li
+						small
+							| Foreign 560
+							span.pull-right.text-muted.t-s-0
+								i.fa.m-l-15.fa-chevron-up
+								| -3%
+						.progress.progress-small
+							.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="width: 60%")

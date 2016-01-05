@@ -1,0 +1,24 @@
+// Date/Time
+#datetime.block-area
+	h3.block-title Date/Time
+	form.form-validation-8(role="form")
+		.row
+			// Past
+			.form-group.col-md-6
+				label Past - Date should ealier than 2013/05/10
+				input.input-sm.validate[custom[date],past[2013/05/10]].form-control(type="text", placeholder="...")
+			// Future
+			.form-group.col-md-6
+				label Future - Date should older than today"s date
+				input.input-sm.validate[custom[date],future[NOW]].form-control(type="text", placeholder="...")
+		// Date Range
+		p
+			| Date Range - Checks that the start date is before the end date. Please enter an end date ealier than the start date
+		.row
+			.col-sm-6
+				.form-group
+					input.input-sm.validate[dateRange[grp1]].form-control(type="text", name="date-range", placeholder="Start Date")
+			.col-sm-6
+				.form-group.m-b-15
+					input.input-sm.validate[dateRange[grp1]].form-control(type="text", name="date-range", placeholder="End Date")
+		a.btn.btn-sm.validation-clear(href="#") CLOSE PROMPTS

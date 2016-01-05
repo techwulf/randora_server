@@ -1,0 +1,16 @@
+.block-area
+	h3.block-title Default
+	
+	p Basic example
+	
+	.alert.alert-success
+		| Well done! You successfully read this important alert message.
+	
+	.alert.alert-info
+		| Heads up! This alert needs your attention, but it's not super important.
+	
+	.alert.alert-warning
+		| Warning! Best check yo self, you"re not looking too good.
+	
+	.alert.alert-danger
+		| Oh snap! Change a few things up and try submitting again.

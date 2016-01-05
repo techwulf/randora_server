@@ -1,0 +1,13 @@
+// Alternative
+#alternative-buttons.block-area
+	h3.block-title Alternative Button Style
+	
+	p All four sizes
+	
+	button.btn.btn-lg.btn-alt.m-r-5 Large
+	
+	button.btn.btn-alt.m-r-5 Default
+	
+	button.btn.btn-sm.btn-alt.m-r-5 Small
+	
+	button.btn.btn-xs.btn-alt.m-r-5 Extra Small

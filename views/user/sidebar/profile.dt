@@ -1,0 +1,29 @@
+// Profile Menu
+#profile-menu.text-center.s-widget.m-b-25.dropdown
+	a(href="#", data-toggle="dropdown")
+		img.profile-pic.animated(src="/img/profile-pic.jpg", alt="")
+	
+	ul.dropdown-menu.profile-menu
+		li
+			a(href="#") My Profile
+			i.icon.left &#61903;
+			i.icon.right &#61815;
+		
+		li
+			a(href="#") Messages
+			i.icon.left &#61903;
+			i.icon.right &#61815;
+		
+		li
+			a(href="#") Settings
+			i.icon.left &#61903;
+			i.icon.right &#61815;
+		
+		li
+			a(href="#") Sign Out
+			i.icon.left &#61903;
+			i.icon.right &#61815;
+	
+	h4.m-0 Malinda Hollaway
+	
+	| @malinda-h

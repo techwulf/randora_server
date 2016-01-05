@@ -1,0 +1,25 @@
+// Multi Column
+#multi-column.block-area
+	h3.block-title Multi Column
+	form.row.form-columned(role="form")
+		.col-md-4
+			input.form-control.input-sm.m-b-10(type="text", placeholder="Name")
+		.col-md-4
+			input.form-control.input-sm.m-b-10(type="text", placeholder="Username")
+		.col-md-4.m-b-10
+			select.select
+				option Country
+				option Japan
+				option Korea
+				option China
+		.clearfix
+		.col-md-4
+			input.form-control.input-sm.m-b-10(type="tel", placeholder="Contact Number")
+		.col-md-4
+			input.form-control.input-sm.m-b-10(type="text", placeholder="City")
+		.col-md-4
+			input.form-control.input-sm.m-b-10(type="password", placeholder="Password")
+		.col-md-12
+			textarea.form-control.m-b-10(placeholder="Description")
+		.col-md-10
+			button.btn.btn-sm(type="submit") Save Profile

@@ -1,0 +1,15 @@
+// Buttons
+#buttons.block-area
+	h3.block-title Buttons
+	
+	.clearfix
+	
+	p All four sizes
+	
+	button.btn.btn-lg.m-r-5 Large
+	
+	button.btn.m-r-5 Default
+	
+	button.btn.btn-sm.m-r-5 Small
+	
+	button.btn.btn-xs Extra Small

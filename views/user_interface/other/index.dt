@@ -1,0 +1,18 @@
+extends user_interface/layout
+
+block user_interface
+	h4.page-title USER INTERFACE
+
+	include user_interface/other/content_boxes
+
+	include user_interface/other/jumbotron
+
+	include user_interface/other/list_groups
+
+	include user_interface/other/media_object/index
+
+	include user_interface/other/page_header
+
+	include user_interface/other/panel
+
+	include user_interface/other/well

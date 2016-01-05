@@ -1,0 +1,12 @@
+// Modal Resize alert
+#editEvent.modal.fade
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &#215;
+				h4.modal-title Edit Event
+			.modal-body
+				#eventInfo
+			.modal-footer
+				button.btn.btn-info.btn-sm(type="button", data-dismiss="modal") Okay
+				button#editCancel.btn.btn-info.btn-sm(type="button", data-dismiss="modal") Cancel

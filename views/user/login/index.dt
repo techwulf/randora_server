@@ -1,0 +1,13 @@
+extends user/layout
+
+block user
+	section#login
+		header
+			h1 SUPER ADMIN
+			
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu risus. Curabitur commodo lorem fringilla enim feugiat commodo sed ac lacus.
+		
+		.clearfix
+		
+		include user/login/login

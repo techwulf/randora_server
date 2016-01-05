@@ -1,0 +1,29 @@
+header.listview-header.media
+	input.pull-left.list-parent-check(type="checkbox", value="")
+	
+	ul.list-inline.pull-right.m-t-5.m-b-0
+		li.pagin-value.hidden-xs 35-70
+		li
+			a.tooltips(href="#", title="Previous")
+				i.sa-list-back
+		li
+			a.tooltips(href="#", title="Next")
+				i.sa-list-forwad
+	
+	ul.list-inline.list-mass-actions.pull-left
+		li
+			a.tooltips(data-toggle="modal", href="#compose-message", title="Add")
+				i.sa-list-add
+		li
+			a.tooltips(href="#", title="Refresh")
+				i.sa-list-refresh
+		li.show-on(style="display: none;")
+			a.tooltips(href="#", title="Move")
+				i.sa-list-move
+		li.show-on(style="display: none;")
+			a.tooltips(href="#", title="Delete")
+				i.sa-list-delete
+	
+	input.input-sm.col-md-4.pull-right.message-search(type="text", placeholder="Search....")
+	
+	.clearfix

@@ -1,0 +1,13 @@
+// Button Tags
+#button-tags.block-area
+	h3.block-title Button Tags
+	
+	p Use the button classes on a, button, input, span Elements
+	
+	a.btn(href="#") Link
+	
+	button.btn Button
+	
+	input.btn(type="submit", value="Submit")
+	
+	span.btn Span

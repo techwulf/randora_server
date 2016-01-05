@@ -1,0 +1,76 @@
+// Recent Activities
+.tile
+	h2.tile-title Recent Activities
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="", data-original-title="Options")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Edit
+			li
+				a(href="#") Delete
+	.listview.narrow
+		.media
+			.pull-right
+				img(width="37", src="/img/profile-pics/1.jpg", alt="")
+			.media-body
+				| Connected with
+				a.news-title.underline(href="#") Mitchell Christein
+				.clearfix
+				small.muted 30 Minutes ago
+		.media
+			.pull-right
+				img(width="37", src="/img/profile-pics/4.jpg", alt="")
+			.media-body
+				a.news-title.underline(href="#") Wayne Cerolina
+				| Accepted your friend request
+				.clearfix
+				small.muted 2 Hours ago
+		.media
+			.media-body
+				a.news-title(href="#") Uploaded 7 files to DOCS folder
+				.clearfix
+				small.muted 3 Hours ago
+		.media
+			.media-body
+				| Joined the Group
+				a.news-title.underline(href="#") "90s Rock Hits"
+				.clearfix
+				small.muted 5 Hours ago
+		.media
+			.pull-right
+				img(width="37", src="/img/profile-pics/5.jpg", alt="")
+			.media-body
+				| Wrote on
+				a.news-title.underline(href="#") David Villa"s
+				| Wall
+				.clearfix
+				small.muted 8 Hours ago
+		.media
+			.media-body
+				| Signed up an Affiliate
+				.clearfix
+				small.muted 6 Hours ago
+		.media
+			.media-body
+				| Completed and submited the project
+				a.news-title.underline(href="#") Joomla
+				.clearfix
+				small.muted 12 Hours ago
+		.media
+			.media-body
+				| Travelled to
+				a.news-title.underline(href="#") San Fransisco
+				| , United States
+				.clearfix
+				small.muted 12 Hours ago
+		.media
+			.pull-right
+				img(width="37", src="/img/profile-pics/6.jpg", alt="")
+			.media-body
+				| Conneted with
+				a.news-title.underline(href="#") Emma Stone
+				.clearfix
+				small.muted 2 Days ago
+		.media.p-5.text-center.l-100
+			a(href="#")
+				small VIEW ALL

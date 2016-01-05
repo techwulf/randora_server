@@ -1,0 +1,7 @@
+extends page/layout
+
+block page
+	.listview.list-container
+		include page/list/header
+		include page/list/list
+		include page/list/pagination

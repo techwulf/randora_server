@@ -1,0 +1,4 @@
+extends typography/layout
+
+block typography
+	h4.page-title Dashboard

@@ -1,0 +1,19 @@
+// Static Control
+#static-control.block-area
+	h3.block-title Static Control
+	form.form-horizontal(role="form")
+		.form-group
+			label.col-md-2.control-label Name
+			.col-md-10
+				p.form-control-static David Aleam
+		.form-group
+			label.col-md-2.control-label Email
+			.col-md-10
+				p.form-control-static email@example.com
+		.form-group
+			label.col-md-2.control-label(for="inputPassword") Password
+			.col-md-10
+				input#inputPassword.form-control.input-sm(type="password", placeholder="Password")
+		.form-group
+			.col-md-offset-2.col-md-10
+				button.btn.btn-warning.btn-sm.m-t-10(type="submit") UPDATE

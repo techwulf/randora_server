@@ -1,0 +1,16 @@
+extends user/layout
+
+block user
+	h4.page-title MALLINDA HOLLAWAY'S PROFILE
+	
+	.block-area
+		.row
+			.col-md-9
+				include user/widgets/header
+				include user/widgets/summary
+				include user/widgets/works
+			
+			.col-md-3
+				include user/widgets/about
+				include user/widgets/friends
+				include user/widgets/photos

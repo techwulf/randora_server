@@ -1,0 +1,6 @@
+// Text Editor
+#text-editor.block-area
+	h3.block-title WYSIWYG Editor
+	br
+	p Super Simple WYSIWYG Editor with code mode
+	.wysiwye-editor

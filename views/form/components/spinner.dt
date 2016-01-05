@@ -1,0 +1,30 @@
+// Spinner
+#spinner.block-area
+	h3.block-title Spinner
+	br
+	.row
+		.col-md-4.m-b-15
+			p Basic
+			.p-relative
+				input.form-control.input-sm.spinner-1.spinedit(type="text")
+		.col-md-4.m-b-15
+			p Set Value
+			.p-relative
+				input.form-control.input-sm.spinner-2.spinedit(type="text")
+		.col-md-4.m-b-15
+			p Set Minimum(-10)
+			.p-relative
+				input.form-control.input-sm.spinner-3.spinedit(type="text")
+	.row
+		.col-md-4.m-b-15
+			p Set Maximum(10)
+			.p-relative
+				input.form-control.input-sm.spinner-4.spinedit(type="text")
+		.col-md-4.m-b-15
+			p Set Step(100)
+			.p-relative
+				input.form-control.input-sm.spinner-5.spinedit(type="text")
+		.col-md-4.m-b-15
+			p Decimal
+			.p-relative
+				input.form-control.input-sm.spinner-6.spinedit(type="text")

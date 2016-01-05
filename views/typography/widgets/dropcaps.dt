@@ -1,0 +1,7 @@
+// Dropcaps
+article#dropcaps.block-area
+	h3.block-title Dropcaps
+	p
+		span.dropcap D
+		| uis quam libero, tincidunt a urna vel, fringilla rhoncus ipsum. Phasellus aliquam erat ipsum, molestie laoreet dolor tincidunt a. Sed blandit vel justo eu tempus. Morbi et lorem sem. Curabitur vel urna eu velit feugiat laoreet sit amet eu lorem. Quisque tincidunt purus non dui laoreet, dictum consequat ante imperdiet. Nullam vel urna pharetra, porttitor massa nec, luctus purus. Vestibulum et iaculis justo. Morbi interdum semper metus et egestas. Aliquam a commodo orci. Sed aliquam hendrerit odio vel rutrum. Nullam ac molestie eros. Sed quis feugiat tortor. Curabitur tincidunt iaculis dolor, quis consequat eros cursus ut.
+	br

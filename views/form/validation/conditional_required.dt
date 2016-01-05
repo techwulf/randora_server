@@ -1,0 +1,29 @@
+// Conditional required
+#conditional.block-area
+	h3.block-title Conditional Required
+	p.m-b-20 Use Tab key to validate
+	form.form-validation-5(role="form")
+		// Default
+		.row
+			.form-group.col-md-6
+				label Depending field (1)
+				input#dep1.input-sm.form-control(type="text", name="dep", placeholder="...")
+			.form-group.col-md-6
+				label This field is required if previous field has a value
+				input#dep-a.input-sm.validate[condRequired[dep1]].form-control(type="text", name="dep1", placeholder="...")
+		br
+		| OR with 2 depending fields
+		br
+		br
+		.row
+			// 2 Dependant
+			.form-group.col-md-6
+				label Depending field (1A)
+				input#dep1a.input-sm.form-control(type="text", name="dep1a", placeholder="...")
+			.form-group.col-md-6
+				label Depending field (1B)
+				input#dep1b.input-sm.form-control(type="text", name="dep1b", placeholder="...")
+		.form-group.m-b-15
+			label This field is required if any of above fields has a value
+			input#dep1c.input-sm.validate[condRequired[dep1a,dep1b]].form-control(type="text", name="dep1b", placeholder="...")
+		a.btn.btn-sm.validation-clear(href="#") CLOSE PROMPTS

@@ -1,0 +1,35 @@
+// Responsive Table
+#responsiveTable.block-area
+	h3.block-title Responsive Table
+	.table-responsive.overflow
+		table.table.tile
+			thead
+				tr
+					th No.
+					th First Name
+					th Last Name
+					th Username
+					th Password
+					th Email
+			tbody
+				tr
+					td 1
+					td Jhon 
+					td Makinton 
+					td @makinton
+					td 123@makinton
+					td mak@live.com
+				tr
+					td 2
+					td Malinda
+					td Hollaway
+					td @hollway
+					td hollaway@mal
+					td holla@asianet.ch
+				tr
+					td 3
+					td Wayn
+					td Parnel
+					td @wayne123
+					td wayn@3rt
+					td wayne-parn@gmail.com

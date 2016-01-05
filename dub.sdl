@@ -1,0 +1,6 @@
+name "workflow"
+description "A simple vibe.d server application."
+copyright "Copyright © 2015, joshka"
+authors "joshka"
+dependency "vibe-d" version="~>0.7.23"
+versions "VibeDefaultMain"

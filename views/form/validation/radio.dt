@@ -1,0 +1,24 @@
+// Radio
+#radio.block-area
+	h3.block-title Radio
+	form.form-validation-9(role="form")
+		p Minimum 2 radio
+		.form-group.m-b-15
+			p Select an option
+			label.radio-inline
+				span.checkableBox.checkableBox-radio
+					input.validate[required](type="radio", name="group[group3]", value="option1")
+				| 1
+			label.radio-inline
+				span.checkableBox.checkableBox-radio
+					input.validate[required](type="radio", name="group[group3]", value="option2")
+				| 2
+			label.radio-inline
+				span.checkableBox.checkableBox-radio
+					input.validate[required](type="radio", name="group[group3]", value="option3")
+				| 3
+		input.submit.btn.btn-sm(type="submit", value="VALIDATE")
+		button.btn.btn-sm.validation-clear CLOSE PROMPTS
+	br
+	br
+	br

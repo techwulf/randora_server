@@ -1,0 +1,28 @@
+.block-area
+	h3.block-title SPARKLINE CHARTS
+	// Sparkline
+	.row
+		.col-md-3.col-xs-6
+			.tile.quick-stats
+				#stats-line-2.pull-left
+				.data
+					h2(data-value="98") 0
+					small Tickets Today
+		.col-md-3.col-xs-6
+			.tile.quick-stats.media
+				#stats-line-3.pull-left
+				.media-body
+					h2(data-value="1452") 0
+					small Shipments today
+		.col-md-3.col-xs-6
+			.tile.quick-stats.media
+				#stats-line-4.pull-left
+				.media-body
+					h2(data-value="4896") 0
+					small Orders today
+		.col-md-3.col-xs-6
+			.tile.quick-stats.media
+				#stats-line.pull-left
+				.media-body
+					h2(data-value="29356") 0
+					small Site visits today

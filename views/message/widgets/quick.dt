@@ -1,0 +1,26 @@
+// Quick Posting
+.tile
+	h2.tile-title Quick Posting
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="", data-original-title="Options")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Edit
+			li
+				a(href="#") Delete
+	form.p-15(role="form")
+		.form-group.m-b-15
+			label Post Title
+			input.form-control.input-sm(type="text")
+		.form-group.m-b-15
+			label Post Category
+			select.select
+				option Default
+				option Toyota Avalon
+				option Toyota Crown
+				option Lexus LX570
+		.form-group.m-b-15
+			label Post Content
+			.wysiwye-editor
+		button.btn.btn-sm(type="submit") Submit
+		button.btn.btn-sm(type="submit") Clear

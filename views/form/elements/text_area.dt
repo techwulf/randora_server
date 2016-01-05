@@ -1,0 +1,11 @@
+// Textarea
+#textarea.block-area
+	h3.block-title Textarea
+	p
+		| Form control which supports multiple lines of text. Change "rows" attribute as necessary.
+	textarea.form-control.overflow(rows="3", placeholder="This is a default Textarea...")
+	p
+	p Textarea with auto-grow height
+	textarea.form-control.auto-size.m-b-10(placeholder="This is an auto sizing Textarea...")
+	p Textarea Disabled
+	textarea.form-control(placeholder="This is disabled", disabled="")

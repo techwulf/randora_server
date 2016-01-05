@@ -1,0 +1,16 @@
+// Blockquote
+article.block-area
+	h3.block-title Blockquotes 
+	blockquote
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante a risus viverra consequat congue a leo. Curabitur ac fermentum enim.
+		i.icon-quote-right
+article.block-area
+	h3.block-title Blockquotes - 2
+	blockquote
+		p
+			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante a risus viverra consequat congue a leo. Curabitur ac fermentum enim.
+		small
+			| Someone famous
+			cite(title="Source Title") Source Title
+		i.icon-quote-right

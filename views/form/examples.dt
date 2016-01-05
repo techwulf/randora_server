@@ -1,0 +1,30 @@
+extends form/layout
+
+block formx
+	h4.page-title FORM EXAMPLES
+
+	include form/examples/basic
+
+	hr.whiter.m-t-20
+
+	include form/examples/basic_with_panel
+
+	hr.whiter.m-t-20
+
+	include form/examples/inline
+
+	hr.whiter.m-t-20
+
+	include form/examples/horizontal
+
+	hr.whiter.m-t-20
+
+	include form/examples/static_control
+
+	hr.whiter.m-t-20
+
+	include form/examples/multi_column
+
+	hr.whiter.m-t-20
+
+	include form/examples/custom

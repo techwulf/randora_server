@@ -1,0 +1,53 @@
+// Invalid Fields
+#invalid.block-area
+	h3.block-title Invalid Fields
+	form.form-validation-2(role="form")
+		// Telephone
+		.form-group
+			label
+				| Telephone - Valid Entries (+103-304-340-4300-043) /
+				| (+1 305 768 23 34 ext 23) /
+				| (+1 (305) 768-2334 extension 703) /
+				| (+1 (305) 768-2334 x703) /
+				| (04312 / 777 777) /
+				| (01-47.34/32 56) /
+				| ((01865)	123456)
+			input.input-sm.validate[required,custom[phone]].form-control(type="text", placeholder="...")
+		// URL
+		.form-group
+			label URL (Begin with http:// https:// or ftp:// )
+			input.input-sm.form-control.validate[required,custom[url]](type="text", value="http://", placeholder="...")
+		// Email
+		.form-group
+			label Email
+			input.form-control.input-sm.validate[required,custom[email]](type="text", placeholder="...")
+		// IP Address
+		.form-group
+			label IP Address
+			input.form-control.input-sm.validate[required,custom[ipv4]](type="text", placeholder="...")
+		// Date
+		.form-group
+			label Date - ISO 8601 dates only YYYY-mm-dd
+			input.form-control.input-sm.validate[required,custom[date]](type="text", placeholder="...")
+		// Number
+		.form-group
+			label Number - A signed floating number, ie: -3849.354, 38.00, 38, .77 
+			input.form-control.input-sm.validate[required,custom[number]](type="text", placeholder="...")
+		// Integer
+		.form-group
+			label Integer - An signed integer: ie +34, 34 or -1 
+			input.form-control.input-sm.validate[required,custom[integer]](type="text", placeholder="...")
+		// Only Letter/Number
+		.form-group
+			label Only Letter/Number - Only [0-9a-zA-Z]
+			input.form-control.input-sm.validate[required,custom[onlyLetterNumber]](type="text", placeholder="...")
+		// Only Number
+		.form-group
+			label Only Number(Char) - Only [0-9] and space
+			input.form-control.input-sm.validate[required,custom[onlyNumberSp]](type="text", placeholder="...")
+		// Only Letter
+		.form-group.m-b-15
+			label Only Letter - Only ascii letters, space and "
+			input.form-control.input-sm.validate[required,custom[onlyLetterSp]](type="text", placeholder="...")
+		input.btn.btn-sm(type="submit", value="VALIDATE")
+		button.btn.btn-sm.validation-clear CLOSE PROMPTS

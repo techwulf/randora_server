@@ -1,0 +1,27 @@
+// Chat List
+.pull-left.chat-list
+	.listview.narrow
+		.media
+			img.pull-left(src="/img/profile-pics/1.jpg", width="30", alt="")
+			.media-body.p-t-5
+				| Alex Bendit
+		.media
+			img.pull-left(src="/img/profile-pics/2.jpg", width="30", alt="")
+			.media-body
+				span.t-overflow.p-t-5 David Volla Watkinson
+		.media
+			img.pull-left(src="/img/profile-pics/3.jpg", width="30", alt="")
+			.media-body
+				span.t-overflow.p-t-5 Mitchell Christein
+		.media
+			img.pull-left(src="/img/profile-pics/4.jpg", width="30", alt="")
+			.media-body
+				span.t-overflow.p-t-5 Wayne Parnell
+		.media
+			img.pull-left(src="/img/profile-pics/5.jpg", width="30", alt="")
+			.media-body
+				span.t-overflow.p-t-5 Melina April
+		.media
+			img.pull-left(src="/img/profile-pics/6.jpg", width="30", alt="")
+			.media-body
+				span.t-overflow.p-t-5 Ford Harnson

@@ -1,0 +1,6 @@
+extends sales/layout
+
+block sales
+	H1 Main Chart
+	
+	include sales/widgets/quick_stats/quick_stats

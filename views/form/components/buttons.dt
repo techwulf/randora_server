@@ -1,0 +1,27 @@
+// Buttons
+#button.block-area
+	h3.block-title Button Checkbox and Radio
+	br
+	p Checkbox
+	.btn-group(data-toggle="buttons")
+		label.btn.btn-gr-gray.btn-sm
+			input(type="checkbox")
+			| Option 1
+		label.btn.btn-gr-gray.btn-sm
+			input(type="checkbox")
+			| Option 2
+		label.btn.btn-gr-gray.btn-sm
+			input(type="checkbox")
+			| Option 3
+	p
+	p Radio
+	.btn-group(data-toggle="buttons")
+		label.btn.btn-gr-gray.btn-sm
+			input#option1(type="radio", name="options")
+			| Option 1
+		label.btn.btn-gr-gray.btn-sm
+			input#option2(type="radio", name="options")
+			| Option 2
+		label.btn.btn-gr-gray.btn-sm
+			input#option3(type="radio", name="options")
+			| Option 3

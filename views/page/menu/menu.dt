@@ -1,0 +1,14 @@
+li.dropdown
+	a.sa-side-page(href="/page")
+		span.menu-item Pages
+	ul.list-unstyled.menu-item
+		li
+			a(href="/page/list_view") List View
+		li
+			a(href="/page/profile_page") Profile Page
+		li
+			a(href="/page/messages") Messages
+		li
+			a(href="/page/login") Login
+		li
+			a(href="/page/404") 404 Error

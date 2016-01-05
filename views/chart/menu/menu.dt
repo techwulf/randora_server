@@ -1,0 +1,3 @@
+li
+	a.sa-side-chart(href="/chart")
+		span.menu-item Charts

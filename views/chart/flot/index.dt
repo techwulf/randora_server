@@ -1,0 +1,24 @@
+h3.block-title FLOT CHART
+.tile
+	h2.tile-title Line Chart
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Refresh
+			li
+				a(href="#") Settings
+	.p-10
+		#line-chart.main-chart(style="height: 250px")
+
+.tile
+	h2.tile-title Dynamic Chart
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="Options")
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Refresh
+			li
+				a(href="#") Settings
+	.p-10
+		#dynamic-chart.main-chart(style="height: 250px")

@@ -1,0 +1,33 @@
+// Tooltips
+#tooltips.block-area
+	h3.block-title Tooltips
+	
+	p Examples - Hover over the links below to see tooltips
+	
+	p
+		| Tight pants next level keffiyeh
+		
+		a.tooltips.underline(href="#", data-toggle="tooltip", title="Default tooltip") you probably
+		| haven"t heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney"s fixie sustainable quinoa 8-bit american apparel
+		
+		a.tooltips.underline(href="#", data-toggle="tooltip", title="Another tooltip") have a
+		| terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney"s cleanse vegan chambray. A really ironic artisan
+		
+		a.tooltips.underline(href="#", data-toggle="tooltip", title="Another one here too") whatever keytar
+		| , scenester farm-to-table banksy Austin
+		
+		a.tooltips.underline(href="#", data-toggle="tooltip", title="The last tip!") twitter handle
+		| freegan cred raw denim single-origin coffee viral.
+	
+	br
+	
+	p All four directions
+	
+	.m-b-15
+		button.btn.btn-sm.tooltips(data-toggle="tooltip", data-placement="left", title="Tooltip on left") Left
+		
+		button.btn.btn-sm.tooltips(data-toggle="tooltip", data-placement="top", title="Tooltip on left") Top
+		
+		button.btn.btn-sm.tooltips(data-toggle="tooltip", data-placement="right", title="Tooltip on left") Right
+		
+		button.btn.btn-sm.tooltips(data-toggle="tooltip", data-placement="bottom", title="Tooltip on left") Bottom

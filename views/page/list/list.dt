@@ -1,0 +1,131 @@
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam
+		.list-options
+			button.btn.btn-sm View
+			button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Nulla vel metus scelerisque ante sollicitudin commodo purus odio
+		.clearfix
+		.attrs Date Created: 09/06/1988
+		.block.attrs Members: 78954
+		.block.attrs Published: No
+		.list-options
+			button.btn.btn-sm View
+			button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam
+		.clearfix
+		small
+			| An erant explicari salutatus duo, sumo doming delicata in cum. Eos at augue viderer principes
+		br
+		.block.attrs
+			| Date Created: 25/12/2012
+		.block.attrs
+			| Members: 3978
+		.block.attrs
+			| Published: Yes
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Inermis patrioque temporibus at ius, eos ei case partem blandit
+		br
+		small
+			| An erant explicari salutatus duo, sumo doming delicata in cum. Eos at augue viderer principes
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Eam utamur ceteros ei, per no feugiat saperet omittantur. Qui et erant nonumes abhorreant, eirmod omnium.
+		.clearfix
+		small Lorem ipsum dolor sit amet, per cu solet docendi
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	img.media-object.pull-left(src="/img/profile-pics/1.jpg", alt="", width="45")
+	.media-body
+		| Nulla vel metus scelerisque ante sollicitudin commodo purus odio.
+		.clearfix
+		small Lorem ipsum dolor sit amet, per cu solet docendi
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	img.media-object.pull-left(src="/img/profile-pics/5.jpg", alt="", width="45")
+	.media-body
+		| Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam, te vix ipsum quando facilisis, admodum eleifend quaerendum sed cu. Sale aperiam oportere has an, mea et commodo alterum perpetua fierent fastidii recteque ad pro. Mei id brute intellegam, vim ea invidunt efficiendi. Copiosae definitiones est ex, no oportere urbanitas elaboraret qui, et dicit sadipscing vel.
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	img.media-object.pull-left(src="/img/profile-pics/2.jpg", alt="", width="45")
+	.media-body
+		| Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam
+		.clearfix
+		small
+			| An erant explicari salutatus duo, sumo doming delicata in cum. Eos at augue viderer principes
+		br
+		.block.attrs
+			| Date Created: 01/01/2013
+		.block.attrs
+			| Members: 17580
+		.block.attrs
+			| Published: Yes
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Wel ea elit iuvaret. Mea labitur definitiones ex, id atqui accusata vix, vim nibh mandamus ad
+		.clearfix
+		small Wendy create ipsum dolor sit amet, per cu solet docendi ntoenstion
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam
+		.clearfix
+		small
+			| An erant explicari salutatus duo, sumo doming delicata in cum. Eos at augue viderer principes
+		br
+		.block.attrs
+			| Date Created: 18/06/2013
+		.block.attrs
+			| Members: 610
+		.block.attrs
+			| Published: No
+	.list-options
+		button.btn.btn-sm View
+		button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Per an error perpetua, fierent fastidii recteque ad pro. Mei id brute intellegam
+		.list-options
+			button.btn.btn-sm View
+			button.btn.btn-sm Delete
+.media
+	input.pull-left.list-check(type="checkbox", value="")
+	.media-body
+		| Nulla vel metus scelerisque ante sollicitudin commodo purus odio
+		.clearfix
+		.attrs Date Created: 09/06/1988
+		.block.attrs Members: 78954
+		.block.attrs Published: No
+		.list-options
+			button.btn.btn-sm View
+			button.btn.btn-sm Delete

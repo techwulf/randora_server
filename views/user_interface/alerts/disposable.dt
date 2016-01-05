@@ -1,0 +1,8 @@
+.block-area
+	h3.block-title Disposable
+	
+	p Dispose on click an Alert by Adding a Close button.
+	
+	.alert.alert-info.alert-dismissable.fade.in
+		button.close(type="button", data-dismiss="alert", aria-hidden="true") &#215;
+		| Heads up! This alert needs your attention, but it"s not super important.

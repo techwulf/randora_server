@@ -1,0 +1,17 @@
+p Example Modal (After triggering)
+
+.modal(style="position: relative; display: block; z-index: 0;")
+	// Style for just preview
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true")
+					| &#215;
+				h4.modal-title Modal title
+			
+			.modal-body
+				p One fine body...
+			
+			.modal-footer
+				button.btn.btn-sm(type="button") Save changes
+				button.btn.btn-sm(type="button", data-dismiss="modal") Close

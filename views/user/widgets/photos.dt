@@ -1,0 +1,52 @@
+// Photos
+.tile
+	h2.tile-title Photos
+	
+	.tile-config.dropdown
+		a.tooltips.tile-menu(data-toggle="dropdown", href="#", title="", data-original-title="Options")
+		
+		ul.dropdown-menu.pull-right.text-right
+			li
+				a(href="#") Edit
+			
+			li
+				a(href="#") Delete
+	
+	.p-5.photos
+		.col-xs-3
+			img(src="/img/profile-pics/1.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/2.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/3.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/4.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/5.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/6.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/2.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/5.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/1.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/3.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/4.jpg", alt="")
+		
+		.col-xs-3
+			img(src="/img/profile-pics/6.jpg", alt="")
+		
+		.clearfix

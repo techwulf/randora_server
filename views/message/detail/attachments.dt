@@ -1,0 +1,16 @@
+.p-15
+	p
+		| 3 Attachements -
+		a.underline(href="#") Download all as ZIP
+	a.message-attachement.news.tile(href="#")
+		img(src="/img/filemanager/icon/doc.png", alt="Meeting Agenda.doc")
+		br
+		small.t-overflow Meeting Agenda.doc
+	a.message-attachement.news.tile(href="#")
+		img(src="/img/profile-pics/6.jpg", alt="Profile Picture.jpg")
+		br
+		small.t-overflow Profile Picture.jpg
+	a.message-attachement.news.tile(href="#")
+		img(src="/img/filemanager/icon/pdf.png", alt="Presentation.pdf")
+		br
+		small.t-overflow Presentation.pdf

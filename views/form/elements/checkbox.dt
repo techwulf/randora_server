@@ -1,0 +1,40 @@
+// Checkbox
+#check.block-area
+	h3.block-title Checkbox
+	p Default Checkbox
+	.checkbox.m-b-5
+		label
+			input(type="checkbox", checked="")
+			| This is an awesome sample Checkbox
+	.clearfix
+	.checkbox.m-b-5
+		label
+			input(type="checkbox")
+			| This is another awesome sample Checkbox
+	.clearfix
+	.checkbox.m-b-5
+		label
+			input(type="checkbox")
+			| One more awesome sample Checkbox
+	br
+	p Inline Checkboxes
+	label.checkbox-inline
+		input(type="checkbox")
+		| 1
+	label.checkbox-inline
+		input(type="checkbox")
+		| 2
+	label.checkbox-inline
+		input(type="checkbox")
+		| 3
+	.checkbox.m-t-10.m-b-5
+		label
+			input(type="checkbox", checked="", disabled="")
+			| This is an awesome sample Checkbox checked and disabled
+	.checkbox
+		label.m-t-10
+			input(type="checkbox", disabled="")
+			| This is too disabled
+	br
+	br
+	br

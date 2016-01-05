@@ -1,0 +1,18 @@
+li.dropdown
+	a.sa-side-ui(href="/user_interface")
+		span.menu-item User Interface
+	ul.list-unstyled.menu-item
+		li
+			a(href="/user_interface/buttons") Buttons
+		li
+			a(href="/user_interface/labels") Labels
+		li
+			a(href="/user_interface/images_icons") Images &#38; Icons
+		li
+			a(href="/user_interface/alerts") Alerts
+		li
+			a(href="/user_interface/media") Media
+		li
+			a(href="/user_interface/components") Components
+		li
+			a(href="/user_interface/other_components") Others

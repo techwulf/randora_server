@@ -1,0 +1,4 @@
+.block-area
+	.alert.alert-info.alert-dismissable.fade.in
+		button.close(type="button", data-dismiss="alert", aria-hidden="true") &#215;
+		| Click on a Day to add an Event.

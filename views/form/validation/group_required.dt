@@ -1,0 +1,24 @@
+// Group required
+#group-required.block-area
+	h3.block-title Group Required
+	p Check at least one input is filled
+	form.form-validation-6(role="form")
+		.form-group
+			label Payee Name
+			input.input-sm.validate[groupRequired[payments],custom[onlyLetterSp]].form-control(type="text", name="grouped", placeholder="...")
+		| OR
+		.form-group
+			label Payee Email
+			input.input-sm.validate[groupRequired[payments],custom[email]].form-control(type="text", name="grouped", placeholder="...")
+		| OR
+		.form-group
+			label Payee Account Number
+			input.input-sm.validate[groupRequired[payments],custom[integer],max[50]].form-control(type="text", name="grouped", placeholder="...")
+		| OR
+		.form-group.m-b-15
+			select#bank2.validate[groupRequired[payments]].form-control.input-sm(name="bank2")
+				option(value="") Choose a payment option
+				option(value="Paypal") Paypal
+				option(value="Bank") Bank account
+		input.btn.btn-sm(type="submit", value="VALIDATE")
+		button.btn.btn-sm.validation-clear CLOSE PROMPTS

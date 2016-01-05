@@ -1,0 +1,31 @@
+// Slider
+#slider.block-area
+	h3.block-title Input Slider
+	br
+	p Defaul Input Slidert
+	input.input-slider(type="text")
+	p
+	p
+		| Advanced - Orientation, Min Value, Max Value, Default Value, Increment Step and Slider Selection
+	input.input-slider(type="text", data-slider-min="-20", data-slider-max="20", data-slider-step="1", data-slider-value="-14", data-slider-orientation="horizontal", data-slider-selection="after")
+	p
+	p Range Selector
+	input.input-slider(type="text", data-slider-min="10", data-slider-max="1000", data-slider-step="5", data-slider-value="[250,450]")
+	p
+	p No Tooltip
+	input.input-slider(type="text", data-slider-tooltip="hide")
+	p
+	p Out put value to a text box
+	.slider-container
+		input.input-slider(type="text", data-slider-min="0", data-slider-max="2000", data-slider-value="800")
+		p
+		.row
+			.col-md-2.pull-right
+				input.form-control.input-sm.slider-value(type="text", value="800")
+	p
+	p Vertical Slider
+	input.input-slider(type="text", value="", data-slider-min="-20", data-slider-max="20", data-slider-value="-15", data-slider-orientation="vertical", data-slider-selection="after")
+	input.input-slider(type="text", value="", data-slider-min="-20", data-slider-max="20", data-slider-value="14", data-slider-orientation="vertical", data-slider-selection="after")
+	input.input-slider(type="text", value="", data-slider-min="-20", data-slider-max="20", data-slider-value="-2", data-slider-orientation="vertical", data-slider-selection="after")
+	input.input-slider(type="text", value="", data-slider-min="-20", data-slider-max="20", data-slider-value="-11", data-slider-orientation="vertical", data-slider-selection="after")
+	input.input-slider(type="text", value="", data-slider-min="-20", data-slider-max="20", data-slider-value="8", data-slider-orientation="vertical", data-slider-selection="after")

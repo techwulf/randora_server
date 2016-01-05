@@ -1,0 +1,10 @@
+extends user_interface/layout
+
+block user_interface
+	h4.page-title USER INTERFACE
+
+	include user_interface/media/carousel
+
+	include user_interface/media/light_box
+
+	include user_interface/media/media_player/index

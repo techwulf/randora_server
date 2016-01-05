@@ -1,0 +1,60 @@
+// Custom
+#custom.block-area
+	h3.block-title Custom Forms
+	.dropdown
+		a(data-toggle="dropdown", href="#") Dropdown - Login
+		.dropdown-menu.dark.col-md-3.animated.flipInY.dropdown-form(role="menu")
+			header.dark-header
+				h4.dark-title.m-0 Form Header
+			.dark-body
+				form(role="form")
+					.form-group
+						label Email address
+						input.form-control.input-sm(type="email", placeholder="Enter email")
+					.form-group
+						label Password
+						input.form-control.input-sm(type="password", placeholder="Password")
+			.dark-footer
+				button.btn.btn-sm.btn-alt(type="submit") Login to Backend
+	br
+	p
+		a(data-toggle="modal", href="#form-modal") Open Modal
+	// Modal
+	#form-modal.modal.fade(tabindex="-1", role="dialog")
+		.modal-dialog
+			.modal-content
+				.modal-header
+					button.close(type="button", data-dismiss="modal", aria-hidden="true") &#215;
+					h4.modal-title Modal title
+				.modal-body
+					form.form-horizontal(role="form")
+						.form-group
+							label.col-md-2.control-label(for="inputName4") Name
+							.col-md-9
+								input#inputName4.form-control.input-sm(type="text", placeholder="...")
+						.form-group
+							label.col-md-2.control-label(for="inputEmail4") Email
+							.col-md-9
+								input#inputEmail4.form-control.input-sm(type="email", placeholder="...")
+						.form-group
+							label.col-md-2.control-label(for="inputMessage3") Message
+							.col-md-9
+								textarea#inputMessage3.form-control.auto-size.input-sm(placeholder="...")
+				.modal-footer
+					button.btn.btn-sm.btn-alt(type="button") Save changes
+					button.btn.btn-sm.btn-alt(type="button", data-dismiss="modal") Close
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br
+	br

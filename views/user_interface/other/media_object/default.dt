@@ -1,0 +1,28 @@
+p
+	| The default media allow to float a media object (images, video, audio) to the left or right of a content block.
+
+br
+
+.media
+	a.pull-left(href="#")
+		img.media-object(src="/img/profile-pics/1.jpg", alt="")
+	
+	.media-body
+		h5.media-heading Media heading
+		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus fringilla. Donec lacinia congue felis in faucibus.
+
+.media
+	a.pull-left(href="#")
+		img.media-object(src="/img/profile-pics/2.jpg", alt="")
+	
+	.media-body
+		h5.media-heading Media heading
+		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+		
+		.media
+			a.pull-left(href="#")
+				img.media-object(src="/img/profile-pics/3.jpg", alt="")
+			
+			.media-body
+				h5.media-heading Media heading
+				| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.

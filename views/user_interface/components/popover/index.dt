@@ -1,0 +1,42 @@
+// Popover
+#popover.block-area
+	h3.block-title Popover
+	
+	p Popover on Click
+	
+	div
+		// Top
+		button.btn.btn-sm.pover.btn-small(data-toggle="popover", data-placement="top", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Top
+		
+		// Right
+		button.btn.btn-sm.pover.btn-small(data-toggle="popover", data-placement="right", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Right
+		
+		// Bottom
+		button.btn.btn-sm.pover.btn-small(data-toggle="popover", data-placement="bottom", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Bottom
+		
+		// Left
+		button.btn.btn-sm.pover.btn-small(data-toggle="popover", data-placement="left", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Left
+	
+	br
+	
+	p Popover on Hover
+	.m-b-15
+		// Top
+		button.btn.btn-sm.pover.btn-small(data-trigger="hover", data-toggle="popover", data-placement="top", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Top
+		
+		// Right
+		button.btn.btn-sm.pover.btn-small(data-trigger="hover", data-toggle="popover", data-placement="right", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Right
+		
+		// Bottom
+		button.btn.btn-sm.pover.btn-small(data-trigger="hover", data-toggle="popover", data-placement="bottom", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Bottom
+		
+		// Left
+		button.btn.btn-sm.pover.btn-small(data-trigger="hover", data-toggle="popover", data-placement="left", data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.", title="Popover Title")
+			| Left

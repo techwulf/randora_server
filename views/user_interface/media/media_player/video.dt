@@ -1,0 +1,28 @@
+// Video
+.row
+	.col-md-6.m-b-20
+		p Multi-Codec with no JavaScript fallback player - Cross Browser
+		
+		video#multiCodec(width="100%", height="100%", poster="/img/media-player/media-player-poster.jpg", controls="controls", preload="none")
+			// id could be any according to you
+			// MP4 source must come first for iOS
+			source(type="video/mp4", src="media/echohereweare.mp4")
+			
+			// WebM for Firefox 4 and Opera
+			source(type="video/webm", src="media/echohereweare.webm")
+			
+			// OGG for Firefox 3
+			source(type="video/ogg", src="media/echohereweare.ogv")
+			
+			// Fallback flash player for no-HTML5 browsers with JavaScript turned off
+			object(width="100%", height="100%", type="application/x-shockwave-flash", data="media/flashmediaelement.swf")
+				param(name="movie", value="media/flashmediaelement.swf")
+				param(name="flashvars", value="controls=true&poster=img/media-player/media-player-poster.jpg&file=media/echohereweare.mp4")
+				// Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed
+				img(src="/img/media-player/media-player-poster.jpg", width="100%", height="100%", alt="Media", title="No video playback capabilities")
+	
+	.col-md-6.m-b-20
+		p Youtube Video (Preview in server NOT local)
+		
+		video#youtube1(width="100%", height="100%")
+			source(src="../../../../www.youtube.com/watch6fad.html?v=2CvtOUqd84o", type="video/youtube")
