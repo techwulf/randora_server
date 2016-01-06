@@ -1,21 +1,21 @@
-extends chart/layout
+extends widget/chart/layout
 
 block chart
 	h4.page-title CHARTS
 	
 	.block-area
-		include chart/flot/index
-		include chart/bar/index
-		include chart/pie/index
+		include widget/chart/flot/index
+		include widget/chart/bar/index
+		include widget/chart/pie/index
 		
 	hr.whiter.m-t-20.m-b-20
 	
-	include chart/pie/easy
+	include widget/chart/pie/easy
 	
 	hr.whiter.m-t-20.m-b-20
 	
-	include chart/sparkline/index
+	include widget/chart/sparkline/index
 	
 	hr.whiter.m-t-20.m-b-20
 	
-	include chart/maps/index
+	include widget/chart/maps/index

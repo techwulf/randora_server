@@ -1,6 +1,6 @@
-extends project/layout
+extends widget/project/layout
 
 block project
 	H1 Projects
 
-	include project/widgets/projects
+	include widget/project/widgets/projects

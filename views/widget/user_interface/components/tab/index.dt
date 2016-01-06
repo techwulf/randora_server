@@ -2,12 +2,12 @@
 #tabs.block-area
 	h3.block-title Tabs
 	
-	include user_interface/components/tab/basic
+	include widget/user_interface/components/tab/basic
 	
-	include user_interface/components/tab/bottom
+	include widget/user_interface/components/tab/bottom
 	
-	include user_interface/components/tab/right
+	include widget/user_interface/components/tab/right
 	
-	include user_interface/components/tab/vertical_left
+	include widget/user_interface/components/tab/vertical_left
 	
-	include user_interface/components/tab/vertical_right
+	include widget/user_interface/components/tab/vertical_right

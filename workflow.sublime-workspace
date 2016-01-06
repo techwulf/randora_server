@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "source/user_interface/controller.d",
+			"file": "source/notification/controller.d",
 			"settings":
 			{
-				"buffer_size": 2422,
+				"buffer_size": 845,
 				"line_ending": "Unix"
 			}
 		}
@@ -88,12 +88,27 @@
 	},
 	"expanded_folders":
 	[
-		"/home/joshka/apps/vibe/workflow",
-		"/home/joshka/apps/vibe/workflow/source",
-		"/home/joshka/apps/vibe/workflow/views/video/widgets"
+		"/home/joshka/apps/randora_server",
+		"/home/joshka/apps/randora_server/source"
 	],
 	"file_history":
 	[
+		"/home/joshka/apps/randora_server/source/calendar/controller.d",
+		"/home/joshka/apps/randora_server/source/chart/controller.d",
+		"/home/joshka/apps/randora_server/source/file_manager/controller.d",
+		"/home/joshka/apps/randora_server/source/form/controller.d",
+		"/home/joshka/apps/randora_server/source/message/controller.d",
+		"/home/joshka/apps/randora_server/source/notification/controller.d",
+		"/home/joshka/apps/randora_server/source/page/controller.d",
+		"/home/joshka/apps/randora_server/source/photo_gallery/controller.d",
+		"/home/joshka/apps/randora_server/source/project/controller.d",
+		"/home/joshka/apps/randora_server/source/sales/controller.d",
+		"/home/joshka/apps/randora_server/source/table/controller.d",
+		"/home/joshka/apps/randora_server/source/typography/controller.d",
+		"/home/joshka/apps/randora_server/source/user/controller.d",
+		"/home/joshka/apps/randora_server/source/user_interface/controller.d",
+		"/home/joshka/apps/randora_server/source/video/controller.d",
+		"/home/joshka/apps/randora_server/source/widget/controller.d",
 		"/home/joshka/apps/vibe/workflow/views/video/widgets/video.dt",
 		"/home/joshka/apps/vibe/workflow/views/video/index.dt",
 		"/home/joshka/apps/vibe/workflow/source/video/controller.d",
@@ -205,23 +220,7 @@
 		"/home/joshka/apps/vibe/workflow/views/user/index/index.dt",
 		"/home/joshka/apps/vibe/workflow/views/user/profile/about.dt",
 		"/home/joshka/apps/vibe/workflow/views/user/widgets/about_me.dt",
-		"/home/joshka/apps/vibe/workflow/views/user/login.dt",
-		"/home/joshka/apps/vibe/workflow/views/user/index.dt",
-		"/home/joshka/apps/vibe/workflow/source/typography/controller.d",
-		"/home/joshka/apps/vibe/workflow/views/typography/index/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/widgets/abbreviations.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/abbreviations/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/alignment_classes/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/blockquote/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/dropcaps/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/headings/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/ordered_list/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/paragraph/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/unordered_list/index.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/dashboard/dashboard.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/index/abbreviations.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/index/addresses.dt",
-		"/home/joshka/apps/vibe/workflow/views/typography/index/alignment_classes.dt"
+		"/home/joshka/apps/vibe/workflow/views/user/login.dt"
 	],
 	"find":
 	{
@@ -356,19 +355,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "source/user_interface/controller.d",
+					"file": "source/notification/controller.d",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2422,
+						"buffer_size": 845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								458,
+								458
 							]
 						],
 						"settings":

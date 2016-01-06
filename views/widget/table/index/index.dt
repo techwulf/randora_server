@@ -1,11 +1,11 @@
-extends table/layout
+extends widget/table/layout
 
 block table
 	h4.page-title TABLES
 	
-	include table/widgets/default
-	include table/widgets/responsive
-	include table/widgets/bordered
-	include table/widgets/hover
-	include table/widgets/condensed
-	include table/widgets/striped
+	include widget/table/widgets/default
+	include widget/table/widgets/responsive
+	include widget/table/widgets/bordered
+	include widget/table/widgets/hover
+	include widget/table/widgets/condensed
+	include widget/table/widgets/striped

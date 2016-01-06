@@ -1,4 +1,4 @@
-extends page/layout
+extends widget/page/layout
 
 block page
 	h4.page-title Index

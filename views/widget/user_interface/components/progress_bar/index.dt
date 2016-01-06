@@ -3,14 +3,14 @@
 	h3.block-title Progress Bars
 	
 	.tile.p-20
-		include user_interface/components/progress_bar/default
+		include widget/user_interface/components/progress_bar/default
 
-		include user_interface/components/progress_bar/striped
+		include widget/user_interface/components/progress_bar/striped
 		
-		include user_interface/components/progress_bar/animated
+		include widget/user_interface/components/progress_bar/animated
 		
-		include user_interface/components/progress_bar/stacked
+		include widget/user_interface/components/progress_bar/stacked
 		
-		include user_interface/components/progress_bar/small
+		include widget/user_interface/components/progress_bar/small
 		
-		include user_interface/components/progress_bar/vertical
+		include widget/user_interface/components/progress_bar/vertical

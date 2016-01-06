@@ -1,6 +1,6 @@
-extends typography/layout
+extends widget/typography/layout
 
 block typography
 	h4.page-title Unordered List
 	
-	include typography/widgets/unordered_list
+	include widget/typography/widgets/unordered_list

@@ -1,4 +1,4 @@
-extends notification/layout
+extends widget/notification/layout
 
 block notification
-	include notification/widgets/drawer/index
+	include widget/notification/widgets/drawer/index

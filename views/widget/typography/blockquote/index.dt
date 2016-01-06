@@ -1,6 +1,6 @@
-extends typography/layout
+extends widget/typography/layout
 
 block typography
 	h4.page-title Block Quote
 	
-	include typography/widgets/blockquote
+	include widget/typography/widgets/blockquote

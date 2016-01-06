@@ -1,10 +1,10 @@
-extends user_interface/layout
+extends widget/user_interface/layout
 
 block user_interface
 	h4.page-title USER INTERFACE
 
-	include user_interface/alerts/default
+	include widget/user_interface/alerts/default
 
-	include user_interface/alerts/disposable
+	include widget/user_interface/alerts/disposable
 
-	include user_interface/alerts/with_icon
+	include widget/user_interface/alerts/with_icon

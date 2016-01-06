@@ -1,11 +1,11 @@
 extends home/layout
 
 block home
-	include home/dashboard/dashboard
+	//include home/dashboard/dashboard
 	
 	hr.whiter
 
-	include sales/widgets/quick_stats/quick_stats
+	//include widget/sales/widgets/quick_stats/quick_stats
 	
 	hr.whiter
 	
@@ -13,18 +13,18 @@ block home
 	.block-area
 		.row
 			.col-md-8
-				include sales/widgets/main_chart/main_chart
-				include sales/widgets/pies/pies
+				//include widget/sales/widgets/main_chart/main_chart
+				//include widget/sales/widgets/pies/pies
 				.row
 					.col-md-6
-						include message/widgets/recent_postings/recent_postings
+						//include widget/message/widgets/recent_postings/recent_postings
 					.col-md-6
-						include project/widgets/tasks
+						//include widget/project/widgets/tasks
 
 				.clearfix
 			.col-md-4
-				include home/widgets/usa_map/usa_map
-				include home/widgets/dynamic_chart/dynamic_chart
-				include home/widgets/activity/activity
+				//include home/widgets/usa_map/usa_map
+				//include home/widgets/dynamic_chart/dynamic_chart
+				//include home/widgets/activity/activity
 
 			.clearfix

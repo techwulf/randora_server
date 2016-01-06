@@ -2,12 +2,12 @@
 #button-groups.block-area
 	h3.block-title Button Groups
 	
-	include user_interface/buttons/button_groups/basic
+	include widget/user_interface/buttons/button_groups/basic
 	
-	include user_interface/buttons/button_groups/justified
+	include widget/user_interface/buttons/button_groups/justified
 	
-	include user_interface/buttons/button_groups/nesting
+	include widget/user_interface/buttons/button_groups/nesting
 	
-	include user_interface/buttons/button_groups/toolbar
+	include widget/user_interface/buttons/button_groups/toolbar
 	
-	include user_interface/buttons/button_groups/vertical
+	include widget/user_interface/buttons/button_groups/vertical

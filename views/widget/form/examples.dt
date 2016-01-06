@@ -1,30 +1,30 @@
-extends form/layout
+extends widget/form/layout
 
 block formx
 	h4.page-title FORM EXAMPLES
 
-	include form/examples/basic
+	include widget/form/examples/basic
 
 	hr.whiter.m-t-20
 
-	include form/examples/basic_with_panel
+	include widget/form/examples/basic_with_panel
 
 	hr.whiter.m-t-20
 
-	include form/examples/inline
+	include widget/form/examples/inline
 
 	hr.whiter.m-t-20
 
-	include form/examples/horizontal
+	include widget/form/examples/horizontal
 
 	hr.whiter.m-t-20
 
-	include form/examples/static_control
+	include widget/form/examples/static_control
 
 	hr.whiter.m-t-20
 
-	include form/examples/multi_column
+	include widget/form/examples/multi_column
 
 	hr.whiter.m-t-20
 
-	include form/examples/custom
+	include widget/form/examples/custom

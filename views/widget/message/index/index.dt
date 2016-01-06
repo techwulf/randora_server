@@ -1,10 +1,10 @@
-extends message/layout
+extends widget/message/layout
 
 block message
 	h4.page-title.b-0 Messages
 	
 	.message-list.list-container
-		include message/index/header
-		include message/index/list
+		include widget/message/index/header
+		include widget/message/index/list
 		
-	include message/compose/index
+	include widget/message/compose/index

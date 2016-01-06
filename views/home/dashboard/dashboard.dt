@@ -4,18 +4,23 @@ h4.page-title DASHBOARD
 	a.shortcut.tile(href="#")
 		img(src="/img/shortcuts/money.png", alt="")
 		small.t-overflow Purchases
+	
 	a.shortcut.tile(href="#")
 		img(src="/img/shortcuts/twitter.png", alt="")
 		small.t-overflow Tweets
+	
 	a.shortcut.tile(href="#")
 		img(src="/img/shortcuts/calendar.png", alt="")
 		small.t-overflow Calendar
+	
 	a.shortcut.tile(href="#")
 		img(src="/img/shortcuts/stats.png", alt="")
 		small.t-overflow Statistics
+	
 	a.shortcut.tile(href="#")
 		img(src="/img/shortcuts/connections.png", alt="")
 		small.t-overflow Connection
+	
 	a.shortcut.tile(href="#")
 		img(src="/img/shortcuts/reports.png", alt="")
 		small.t-overflow Reports

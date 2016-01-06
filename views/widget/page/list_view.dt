@@ -1,3 +1,3 @@
 h4.page-title.b-0 List Views
 
-include page/list/index
+include widget/page/list/index

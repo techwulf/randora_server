@@ -1,6 +1,6 @@
-extends sales/layout
+extends widget/sales/layout
 
 block sales
 	H1 Pies
 	
-	include sales/widgets/pies/pies
+	include widget/sales/widgets/pies/pies

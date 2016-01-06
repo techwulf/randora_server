@@ -1,8 +1,8 @@
-extends user_interface/layout
+extends widget/user_interface/layout
 
 block user_interface
 	h4.page-title USER INTERFACE
 
-	include user_interface/images_icons/images
+	include widget/user_interface/images_icons/images
 
-	include user_interface/images_icons/icons
+	include widget/user_interface/images_icons/icons

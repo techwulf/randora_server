@@ -1,23 +1,23 @@
-extends form/layout
+extends widget/form/layout
 
 block formx
 	h4.page-title BASIC FORM ELEMENTS
 
-	include form/elements/text_input
+	include widget/form/elements/text_input
 
 	hr.whiter.m-t-20
 
-	include form/elements/text_area
+	include widget/form/elements/text_area
 
 	hr.whiter.m-t-20
 
-	include form/elements/select
+	include widget/form/elements/select
 
 	hr.whiter.m-t-20
 
-	include form/elements/checkbox
+	include widget/form/elements/checkbox
 
 	hr.whiter.m-t-20
 
-	include form/elements/radio
+	include widget/form/elements/radio
 

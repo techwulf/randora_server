@@ -1,6 +1,6 @@
-extends project/layout
+extends widget/project/layout
 
 block project
 	H1 Tasks
 
-	include project/widgets/tasks
+	include widget/project/widgets/tasks
