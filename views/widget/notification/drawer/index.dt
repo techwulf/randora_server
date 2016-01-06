@@ -1,0 +1,4 @@
+extends widget/notification/layout
+
+block notification
+	include widget/notification/widgets/drawer/animated

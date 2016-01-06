@@ -1,12 +1,16 @@
 // Dynamic Chart
 .tile
 	h2.tile-title Server Process
+	
 	.tile-config.dropdown
 		a.tile-menu(data-toggle="dropdown", href="#")
+		
 		ul.dropdown-menu.pull-right.text-right
 			li
 				a(href="#") Refresh
+			
 			li
 				a(href="#") Settings
+	
 	.p-t-10.p-r-5.p-b-5
 		#dynamic-chart(style="height: 200px")

@@ -1,4 +1,0 @@
-extends user_interface/layout
-
-block user_interface
-	h4.page-title USER INTERFACE

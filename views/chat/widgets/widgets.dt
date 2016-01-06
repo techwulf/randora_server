@@ -1,4 +1,0 @@
-// Chat
-.chat
-	include chat/widgets/chat_list/chat_list
-	include chat/widgets/chat_area/chat_area

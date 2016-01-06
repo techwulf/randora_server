@@ -1,0 +1,8 @@
+extends widget/sales/layout
+
+block sales
+	H1 Sales
+	
+	include widget/sales/widgets/main_chart/main_chart
+	include widget/sales/widgets/pies/pies
+	include widget/sales/widgets/quick_stats/quick_stats

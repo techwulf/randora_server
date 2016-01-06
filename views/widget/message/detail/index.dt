@@ -1,0 +1,15 @@
+extends widget/message/layout
+
+block message
+	h4.page-title.b-0 Messages
+	
+	.listview.list-click
+		include widget/message/detail/header
+		
+		include widget/message/detail/title
+		include widget/message/detail/options
+		include widget/message/detail/body
+		
+		hr.whiter
+		
+		include widget/message/detail/attachments

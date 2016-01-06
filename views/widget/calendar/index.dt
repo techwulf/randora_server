@@ -1,0 +1,16 @@
+extends widget/calendar/layout
+
+block calendar
+	h4.page-title CALENDAR
+	
+	include widget/calendar/views/alert
+	
+	.col-md-8.clearfix
+		include widget/calendar/views/index
+	
+	.col-md-4
+		include widget/calendar/events/upcoming
+	
+	include widget/calendar/events/add
+	
+	include widget/calendar/views/modal

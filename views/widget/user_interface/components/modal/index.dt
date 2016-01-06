@@ -1,0 +1,13 @@
+// Modal
+#modal.block-area
+	h3.block-title Modal
+	
+	include widget/user_interface/components/modal/example
+	
+	p.m-t-20 Modal - Live Demo (Click to open)
+	
+	include widget/user_interface/components/modal/default
+
+	include widget/user_interface/components/modal/narrower
+	
+	include widget/user_interface/components/modal/wider

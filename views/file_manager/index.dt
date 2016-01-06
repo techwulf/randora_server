@@ -1,5 +1,0 @@
-extends file_manager/layout
-
-block file_manager
-	h4.page-title FILE MANAGER
-	#fileManager

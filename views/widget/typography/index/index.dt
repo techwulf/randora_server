@@ -1,0 +1,40 @@
+extends widget/typography/layout
+
+block typography
+	h4.page-title TYPOGRAPHY Index
+	
+	include widget/typography/widgets/paragraph
+	
+	hr.whiter
+	
+	include widget/typography/widgets/headings
+	
+	hr.whiter
+	
+	include widget/typography/widgets/dropcaps
+	
+	hr.whiter
+	
+	include widget/typography/widgets/alignment_classes
+	
+	hr.whiter
+	
+	include widget/typography/widgets/abbreviations
+	
+	hr.whiter
+	
+	include widget/typography/widgets/addresses
+	
+	hr.whiter
+	
+	include widget/typography/widgets/blockquote
+	
+	hr.whiter
+	
+	include widget/typography/widgets/ordered_list
+	
+	hr.whiter
+	
+	include widget/typography/widgets/unordered_list
+	
+	hr.whiter

@@ -5,16 +5,16 @@ block widget
 	.block-area
 		.row.m-container
 			.col-md-5
-				//include message/widgets/recent_postings/recent_postings
-				//include project/widgets/tasks
+				//include widget/message/widgets/recent_postings/recent_postings
+				//include widget/project/widgets/tasks
 				//include home/widgets/activity/activity
-				//include project/widgets/projects
+				//include widget/project/widgets/projects
 				//include widget/widgets/activities
 				//include user/widgets/about_me
-				//include photo_gallery/widgets/photos
+				//include widget/photo_gallery/widgets/photos
 			.col-md-7
-				//include calendar/widgets/calendar
-				//include photo_gallery/widgets/carousel
-				//include video/widgets/video
-				//include message/widgets/quick
+				//include widget/calendar/widgets/calendar
+				//include widget/photo_gallery/widgets/carousel
+				//include widget/video/widgets/video
+				//include widget/message/widgets/quick
 			.clearfix

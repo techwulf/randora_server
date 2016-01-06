@@ -1,0 +1,4 @@
+// Chat
+.chat
+	include widget/chat/widgets/chat_list/chat_list
+	include widget/chat/widgets/chat_area/chat_area

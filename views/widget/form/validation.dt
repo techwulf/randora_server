@@ -1,0 +1,37 @@
+extends widget/form/layout
+
+block formx
+	h4.page-title FORM VALIDATION
+
+	include widget/form/validation/required_fields
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/invalid_fields
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/equals
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/conditional_required
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/group_required
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/min_max
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/date_time
+
+	hr.whiter.m-t-20
+
+	include widget/form/validation/checkbox
+
+	include widget/form/validation/radio
+

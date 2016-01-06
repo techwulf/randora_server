@@ -1,7 +1,0 @@
-// Media Object
-#media-object.block-area
-	h3.block-title Media Object
-	
-	include user_interface/other/media_object/default
-	
-	include user_interface/other/media_object/threaded

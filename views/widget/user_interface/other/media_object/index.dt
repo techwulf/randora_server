@@ -1,0 +1,7 @@
+// Media Object
+#media-object.block-area
+	h3.block-title Media Object
+	
+	include widget/user_interface/other/media_object/default
+	
+	include widget/user_interface/other/media_object/threaded

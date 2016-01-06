@@ -1,7 +1,0 @@
-extends project/layout
-
-block project
-	H1 Project Index
-
-	include project/widgets/projects
-	include project/widgets/tasks

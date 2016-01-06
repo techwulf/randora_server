@@ -1,0 +1,6 @@
+extends widget/typography/layout
+
+block typography
+	h4.page-title Abreviations
+	
+	include widget/typography/widgets/abbreviations

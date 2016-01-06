@@ -1,0 +1,6 @@
+extends widget/typography/layout
+
+block typography
+	h4.page-title Ordered List
+	
+	include widget/typography/widgets/ordered_list

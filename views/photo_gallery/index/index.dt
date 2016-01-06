@@ -1,6 +1,0 @@
-extends photo_gallery/layout
-
-block photo_gallery
-	h4.page-title PHOTO GALLERY
-	
-	include photo_gallery/gallery/gallery

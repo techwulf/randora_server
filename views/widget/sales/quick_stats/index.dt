@@ -1,0 +1,6 @@
+extends widget/sales/layout
+
+block sales
+	H1 Quick Stats
+	
+	include widget/sales/widgets/quick_stats/quick_stats

@@ -1,0 +1,6 @@
+extends widget/project/layout
+
+block project
+	H1 Projects
+
+	include widget/project/widgets/projects

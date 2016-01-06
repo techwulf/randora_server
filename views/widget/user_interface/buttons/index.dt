@@ -1,0 +1,16 @@
+extends widget/user_interface/layout
+
+block user_interface
+	h4.page-title USER INTERFACE
+
+	include widget/user_interface/buttons/buttons
+
+	include widget/user_interface/buttons/alternative
+
+	include widget/user_interface/buttons/block_level
+
+	include widget/user_interface/buttons/button_groups/index
+
+	include widget/user_interface/buttons/button_tags
+
+	include widget/user_interface/buttons/disabled_state

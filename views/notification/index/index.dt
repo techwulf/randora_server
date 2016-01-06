@@ -1,4 +1,0 @@
-extends notification/layout
-
-block notification
-	include notification/widgets/drawer/index

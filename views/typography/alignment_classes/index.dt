@@ -1,6 +1,0 @@
-extends typography/layout
-
-block typography
-	h4.page-title Alignment Classes
-	
-	include typography/widgets/alignment_classes

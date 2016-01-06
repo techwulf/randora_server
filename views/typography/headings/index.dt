@@ -1,6 +1,0 @@
-extends typography/layout
-
-block typography
-	h4.page-title Headings
-	
-	include typography/widgets/headings

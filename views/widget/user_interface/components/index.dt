@@ -1,0 +1,18 @@
+extends widget/user_interface/layout
+
+block user_interface
+	h4.page-title USER INTERFACE
+
+	include widget/user_interface/components/collapse/index
+
+	include widget/user_interface/components/dropdown/index
+
+	include widget/user_interface/components/modal/index
+
+	include widget/user_interface/components/popover/index
+
+	include widget/user_interface/components/progress_bar/index
+
+	include widget/user_interface/components/tab/index
+
+	include widget/user_interface/components/tooltips/index

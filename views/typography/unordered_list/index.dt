@@ -1,6 +1,0 @@
-extends typography/layout
-
-block typography
-	h4.page-title Unordered List
-	
-	include typography/widgets/unordered_list

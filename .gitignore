@@ -3,3 +3,8 @@ docs.json
 __dummy.html
 *.o
 *.obj
+
+workflow
+*.sublime-project
+.dub
+*.txt

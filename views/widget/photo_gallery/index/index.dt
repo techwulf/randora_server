@@ -1,0 +1,6 @@
+extends widget/photo_gallery/layout
+
+block photo_gallery
+	h4.page-title PHOTO GALLERY
+	
+	include widget/photo_gallery/gallery/gallery

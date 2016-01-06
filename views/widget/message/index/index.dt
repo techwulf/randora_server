@@ -1,0 +1,10 @@
+extends widget/message/layout
+
+block message
+	h4.page-title.b-0 Messages
+	
+	.message-list.list-container
+		include widget/message/index/header
+		include widget/message/index/list
+		
+	include widget/message/compose/index
