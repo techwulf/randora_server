@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/DKit/D.sublime-build",
+					""
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"dub"
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"dub build"
+				],
+				[
+					"Packages/DKit/D.sublime-build",
+					"dub test"
+				]
+			],
+			[
+				"Packages/DKit/D.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"git",
+				"Set Syntax: Git Graph"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/joshka/apps/randora_server"
+	],
+	"file_history":
+	[
+		"/home/joshka/apps/randora_server/source/widget/controller.d",
+		"/home/joshka/apps/randora_server/views/widget/message/detail.dt",
+		"/home/joshka/apps/randora_server/views/widget/notification/drawer/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/notification/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/page/list/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/page/list_view.dt",
+		"/home/joshka/apps/randora_server/views/widget/photo_gallery/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/project/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/project/projects/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/project/sidebar/projects.dt",
+		"/home/joshka/apps/randora_server/views/widget/project/tasks/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/sales/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/sales/main_chart/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/sales/pies/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/sales/quick_stats/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/table/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/abbreviations/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/alignment_classes/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/blockquote/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/dropcaps/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/headings/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/ordered_list/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/paragraph/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/unordered_list/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/alerts/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/buttons/button_groups/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/buttons/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/components/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/components/modal/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/components/progress_bar/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/components/tab/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/images_icons/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/labels/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/media/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/media/media_player/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/other/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/other/media_object/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/message/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/form/validation.dt",
+		"/home/joshka/apps/randora_server/views/widget/form/examples.dt",
+		"/home/joshka/apps/randora_server/source/user/controller.d",
+		"/home/joshka/apps/randora_server/views/widget/form/elements.dt",
+		"/home/joshka/apps/randora_server/views/widget/page/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/typography/dashboard/dashboard.dt",
+		"/home/joshka/apps/randora_server/views/widget/user_interface/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/chart/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/form/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/file_manager/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/form/components.dt",
+		"/home/joshka/apps/randora_server/views/widget/message/detail/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/index/index.dt",
+		"/home/joshka/apps/randora_server/views/widget/calendar/index.dt",
+		"/home/joshka/apps/randora_server/views/layout/content/content.dt",
+		"/home/joshka/apps/randora_server/views/widget/chat/widgets/widgets.dt",
+		"/home/joshka/apps/randora_server/views/home/about/about.dt",
+		"/home/joshka/apps/randora_server/views/home/widgets/usa_map/usa_map.dt",
+		"/home/joshka/apps/randora_server/views/home/widgets/activity/activity.dt",
+		"/home/joshka/apps/randora_server/views/home/menu/menu.dt",
+		"/home/joshka/apps/randora_server/views/home/dashboard/dashboard.dt",
+		"/home/joshka/apps/randora_server/views/home/index/index.dt",
+		"/home/joshka/apps/randora_server/views/home/widgets/dynamic_chart/dynamic_chart.dt",
+		"/home/joshka/apps/randora_server/views/widget/notification/widgets/drawer/animated.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/alerts/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/button_groups/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/buttons/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/modal/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/progress_bar/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/components/tab/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/images_icons/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/labels/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/media/media_player/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/user_interface/other/media_object/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/abbreviations/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/alignment_classes/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/blockquote/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/dropcaps/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/headings/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/ordered_list/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/paragraph/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/typography/unordered_list/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/table/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/page/list/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/sales/main_chart/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/sales/pies/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/sales/quick_stats/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/page/list_view.dt",
+		"/home/joshka/apps/vibe/workflow/views/sales/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/notification/drawer/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/notification/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/notification/widgets/drawer/animated.dt",
+		"/home/joshka/apps/vibe/workflow/views/message/detail.dt",
+		"/home/joshka/apps/vibe/workflow/views/message/detail/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/message/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/form/validation.dt",
+		"/home/joshka/apps/vibe/workflow/views/form/examples.dt",
+		"/home/joshka/apps/vibe/workflow/views/form/elements.dt",
+		"/home/joshka/apps/vibe/workflow/views/form/components.dt",
+		"/home/joshka/apps/vibe/workflow/views/feed/sidebar/feeds.dt",
+		"/home/joshka/apps/vibe/workflow/views/chat/widgets/widgets.dt",
+		"/home/joshka/apps/vibe/workflow/views/chart/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/widget/index/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/layout/sidebar/widgets/widgets.dt",
+		"/home/joshka/apps/vibe/workflow/views/layout/sidebar/side_menu/side_menu.dt",
+		"/home/joshka/apps/vibe/workflow/views/calendar/index.dt",
+		"/home/joshka/apps/vibe/workflow/views/layout/content/content.dt",
+		"/home/joshka/apps/vibe/workflow/views/home/index/index.dt",
+		"/home/joshka/apps/randora_server/views/layout/sidebar/widgets/widgets.dt",
+		"/home/joshka/apps/randora_server/views/widget/feed/sidebar/feeds.dt",
+		"/home/joshka/apps/randora_server/views/layout/sidebar/side_menu/side_menu.dt",
+		"/home/joshka/apps/randora_server/source/app/package.d",
+		"/home/joshka/apps/randora_server/source/app/app.d",
+		"/home/joshka/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/joshka/apps/randora_server/source/video/controller.d",
+		"/home/joshka/apps/randora_server/source/user_interface/controller.d",
+		"/home/joshka/apps/randora_server/source/typography/controller.d",
+		"/home/joshka/apps/randora_server/source/sales/controller.d",
+		"/home/joshka/apps/randora_server/source/page/controller.d",
+		"/home/joshka/apps/randora_server/source/message/controller.d",
+		"/home/joshka/apps/randora_server/source/calendar/controller.d",
+		"/home/joshka/apps/randora_server/source/chart/controller.d",
+		"/home/joshka/apps/randora_server/.gitignore",
+		"/home/joshka/apps/randora_server/load_test.sh",
+		"/home/joshka/apps/randora_server/django.txt"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/joshka/apps/randora_server/views/",
+			"/home/joshka/apps/randora_server/views/widget",
+			"/home/joshka/apps/randora_server/views/",
+			"/home/joshka/apps/vibe/workflow/views/",
+			"/home/joshka/apps/vibe/workflow/views/widget",
+			"/home/joshka/apps/vibe/workflow/views",
+			"/home/joshka/apps/vibe/workflow/",
+			"/home/joshka/apps/vibe/workflow/public",
+			"/home/joshka/apps/vibe/workflow/views/",
+			"/home/joshka/apps/vibe/workflow/",
+			"/home/joshka/apps/vibe/workflow/views/",
+			"/home/joshka/apps/vibe/workflow/",
+			"/home/joshka/apps/vibe/workflow/views/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"+/\n",
+			"widget/pages",
+			"include video",
+			"include user_interface",
+			"include typography",
+			"include table",
+			"include sales",
+			"include project",
+			"include photo_gallery",
+			"include page",
+			"include notification",
+			"include message",
+			"include form",
+			"extends video",
+			"extends user_interface",
+			"extends typography",
+			"extends table",
+			"extends sales",
+			"extends project",
+			"extends photo_gallery",
+			"extends page",
+			"extends notification",
+			"extends message",
+			"extends menu",
+			"extends form",
+			"include file_manager",
+			"include feed",
+			"include chat",
+			"include chart",
+			"include calendar",
+			"extends message",
+			"extends form",
+			"extends file_manager",
+			"extends feed",
+			"extends chat",
+			"extends chart",
+			"extends calendar",
+			"widgets/chat",
+			"include chat",
+			"extends",
+			"include chat",
+			"extends chat",
+			"chat/widgets",
+			"include chat",
+			"include sales",
+			"include notification",
+			"include video",
+			"include user_interface",
+			"include typography",
+			"include table",
+			"include sales",
+			"include page",
+			"include notification",
+			"include message",
+			"include form",
+			"include ",
+			"include form/",
+			"include file_manager/",
+			"include feed/",
+			"include chat/",
+			"include chart/",
+			"include calendar/",
+			"include message",
+			"index",
+			"index(",
+			"\n				\"",
+			"@path(\"",
+			"\n		.col",
+			"widgets/profile",
+			"super admin",
+			"wrapbootstrap",
+			"index",
+			"\"img",
+			"skin-v",
+			"../img",
+			"'../",
+			"skin-",
+			"\"js/",
+			"\"css/",
+			"\"img/",
+			"img/",
+			"img/profile",
+			"\"js",
+			"project",
+			"calendar",
+			"//",
+			"  ",
+			">'",
+			"'<",
+			" +",
+			"    ",
+			"Change Skin",
+			"#settings",
+			"#changeSkin",
+			",\"",
+			"     ",
+			"<!--*-->",
+			"></script>",
+			"<script ",
+			"jade",
+			"163",
+			"zxog",
+			"vida.io",
+			"vida",
+			"jade2html",
+			"jade",
+			"xhr",
+			"jade",
+			"html2jade",
+			"  ",
+			"radio",
+			"feild",
+			"/elements/",
+			"\")",
+			")\\n",
+			"set_var(\"",
+			"i3.command(\"",
+			"set(",
+			"misc8",
+			"firefox",
+			"",
+			"misc4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"include widget/video",
+			"include widget/user_interface",
+			"include widget/typography",
+			"include widget/table",
+			"include widget/sales",
+			"include widget/project",
+			"include widget/photo_gallery",
+			"include widget/page",
+			"include widget/notification",
+			"include widget/message",
+			"include widget/form",
+			"extends widget/video",
+			"extends widget/user_interface",
+			"extends widget/typography",
+			"extends widget/table",
+			"extends widget/sales",
+			"extends widget/project",
+			"extends widget/photo_gallery",
+			"extends widget/page",
+			"extends widget/notification",
+			"extends widget/form",
+			"include widget/chat",
+			"include widget/chart",
+			"extends widget/chat",
+			"include widget/video",
+			"include widget/user_interface",
+			"include widget/typography",
+			"include widget/table",
+			"include widget/sales",
+			"include widget/page",
+			"include widget/notification",
+			"include widget/message",
+			"include widget/form",
+			"include widget/",
+			"\n				\"widget/",
+			"@path(\"widget/",
+			"\n\n		.col",
+			"widgets",
+			"\"/img",
+			"'/img",
+			"'/",
+			"\"/img/",
+			"\"/js",
+			"video",
+			"sales",
+			"notification",
+			"message",
+			"video",
+			"sales",
+			"project",
+			"notification",
+			"message",
+			"",
+			"\\t",
+			">",
+			"<",
+			"",
+			"\\t",
+			",\\n    \"",
+			"\\t",
+			"",
+			")",
+			"script(",
+			"\\t",
+			"field",
+			"/components/",
+			"",
+			"set_var("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 101.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/DKit/D.sublime-build",
+	"project": "randora_server.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

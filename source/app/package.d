@@ -10,6 +10,7 @@ package import app.session;
 package import app.settings;
 package import app.vars;
 
+package import benchmark;
 package import home;
 package import user;
 package import widget;
