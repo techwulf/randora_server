@@ -6,6 +6,8 @@ block content_block
 		include widget/notification/widgets/drawer/animated
 		include widget/breadcrumb
 		
+		include user/form/login
+
 		block content_contents
 
 		include widget/chat/widgets/widgets

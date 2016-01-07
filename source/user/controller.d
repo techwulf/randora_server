@@ -17,10 +17,26 @@ class UserController : AppController{
 		
 		this.model = new UserModel();
 
-		this.model.add(new UserRecord(0, "Master_Foo", "password", "master_foo@email.com"));
-		this.model.add(new UserRecord(1, "Master_Bar", "password", "master_bar@email.com"));
+		this.model.add(
+			new UserRecord(
+				0,
+				"Master_Foo",
+				"password",
+				"master_foo@email.com",
+				"profile-pic.jpg"
+			)
+		);
+		this.model.add(
+			new UserRecord(
+				1,
+				"Master_Bar",
+				"password",
+				"master_bar@email.com",
+				"profile-pic.jpg"
+			)
+		);
 	}
-	/+
+	
 	@method(HTTPMethod.GET){
 		@path("user/")
 		@path("user/index")
@@ -68,6 +84,7 @@ class UserController : AppController{
 					user
 				);
 			}
+			
 			enforceHTTP(false, HTTPStatus.badRequest, "User Does Not Exist.");
 		}
 		
@@ -106,12 +123,20 @@ class UserController : AppController{
 	@method(HTTPMethod.POST){
 		@path("user/login/")
 		void postLogin(HTTPServerRequest request, HTTPServerResponse response){
-			this.app.session.authenticated = this.model.authenticate(
-											request.form["username"],
-											request.form["password"]
-										);
+			UserRecord record = this.model.authenticate(
+				request.form["username"],
+				request.form["password"]
+			);
+
+			this.app.session.authenticated = record !is null ? true : false;
 
 			if(this.app.session.authenticated){
+				this.app.session.user_id		= record.id;
+				this.app.session.user_name		= record.username;
+				this.app.session.user_password	= record.password;
+				this.app.session.user_email		= record.email;
+				this.app.session.user_avatar	= record.avatar;
+
 				redirect("/");
 			}else{
 				enforceHTTP(
@@ -135,5 +160,4 @@ class UserController : AppController{
 			);
 		}
 	}
-	+/
 }

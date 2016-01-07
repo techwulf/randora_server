@@ -1,29 +1,30 @@
-// Profile Menu
-#profile-menu.text-center.s-widget.m-b-25.dropdown
-	a(href="#", data-toggle="dropdown")
-		img.profile-pic.animated(src="/img/profile-pic.jpg", alt="")
-	
-	ul.dropdown-menu.profile-menu
-		li
-			a(href="#") My Profile
-			i.icon.left &#61903;
-			i.icon.right &#61815;
+- if(app.session.authenticated)
+	// Profile Menu
+	#profile-menu.text-center.s-widget.m-b-25.dropdown
+		a(href="/user/id/#{app.session.user_id}", data-toggle="dropdown")
+			img.profile-pic.animated(src="/img/#{app.session.user_avatar}", alt="")
 		
-		li
-			a(href="#") Messages
-			i.icon.left &#61903;
-			i.icon.right &#61815;
+		ul.dropdown-menu.profile-menu
+			li
+				a(href="/user/id/#{app.session.user_id}") My Profile
+				i.icon.left &#61903;
+				i.icon.right &#61815;
+			
+			li
+				a(href="/messages/") Messages
+				i.icon.left &#61903;
+				i.icon.right &#61815;
+			
+			li
+				a(href="/settings/") Settings
+				i.icon.left &#61903;
+				i.icon.right &#61815;
+			
+			li
+				a(href="/user/logout") Sign Out
+				i.icon.left &#61903;
+				i.icon.right &#61815;
 		
-		li
-			a(href="#") Settings
-			i.icon.left &#61903;
-			i.icon.right &#61815;
+		h4.m-0 #{app.session.user_name}
 		
-		li
-			a(href="#") Sign Out
-			i.icon.left &#61903;
-			i.icon.right &#61815;
-	
-	h4.m-0 Malinda Hollaway
-	
-	| @malinda-h
+		| #{app.session.user_email}

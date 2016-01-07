@@ -8,9 +8,9 @@ class AppModel(RecordType){
 		this.records ~= record;
 	}
 
-	RecordType find(int id){
+	RecordType find(int value){
 		foreach(RecordType record; this.records){
-			if(record.id == id){
+			if(record.id == value){
 				return record;
 			}
 		}
