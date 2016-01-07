@@ -547,6 +547,6 @@ class WidgetController : AppController{
 				this.page
 			);
 		}
+		+/
 	}
-	+/
 }
