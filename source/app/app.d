@@ -8,9 +8,10 @@ class App{
 	AppSession	session		= null;
 	AppVars		vars		= null;
 	
-	HomeController			home			= null;
-	UserController			user			= null;
-	WidgetController		widget			= null;
+	BenchmarkController	benchmark	= null;
+	HomeController		home		= null;
+	UserController		user		= null;
+	WidgetController	widget		= null;
 
 	this(){
 		this.router		= new AppRouter();
@@ -18,6 +19,7 @@ class App{
 		this.session	= new AppSession();
 		this.vars		= new AppVars();
 		
+		this.benchmark		= new BenchmarkController(this);
 		this.home			= new HomeController(this);
 		this.user			= new UserController(this);
 		this.widget			= new WidgetController(this);
