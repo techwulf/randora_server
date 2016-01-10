@@ -6,7 +6,3 @@ __dummy.html
 
 workflow
 *.sublime-project
-.dub
-*.txt
-
-*benchmark.txt
