@@ -38,6 +38,16 @@ class BenchmarkController : AppController{
 			);
 		}
 
+		@path("benchmark/template")
+		void getTemplate(HTTPServerRequest request, HTTPServerResponse response){
+			this.page.action = "template";
+			response.render!(
+				"benchmark/template/index.dt",
+				this.app,
+				this.page
+			);
+		}
+
 		@path("benchmark/fibonacci/:value")
 		void fibonacci(HTTPServerRequest request, HTTPServerResponse response){
 			import benchmark.trials.fibonacci;
@@ -45,7 +55,7 @@ class BenchmarkController : AppController{
 			this.page.action = "fibonacci";
 
 			ulong value = to!(ulong)(request.params["value"]);
-			BigInt answer = fibonacci(value);
+			BigInt answer = fibonacci_iterative(value);
 
 			response.render!(
 				"benchmark/fibonacci/index.dt",

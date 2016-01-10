@@ -1,5 +1,2 @@
-extends benchmark/layout
-
-block benchmark
-	- import std.bigint;
-	h1.title #{answer}
+- import std.bigint;
+| #{answer}
