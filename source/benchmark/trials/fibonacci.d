@@ -35,3 +35,13 @@ in {
 	}
 	return F;
 }
+
+BigInt fibonacci_iterative(ulong n) {
+	BigInt fnow = 0, fnext = 1, tempf;
+	while(--n > 0){
+		tempf = fnow + fnext;
+		fnow = fnext;
+		fnext = tempf;
+	}
+	return fnext;
+}

@@ -1,0 +1,4 @@
+extends benchmark/layout
+
+block benchmark
+	h1.title template
