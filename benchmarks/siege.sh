@@ -25,10 +25,8 @@ function GET_URL(){
 	if [ -z $4 ]
 	then
 		VALUE="";
-		#echo "http://localhost:"$port"/benchmark/"$benchmark_test;
 	else
 		VALUE="/"$4;
-		#echo "http://localhost:"$port"/benchmark/"$benchmark_test"/"$3;
 	fi;
 	
 	echo $server":"$port"/benchmark/"$benchmark_test""$VALUE;
@@ -72,18 +70,16 @@ function RUN_TESTS(){
 }
 
 SERVERS=("http://localhost")
-PORTS=("8080 8081 8082");
+#PORTS=("8080 8081 8082 8083");
+PORTS=("3000");
 CONCURRENT_USERS=(1 5 50 100 500);
 #CONCURRENT_USERS=(1);
 REPS=(10);
 
-../workflow &
-PID0=$!
-./engines/django_benchmark/manage.py runserver 8081 &
-PID1=$!
-./engines/rails_benchmark/script/rails server -p 8082 &
-PID2=$!
-
+#../workflow &
+#./engines/django_benchmark/manage.py runserver 8081 &
+#./engines/rails_benchmark/script/rails server -p 8082 &
+#./engines/cakephp_benchmark/bin/cake server -p 8083 &
 sleep 30;
 
 $(RUN_TESTS);
