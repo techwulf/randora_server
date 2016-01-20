@@ -1,11 +1,11 @@
-- if(app.session.authenticated)
+//- if(app.session.authenticated)
 	// Logout
 	form#box-logout.box.tile.active(action="/user/logout", method="get")
 		h3.m-t-0.m-b-15 Logout
 
 		button.btn.btn-sm.m-r-5 Logout
 
-- else
+//- else
 	// Login
 	form#box-login.box.tile.active(action="/user/login", method="post")
 		h2.m-t-0.m-b-15 Login

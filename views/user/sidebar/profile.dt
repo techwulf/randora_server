@@ -1,12 +1,12 @@
-- if(app.session.authenticated)
+//- if(app.session.authenticated)
 	// Profile Menu
 	#profile-menu.text-center.s-widget.m-b-25.dropdown
-		a(href="/user/id/#{app.session.user_id}", data-toggle="dropdown")
-			img.profile-pic.animated(src="/img/#{app.session.user_avatar}", alt="")
+		//a(href="/user/id/#{app.session.user_id}", data-toggle="dropdown")
+			//img.profile-pic.animated(src="/img/#{app.session.user_avatar}", alt="")
 		
 		ul.dropdown-menu.profile-menu
 			li
-				a(href="/user/id/#{app.session.user_id}") My Profile
+				//a(href="/user/id/#{app.session.user_id}") My Profile
 				i.icon.left &#61903;
 				i.icon.right &#61815;
 			
@@ -25,6 +25,6 @@
 				i.icon.left &#61903;
 				i.icon.right &#61815;
 		
-		h4.m-0 #{app.session.user_name}
+		//h4.m-0 #{app.session.user_name}
 		
-		| #{app.session.user_email}
+		//| #{app.session.user_email}

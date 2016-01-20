@@ -1,7 +1,7 @@
 extends user/layout
 
 block user
-	H2	#{page.action}
+	H2	
 
 	HR
 
@@ -13,10 +13,10 @@ block user
 				TH	Password
 				TH	Email
 			
-			- foreach(user; model.records)
+			//- foreach(user; model.records)
 				TR
 					TD
-						A(href="#{user.id}/")= user.id
+						//A(href="#{user.id}/")= user.id
 					TD= user.username
 					TD= user.password
 					TD= user.email
