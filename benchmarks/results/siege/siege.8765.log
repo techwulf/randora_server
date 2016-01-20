@@ -1,0 +1,51 @@
+      Date & Time,  Trans,  Elap Time,  Data Trans,  Resp Time,  Trans Rate,  Throughput,  Concurrent,    OKAY,   Failed
+**** http://localhost:8765/benchmark/blank, Users 1, Reps: 10 ****
+2016-01-13 20:21:45,     10,       0.32,           0,       0.03,       31.25,        0.00,        1.00,      10,       0
+**** http://localhost:8765/benchmark/template, Users 1, Reps: 10 ****
+2016-01-13 20:21:45,     10,       0.32,           0,       0.03,       31.25,        0.00,        0.97,      10,       0
+**** http://localhost:8765/benchmark/fibonacci/1, Users 1, Reps: 10 ****
+2016-01-13 20:21:45,     10,       0.31,           0,       0.03,       32.26,        0.00,        0.97,      10,       0
+**** http://localhost:8765/benchmark/fibonacci/100, Users 1, Reps: 10 ****
+2016-01-13 20:21:46,     10,       0.34,           0,       0.03,       29.41,        0.00,        0.97,      10,       0
+**** http://localhost:8765/benchmark/fibonacci/1000, Users 1, Reps: 10 ****
+2016-01-13 20:21:46,     10,       0.52,           0,       0.05,       19.23,        0.00,        1.00,      10,       0
+**** http://localhost:8765/benchmark/blank, Users 5, Reps: 10 ****
+2016-01-13 20:21:48,     50,       1.86,           0,       0.18,       26.88,        0.00,        4.84,      50,       0
+**** http://localhost:8765/benchmark/template, Users 5, Reps: 10 ****
+2016-01-13 20:21:50,     50,       1.82,           0,       0.18,       27.47,        0.00,        4.87,      50,       0
+**** http://localhost:8765/benchmark/fibonacci/1, Users 5, Reps: 10 ****
+2016-01-13 20:21:52,     50,       1.86,           0,       0.18,       26.88,        0.00,        4.82,      50,       0
+**** http://localhost:8765/benchmark/fibonacci/100, Users 5, Reps: 10 ****
+2016-01-13 20:21:54,     50,       1.90,           0,       0.18,       26.32,        0.00,        4.81,      50,       0
+**** http://localhost:8765/benchmark/fibonacci/1000, Users 5, Reps: 10 ****
+2016-01-13 20:21:56,     50,       1.98,           0,       0.19,       25.25,        0.00,        4.81,      50,       0
+**** http://localhost:8765/benchmark/blank, Users 50, Reps: 10 ****
+2016-01-13 20:22:15,    500,      18.89,           0,       1.73,       26.47,        0.00,       45.89,     500,       0
+**** http://localhost:8765/benchmark/template, Users 50, Reps: 10 ****
+2016-01-13 20:22:33,    500,      18.03,           0,       1.64,       27.73,        0.00,       45.62,     500,       0
+**** http://localhost:8765/benchmark/fibonacci/1, Users 50, Reps: 10 ****
+2016-01-13 20:22:51,    500,      18.50,           0,       1.66,       27.03,        0.00,       44.83,     500,       0
+**** http://localhost:8765/benchmark/fibonacci/100, Users 50, Reps: 10 ****
+2016-01-13 20:23:10,    500,      18.51,           0,       1.75,       27.01,        0.00,       47.15,     500,       0
+**** http://localhost:8765/benchmark/fibonacci/1000, Users 50, Reps: 10 ****
+2016-01-13 20:23:31,    500,      20.91,           0,       1.94,       23.91,        0.00,       46.38,     500,       0
+**** http://localhost:8765/benchmark/blank, Users 100, Reps: 10 ****
+2016-01-13 20:24:08,   1000,      37.05,           0,       3.34,       26.99,        0.00,       90.18,    1000,       0
+**** http://localhost:8765/benchmark/template, Users 100, Reps: 10 ****
+2016-01-13 20:24:44,    995,      36.32,           0,       3.36,       27.40,        0.00,       92.18,     995,       5
+**** http://localhost:8765/benchmark/fibonacci/1, Users 100, Reps: 10 ****
+2016-01-13 20:25:23,   1000,      38.05,           0,       3.48,       26.28,        0.00,       91.54,    1000,       0
+**** http://localhost:8765/benchmark/fibonacci/100, Users 100, Reps: 10 ****
+2016-01-13 20:26:00,   1000,      37.86,           0,       3.54,       26.41,        0.00,       93.62,    1000,       0
+**** http://localhost:8765/benchmark/fibonacci/1000, Users 100, Reps: 10 ****
+2016-01-13 20:26:44,   1000,      43.45,           0,       3.94,       23.01,        0.00,       90.69,    1000,       0
+**** http://localhost:8765/benchmark/blank, Users 500, Reps: 10 ****
+2016-01-13 20:29:37,   4600,     172.95,           0,       5.96,       26.60,        0.00,      158.64,    4600,     400
+**** http://localhost:8765/benchmark/template, Users 500, Reps: 10 ****
+2016-01-13 20:32:47,   4387,     189.79,           0,       6.96,       23.12,        0.00,      160.82,    4387,     613
+**** http://localhost:8765/benchmark/fibonacci/1, Users 500, Reps: 10 ****
+2016-01-13 20:35:47,   4396,     179.93,           0,       6.16,       24.43,        0.00,      150.52,    4396,     604
+**** http://localhost:8765/benchmark/fibonacci/100, Users 500, Reps: 10 ****
+2016-01-13 20:39:17,   4533,     210.18,           0,       7.35,       21.57,        0.00,      158.45,    4533,     467
+**** http://localhost:8765/benchmark/fibonacci/1000, Users 500, Reps: 10 ****
+2016-01-13 20:42:37,   4469,     199.58,           0,       6.72,       22.39,        0.00,      150.39,    4469,     531

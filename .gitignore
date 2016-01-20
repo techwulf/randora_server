@@ -4,6 +4,8 @@ __dummy.html
 *.o
 *.obj
 
+bin
+
 workflow
 *.sublime-project
 *.sublime-workspace

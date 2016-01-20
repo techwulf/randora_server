@@ -1,5 +1,0 @@
-msgid "Welcome"
-msgstr "Willkommen"
-
-msgid "home.welcome-text"
-msgstr "Hallo, dies ist ein Übersetzungs-Beispiel."
