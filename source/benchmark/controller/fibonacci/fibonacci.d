@@ -28,11 +28,12 @@ final class FibonacciController : BenchmarkControllerPrototype{
 		void getIndex(HTTPServerRequest request, HTTPServerResponse response){
 			ulong value = to!(ulong)(request.params["value"]);
 			BigInt answer = fibonacci_iterative(value);
-
+			/+
 			response.render!(
 				"benchmark/fibonacci/index.dt",
 				answer
 			);
+			+/
 		}
 	}
 }

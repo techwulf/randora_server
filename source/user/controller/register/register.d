@@ -8,14 +8,16 @@ class RegisterController : UserControllerPrototype{
 		this.name = "register";
 		//this.init();
 	}
-	
+
 	@method(HTTPMethod.GET){
 		@path("/")
 		void getRegister(HTTPServerRequest request, HTTPServerResponse response){
+			/+
 			response.render!(
 				"user/register/index.dt",
 				this.model
 			);
+			+/
 		}
 	}
 
@@ -27,7 +29,7 @@ class RegisterController : UserControllerPrototype{
 				HTTPStatus.BadRequest,
 				"Missing user field."
 			);
-			
+
 			response.redirect(
 				"/users/" ~ request.form["user"]
 			);

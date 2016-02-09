@@ -7,11 +7,11 @@ final class IndexController : UserControllerPrototype{
 		super();
 		this.name = "index";
 		//this.init();
-		
+
 		this.web_interface_settings.urlPrefix = "/"~this.name;
 		this.router.registerWebInterface(this, this.web_interface_settings);
 	}
-	
+
 	@method(HTTPMethod.GET){
 		@path("/")
 		@path("/index")
@@ -22,11 +22,11 @@ final class IndexController : UserControllerPrototype{
 				this.name,
 				//this.model
 			);
-			+/
 			response.writeBody(
 				"asdfasdfassadf",
 				"text/plain; charset=UTF-8"
-			); 
+			);
+			+/
 		}
 	}
 }

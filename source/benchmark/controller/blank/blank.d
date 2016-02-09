@@ -15,11 +15,13 @@ final class BlankController : BenchmarkControllerPrototype{
 		@path("/")
 		@path("/index")
 		void getIndex(HTTPServerRequest request, HTTPServerResponse response){
+			/+
 			response.render!(
 				"benchmark/blank/index.dt",
 				this.name,
 				//this.model
 			);
+			+/
 		}
 	}
 }

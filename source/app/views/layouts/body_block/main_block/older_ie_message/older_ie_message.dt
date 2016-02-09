@@ -1,0 +1,31 @@
+// Older IE Message
+//if lt IE 9
+	.ie-block
+		h1.Ops Ooops!
+		p
+			| You are using an outdated version of Internet Explorer, upgrade to any of the following web browser in order to access the maximum functionality of this website.
+		ul.browsers
+			li
+				a(href="https://www.google.com/intl/en/chrome/browser/")
+					img(src="/img/browsers/chrome.png", alt="")
+					div Google Chrome
+			li
+				a(href="http://www.mozilla.org/en-US/firefox/new/")
+					img(src="/img/browsers/firefox.png", alt="")
+					div Mozilla Firefox
+			li
+				a(href="http://www.opera.com/computer/windows")
+					img(src="/img/browsers/opera.png", alt="")
+					div Opera
+			li
+				a(href="http://safari.en.softonic.com/")
+					img(src="/img/browsers/safari.png", alt="")
+					div Safari
+			li
+				a(href="http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-10/worldwide-languages")
+					img(src="/img/browsers/ie.png", alt="")
+					div Internet Explorer(New)
+		p
+			| Upgrade your browser for a Safer and Faster web experience.
+			br
+			| Thank you for your patience...

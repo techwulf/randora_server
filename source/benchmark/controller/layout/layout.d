@@ -15,10 +15,12 @@ final class LayoutController : BenchmarkControllerPrototype{
 		@path("/")
 		@path("/index")
 		void getIndex(HTTPServerRequest request, HTTPServerResponse response){
+			/+
 			response.render!(
 				"benchmark/layout/index.dt",
 				this.name
 			);
+			+/
 		}
 	}
 }

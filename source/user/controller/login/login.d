@@ -8,14 +8,16 @@ class LoginController : UserControllerPrototype{
 		this.name = "login";
 		//this.init();
 	}
-	
+
 	@method(HTTPMethod.GET){
 		@path("/")
 		void getLogin(HTTPServerRequest request, HTTPServerResponse response){
+			/+
 			response.render!(
 				"user/login/index.dt",
 				this.model
 			);
+			+/
 		}
 	}
 

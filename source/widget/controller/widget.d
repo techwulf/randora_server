@@ -4,6 +4,7 @@ import widget;
 
 class WidgetController : WidgetControllerPrototype{
 	private CalendarController		_calendar		= null;
+	/+
 	private ChartController			_chart			= null;
 	private FileManagerController	_file_manager	= null;
 	private FormController			_form			= null;
@@ -18,8 +19,9 @@ class WidgetController : WidgetControllerPrototype{
 	private TypographyController	_typography		= null;
 	private UserInterfaceController	_user_interface	= null;
 	private VideoController			_video			= null;
-
+	+/
 	@property public CalendarController			calendar(){ return this._calendar; }
+	/+
 	@property public ChartController			chart(){ return this._chart; }
 	@property public FileManagerController		file_manager(){ return this._file_manager; }
 	@property public FormController				form(){ return this._form; }
@@ -34,12 +36,13 @@ class WidgetController : WidgetControllerPrototype{
 	@property public TypographyController		typography(){ return this._typography; }
 	@property public UserInterfaceController	user_interface(){ return this._user_interface; }
 	@property public VideoController			video(){ return this._video; }
-
+	+/
 	this(){
 		super();
 		this.name = "widget";
 
 		this._calendar			= new CalendarController();
+		/+
 		this._chart				= new ChartController();
 		this._file_manager		= new FileManagerController();
 		this._form				= new FormController();
@@ -54,7 +57,7 @@ class WidgetController : WidgetControllerPrototype{
 		this._typography		= new TypographyController();
 		this._user_interface	= new UserInterfaceController();
 		this._video				= new VideoController();
-
+		+/
 		this.web_interface_settings.urlPrefix = "/"~this.name;
 
 		this.router.registerWebInterface(this, this.web_interface_settings);

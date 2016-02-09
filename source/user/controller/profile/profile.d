@@ -8,7 +8,7 @@ class ProfileController : UserControllerPrototype{
 		this.name = "profile";
 		//this.init();
 	}
-	
+
 	@method(HTTPMethod.GET){
 		@path("/:id")
 		void getProfile(HTTPServerRequest request, HTTPServerResponse response){
@@ -18,12 +18,14 @@ class ProfileController : UserControllerPrototype{
 			auto user = this.model.find(id);
 
 			if(user !is null){
+				/+
 				response.render!(
 					"user/profile/index.dt",
 					user
 				);
+				+/
 			}
-			
+
 			enforceHTTP(false, HTTPStatus.badRequest, "User Does Not Exist.");
 		}
 	}
