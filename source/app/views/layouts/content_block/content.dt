@@ -1,0 +1,13 @@
+extends layout/body/main/main
+
+block content_block
+	section#content.container
+		include widget/message/drawer/messages_drawer
+		include widget/notification/widgets/drawer/animated
+		include widget/breadcrumb
+		
+		include user/form/login
+
+		block content_contents
+
+		include widget/chat/widgets/widgets

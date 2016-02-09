@@ -1,0 +1,18 @@
+NAV.navbar.navbar-inverse.navbar-fixed-top
+	DIV.container
+		DIV.navbar-header
+			BUTTON.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#navbar", aria-expanded="false", aria-controls="navbar")
+			SPAN.sr-only" Toggle Navigation
+			SPAN.icon-bar
+			SPAN.icon-bar
+			SPAN.icon-bar
+			A(class="navbar-brand", href="#") Project Name
+
+	DIV#navbar.collapse.navbar-collapse
+		UL.nav.navbar-nav
+			LI.active
+				A(href="#") Home
+			LI
+				A(href="#about") About
+			LI
+				A(href="#contact") Contact

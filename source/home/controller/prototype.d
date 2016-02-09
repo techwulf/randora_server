@@ -2,7 +2,7 @@ module home.controller.prototype;
 
 import home;
 
-class HomePrototypeController : AppControllerPrototype{
+class HomeControllerPrototype : AppControllerPrototype{
 	this(){
 		super();
 		this.name = "home";

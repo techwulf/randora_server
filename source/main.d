@@ -22,12 +22,13 @@ class MainController : AppControllerPrototype{
 
 		this.web_interface_settings.urlPrefix = "/";
 
-		this.router.get("*", serveStaticFiles("./public/"));
-
 		this._benchmark	= new BenchmarkController();
 		this._home		= new HomeController();
 		this._user		= new UserController();
 		this._widget	= new WidgetController();
+
+		this.router.get("*", serveStaticFiles("./public/"));
+		this.router.get("/", &this.home.index.getIndex);
 
 		this.router.registerWebInterface(this, this.web_interface_settings);
 	}

@@ -15,10 +15,12 @@ final class IndexController : BenchmarkControllerPrototype{
 		@path("/")
 		@path("/index")
 		void getIndex(HTTPServerRequest request, HTTPServerResponse response){
+			/+
 			response.render!(
 				"benchmark/index/index.dt",
 				this.name
 			);
+			+/
 		}
 	}
 }

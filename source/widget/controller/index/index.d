@@ -11,12 +11,14 @@ class IndexController : WidgetControllerPrototype{
 	}
 
 	@method(HTTPMethod.GET){
+		/+
 		@path("")
 		@path("/index")
 		void index(HTTPServerRequest request, HTTPServerResponse response){
-			render!(
+			response.render!(
 				"widget/index/index.dt",
 			);
 		}
+		+/
 	}
 }
