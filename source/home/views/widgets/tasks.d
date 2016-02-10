@@ -3,12 +3,12 @@ module home.views.widgets.task.tasks;
 import home;
 
 class WidgetTasks : DivElement{
-	string title = "";
+	string title = "asdfasdfasfasf";
 	this(){
 		super();
 		this.tag.attr["class"] = "tile";
 		this.title = "Tasks To Do";
-		init();
+		this.init();
 	}
 
 	void init(){

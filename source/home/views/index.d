@@ -108,7 +108,7 @@ class IndexView : DivElement{
 			class Col2 : ColumnElement{
 				this(int grid = 12){
 					super(grid);
-					//this ~= this.usa_map.html();
+					this ~= new WidgetUsaMap;
 					//this ~= this.dynamic_chart.html();
 					//this ~= this.activity.html();
 					this ~= new ClearFixElement();
