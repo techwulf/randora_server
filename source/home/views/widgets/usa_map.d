@@ -2,7 +2,7 @@ module home.views.widgets.usa_map.usa_map;
 
 import home;
 
-class WidgetUsaMap : DivElement{
+class UsaMapWidget : DivElement{
 	string title = "";
 	this(){
 		super();

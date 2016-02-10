@@ -3,31 +3,15 @@ module home.views.index;
 import home;
 
 class IndexView : DivElement{
-	//HomeWidgetDashboard dashboard = null;
-
-	import widget;
-	/+
-	WidgetActivity			activity		= null;
-	WidgetDynamicChart		dynamic_chart	= null;
-	WidgetMainChart			main_chart		= null;
-	WidgetPies				pies			= null;
-	+/
-	//WidgetQuickstats		quickstats		= null;
-	/+
-	WidgetRecentPostings	recent_postings	= null;
-	WidgetTasks				tasks			= null;
-	WidgetUsaMap			usa_map			= null;
-	+/
 	this(){
 		super();
-
 		this.init();
 	}
 
 	void init(){
-		this ~= new HomeWidgetDashboard();
+		this ~= new DashboardWidget();
 		this ~= new WhiterElement();
-		this ~= new WidgetQuickstats();
+		this ~= new QuickstatsWidget();
 		this ~= new WhiterElement();
 		this ~= new BlockArea();
 	}
@@ -50,8 +34,8 @@ class IndexView : DivElement{
 				this(int grid = 12){
 					super(grid);
 					RowElement row = new RowElement();
-					row ~= new RecentPostings();
-					row ~= new Tasks();
+					row ~= new RecentPostingsWidget();
+					row ~= new TasksWidget();
 					this ~= row;
 					this ~= new ClearFixElement();
 				}
@@ -60,7 +44,7 @@ class IndexView : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "col-md-6";
-						this ~= new WidgetRecentPostings();
+						this ~= new RecentPostingsWidget();
 					}
 				}
 
@@ -68,7 +52,7 @@ class IndexView : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "col-md-6";
-						this ~= new WidgetTasks;
+						this ~= new TasksWidget();
 					}
 				}
 			}
@@ -90,7 +74,7 @@ class IndexView : DivElement{
 				DivElement col = new DivElement();
 				col.tag.attr["class"] = "col-md-8";
 				//col ~= this.main_chart.html()
-				//col ~= this.pies.html()
+				//col ~= new PieChart();
 				col ~= r;
 				//~"<div class='row'>
 					//<div class='col-md-6'>"
@@ -108,9 +92,9 @@ class IndexView : DivElement{
 			class Col2 : ColumnElement{
 				this(int grid = 12){
 					super(grid);
-					this ~= new WidgetUsaMap;
-					//this ~= this.dynamic_chart.html();
-					//this ~= this.activity.html();
+					this ~= new UsaMapWidget();
+					this ~= new DynamicChartWidget();
+					this ~= new ActivityWidget();
 					this ~= new ClearFixElement();
 				}
 			}

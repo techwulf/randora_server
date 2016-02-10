@@ -3,17 +3,17 @@ module app.views.layouts.layout.sidebar_block.sidebar_menu_block.sidebar_menu_bl
 import app;
 
 class AppLayoutSidebarMenuBlock : UlElement{
-	import home.views.widgets;
-	HomeWidgetMenu home_menu = null;
+	import home;
+	HomeMenuWidget home_menu = null;
 
-	import widget.views.widgets;
-	WidgetWidgetMenu widget_menu = null;
+	import widget;
+	WidgetMenuWidget widget_menu = null;
 
 	this(){
 		super();
 		this.tag.attr["class"] = "list-unstyled side-menu";
-		this.home_menu = new HomeWidgetMenu();
-		this.widget_menu = new WidgetWidgetMenu();
+		this.home_menu = new HomeMenuWidget();
+		this.widget_menu = new WidgetMenuWidget();
 		this.init();
 	}
 
