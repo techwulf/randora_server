@@ -2,7 +2,7 @@ module home.views.widgets.recent_postings.recent_postings;
 
 import home;
 
-class WidgetRecentPostings : DivElement{
+class RecentPostingsWidget : DivElement{
 	string title = "";
 	this(){
 		super();

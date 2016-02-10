@@ -2,7 +2,7 @@ module home.views.widgets.task.tasks;
 
 import home;
 
-class WidgetTasks : DivElement{
+class TasksWidget : DivElement{
 	string title = "asdfasdfasfasf";
 	this(){
 		super();

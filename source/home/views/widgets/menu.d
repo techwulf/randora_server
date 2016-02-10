@@ -2,7 +2,7 @@ module home.views.widgets.home_menu.home_menu;
 
 import app;
 
-class HomeWidgetMenu : LiElement{
+class HomeMenuWidget : LiElement{
 	string href = "";
 	string sa_side_class = "";
 	string title = "";

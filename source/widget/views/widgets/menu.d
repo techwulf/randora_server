@@ -2,7 +2,7 @@ module widget.views.widgets.widget_menu.widget_menu;
 
 import app;
 
-class WidgetWidgetMenu : LiElement{
+class WidgetMenuWidget : LiElement{
 	string href = "";
 	string sa_side_class = "";
 	string title = "";

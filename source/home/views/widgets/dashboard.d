@@ -2,7 +2,7 @@ module home.views.widgets.dashboard.dashboard;
 
 import home;
 
-class HomeWidgetDashboard : DivElement{
+class DashboardWidget : DivElement{
 	string _title = "";
 
 	this(){
