@@ -17,7 +17,7 @@ class AppLayoutSidebarMenuBlock : UlElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.home_menu;
 		this ~= this.widget_menu;
 		//include widget/typography/menu/menu

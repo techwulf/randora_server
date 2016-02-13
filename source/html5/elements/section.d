@@ -2,7 +2,7 @@ module html5.elements.section;
 
 import html5;
 
-class SectionElementPrototype : Element{
+class SectionElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

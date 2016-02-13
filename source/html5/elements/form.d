@@ -2,7 +2,7 @@ module html5.elements.form;
 
 import html5;
 
-class FormElementPrototype : Element{
+class FormElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

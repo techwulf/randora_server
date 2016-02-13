@@ -53,7 +53,7 @@ class AppLayoutScriptBlock : DivElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		foreach(int i, string script; this.scripts){
 			ScriptElement s = new ScriptElement();
 			s.tag.attr["src"] = script;

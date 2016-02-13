@@ -8,7 +8,7 @@ class WidgetDynamicChart : DivElement{
 		init();
 	}
 
-	void init(){}
+	override void init(){}
 	/+
 	override string init(){
 		this.value = "";

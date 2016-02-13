@@ -20,7 +20,7 @@ class AppLayoutBodyBlock : BodyElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= header_block;
 		this ~= new ClearFixElement();
 		this ~= main_block;

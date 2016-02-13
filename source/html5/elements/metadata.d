@@ -2,7 +2,7 @@ module html5.elements.metadata;
 
 import html5;
 
-class MetadataElementPrototype : Element{
+class MetadataElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

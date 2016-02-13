@@ -3,15 +3,10 @@ module app.views.layouts.layout.content_block.content_block;
 import app;
 
 class AppLayoutContentBlock : SectionElement{
-	//import html5;
-	//Element contents = null;
-
-	import home;
-	IndexView contents = null;
+	LayoutElement contents = null;
 
 	import user;
-	UserFormsLogin login = null;
-	UserFormsLogout logout = null;
+	LoginWidget login = null;
 
 	import widget;
 	WidgetMessageDrawer message_drawer = null;
@@ -24,32 +19,20 @@ class AppLayoutContentBlock : SectionElement{
 		this.tag.attr["class"] = "container";
 		this.tag.attr["id"] = "content";
 
-		this.login	= new UserFormsLogin();
-		this.logout	= new UserFormsLogout();
-
-		this.message_drawer			= new WidgetMessageDrawer();
-		this.notification_drawer	= new WidgetNotificationDrawer();
 		this.breadcrumb				= new WidgetBreadCrumb();
 		this.chat					= new WidgetChat();
-
-		this.contents	= new IndexView();
-
-		this.init();
+		this.contents				= new LayoutElement();
+		this.login					= new LoginWidget();
+		this.message_drawer			= new WidgetMessageDrawer();
+		this.notification_drawer	= new WidgetNotificationDrawer();
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.message_drawer;
 		this ~= this.notification_drawer;
 		this ~= this.breadcrumb;
-
-		if(true){
-			this ~= this.login;
-		}else{
-			this ~= this.logout;
-		}
-
+		this ~= this.login;
 		this ~= this.contents;
-
 		this ~= this.chat;
 	}
 }

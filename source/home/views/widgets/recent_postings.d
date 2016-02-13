@@ -11,7 +11,7 @@ class RecentPostingsWidget : DivElement{
 		init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= new Title(this.title);
 		this ~= new Dropdown();
 		this ~= new Listview();

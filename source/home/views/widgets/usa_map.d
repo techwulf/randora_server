@@ -10,7 +10,7 @@ class UsaMapWidget : DivElement{
 		this.title = "Live Visits";
 		init();
 	}
-	void init(){
+	override void init(){
 		this ~= new Title(this.title);
 		this ~= new Config();
 		this ~= new Map();
@@ -22,6 +22,7 @@ class UsaMapWidget : DivElement{
 			this ~= new Text(title);
 		}
 	}
+
 	class Config : DivElement {
 		this(){
 			super();
@@ -35,6 +36,7 @@ class UsaMapWidget : DivElement{
 				this.tag.attr["data-toggle"] = "dropdown";
 				this.tag.attr["href"] = "";
 				this.tag.attr["class"] = "tile-menu";
+				this ~= new Text("");
 			}
 		}
 		class DropMenu : UlElement {
@@ -64,6 +66,7 @@ class UsaMapWidget : DivElement{
 		this(){
 			super();
 			this.tag.attr["id"] = "usa-map";
+			this ~= new Text("");
 		}
 	}
 }

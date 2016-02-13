@@ -11,7 +11,7 @@ class QuickstatsWidget : BlockAreaElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= new Title(this.title);
 
 		RowElement row = new RowElement();

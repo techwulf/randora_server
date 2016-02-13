@@ -2,7 +2,7 @@ module html5.elements.grouping;
 
 import html5;
 
-class GroupingElementPrototype : Element{
+class GroupingElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

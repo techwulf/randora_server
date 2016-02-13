@@ -19,7 +19,7 @@ class UserFormsLogout : FormElement{
 		return d;
 	}
 
-	void init(){
+	override void init(){
 		H2Element h2 = new H2Element();
 		h2.tag.attr["class"] = "m-t-0 m-b-15";
 		h2 ~= new Text("Logout");

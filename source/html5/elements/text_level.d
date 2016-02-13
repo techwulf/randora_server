@@ -2,7 +2,7 @@ module html5.elements.text_level;
 
 import html5;
 
-class TextLevelElementPrototype : Element{
+class TextLevelElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}
