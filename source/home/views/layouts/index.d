@@ -13,6 +13,8 @@ class IndexLayout : LayoutElement{
 		this ~= new WhiterElement();
 		this ~= new QuickstatsWidget();
 		this ~= new WhiterElement();
+		//this ~= new PieChartWidget();
+		//this ~= new WhiterElement();
 		this ~= new BlockArea();
 	}
 
@@ -67,8 +69,8 @@ class IndexLayout : LayoutElement{
 				this(int grid = 12){
 					super(grid);
 					this ~= new UsaMapWidget();
-					this ~= new DynamicChartWidget();
-					this ~= new ActivityWidget();
+					//this ~= new DynamicChartWidget();
+					//this ~= new ActivityWidget();
 					this ~= new ClearFixElement();
 				}
 			}

@@ -1,6 +1,6 @@
 module home.views.widgets.usa_map.usa_map;
 
-import home;
+import widget;
 
 class UsaMapWidget : DivElement{
 	string title = "";
@@ -8,10 +8,14 @@ class UsaMapWidget : DivElement{
 		super();
 		this.tag.attr["class"] = "tile";
 		this.title = "Live Visits";
-		this.init();
+		init();
 	}
-
-	class TileTitle : H2Element{
+	override void init(){
+		this ~= new Title(this.title);
+		this ~= new Config();
+		this ~= new Map();
+	}
+	class Title : H2Element {
 		this(string title){
 			super();
 			this.tag.attr["class"] = "tile-title";
@@ -19,20 +23,50 @@ class UsaMapWidget : DivElement{
 		}
 	}
 
-	override void init(){
-		this ~= new TileTitle(this.title);
-		//this ~= new TileConfig();
+	class Config : DivElement {
+		this(){
+			super();
+			this.tag.attr["class"] = "tile-config dropdown";
+			this ~= new Menu();
+			this ~= new DropMenu();
+		}
+		class Menu : AElement {
+			this(){
+				super();
+				this.tag.attr["data-toggle"] = "dropdown";
+				this.tag.attr["href"] = "";
+				this.tag.attr["class"] = "tile-menu";
+				this ~= new Text("");
+			}
+		}
+		class DropMenu : UlElement {
+			this(){
+				super();
+				this.tag.attr["class"] = "dropdown-menu pull-right text-right";
+				this ~= new Refresh();
+				this ~= new Settings();
+			}
+			class Refresh : LiElement {
+				this(){
+					super();
+					this.tag.attr["href"] = "";
+					this ~= new Text("Refresh");
+				}
+			}
+			class Settings : LiElement {
+				this(){
+					super();
+					this.tag.attr["href"] = "";
+					this ~= new Text("Settings");
+				}
+			}
+		}
+	}
+	class Map : DivElement {
+		this(){
+			super();
+			this.tag.attr["id"] = "usa-map";
+			this ~= new Text("");
+		}
 	}
 }
-
-/+
-<h2 class='tile-title'>Live Visits</h2>
-<div class='tile-config dropdown'>
-	<a data-toggle='dropdown' href='' class='tile-menu'></a>
-	<ul class='dropdown-menu pull-right text-right'>
-		<li><a href=''>Refresh</a></li>
-		<li><a href=''>Settings</a></li>
-	</ul>
-</div>
-<div id='usa-map'></div>
-+/

@@ -89,13 +89,16 @@ class WidgetChat : DivElement{
 	DivElement chat_footer(){
 		IElement chat_list_toggle = new IElement();
 		chat_list_toggle.tag.attr["class"] = "chat-list-toggle pull-left fa fa-bars";
+		chat_list_toggle ~= new Text("");
 
 		IElement picture = new IElement();
 		picture.tag.attr["class"] = "chat-list-toggle pull-left fa fa-bars";
+		picture ~= new Text("");
 
 		TextareaElement text_area = new TextareaElement();
 		text_area.tag.attr["class"] = "form-control";
 		text_area.tag.attr["placeholder"] = "Type Something...";
+		text_area ~= new Text("");
 
 		DivElement media_body = new DivElement();
 		media_body.tag.attr["class"] = "media-body";
