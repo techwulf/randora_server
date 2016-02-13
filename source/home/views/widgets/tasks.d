@@ -11,7 +11,7 @@ class TasksWidget : DivElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= new Title(this.title);
 		this ~= new DropdownMenu();
 		this ~= new ListView();

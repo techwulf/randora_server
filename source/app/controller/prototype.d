@@ -36,4 +36,14 @@ class AppControllerPrototype{
 			this.router
 		);
 	}
+
+	protected string render_html(HTTPServerResponse response, LayoutElement view){
+		this.layout = new AppLayout();
+		this.layout.body_block.main_block.content_block.contents = view;
+		this.layout.body_block.main_block.content_block.reset();
+
+		string html = "<!DOCTYPE html>\n" ~ join(this.layout.pretty(3), "\n");
+		response.writeBody(html, "text/html");
+		return html;
+	}
 }

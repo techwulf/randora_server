@@ -15,7 +15,7 @@ class FileManagerConnectorController : WidgetControllerPrototype{
 		@path("")
 		@path("/connector")
 		void connector(HTTPServerRequest request, HTTPServerResponse response){
-			//GET XHR http://localhost:8080/file_manager/connector/?cmd=open&target=&init=1&tree=1&_=1451642205322
+			//GET XHR http://localhost:8080/file_manager/connector/?cmd=open&target=&init()=1&tree=1&_=1451642205322
 			response.render!(
 				"widget/file_manager/connector.dt"
 			);

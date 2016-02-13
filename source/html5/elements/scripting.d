@@ -2,7 +2,7 @@ module html5.elements.scripting;
 
 import html5;
 
-class ScriptingElementPrototype : Element{
+class ScriptingElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

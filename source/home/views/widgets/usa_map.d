@@ -19,7 +19,7 @@ class UsaMapWidget : DivElement{
 		}
 	}
 
-	void init(){
+	override void init(){
 		this ~= new TileTitle(this.title);
 		//this ~= new TileConfig();
 	}

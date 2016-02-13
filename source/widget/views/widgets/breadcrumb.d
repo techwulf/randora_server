@@ -10,7 +10,7 @@ class WidgetBreadCrumb : OlElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		AElement a_home = new AElement();
 		a_home.tag.attr["href"] = "#";
 		a_home ~= new Text("Home");

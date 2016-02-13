@@ -18,7 +18,7 @@ class AppLayoutHeaderBlock : HeaderElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		AElement menu_toggle = new AElement();
 		menu_toggle.tag.attr["id"] = "menu-toggle";
 		menu_toggle.tag.attr["href"] = "#";

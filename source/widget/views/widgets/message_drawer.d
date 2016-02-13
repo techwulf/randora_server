@@ -82,7 +82,7 @@ class WidgetMessageDrawer : DivElement{
 		return o;
 	}
 
-	void init(){
+	override void init(){
 		DivElement list_view = new DivElement();
 		list_view.tag.attr["class"] = "listview narrow";
 

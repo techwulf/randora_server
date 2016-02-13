@@ -16,7 +16,7 @@ class WidgetMenuWidget : LiElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= anchor;
 	}
 

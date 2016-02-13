@@ -180,7 +180,7 @@ class WidgetChat : DivElement{
 		return list;
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.list();
 		this ~= this.area();
 	}

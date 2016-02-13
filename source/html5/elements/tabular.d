@@ -2,7 +2,7 @@ module html5.elements.tabular;
 
 import html5;
 
-class TabularElementPrototype : Element{
+class TabularElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

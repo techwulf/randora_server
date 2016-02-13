@@ -11,7 +11,7 @@ class DashboardWidget : DivElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= new Title(this._title);
 		this ~= new ShortcutArea();
 	}

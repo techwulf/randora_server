@@ -8,7 +8,7 @@ class AppLayoutOlderIEMessage : DivElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		string comment = "[if lt IE 9]>
 			<div class='ie-block'>
 				<h1 class='Ops'>

@@ -84,7 +84,7 @@ class AppLayoutTopMenu : DivElement{
 		return mb;
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.icon();
 		this ~= time();
 		this ~= media_body();

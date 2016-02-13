@@ -15,7 +15,7 @@ class AppLayoutSidebarWidgets : DivElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.user_profile;
 		//this ~= this.calendar_sidebar;
 		//include widget/calendar/sidebar/calendar

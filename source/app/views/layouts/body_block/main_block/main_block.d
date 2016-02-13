@@ -19,7 +19,7 @@ class AppLayoutMainBlock : SectionElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.sidebar_block;
 		this ~= this.content_block;
 		//this ~= this.older_ie_message;

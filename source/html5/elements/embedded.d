@@ -2,7 +2,7 @@ module html5.elements.embedded;
 
 import html5;
 
-class EmbeddedElementPrototype : Element{
+class EmbeddedElementPrototype : ParentElement{
 	this(string name){
 		super(name);
 	}

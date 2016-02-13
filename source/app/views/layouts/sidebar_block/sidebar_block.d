@@ -16,7 +16,7 @@ class AppLayoutSidebarBlock : AsideElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		this ~= this.sidebar_menu_block;
 		this ~= this.sidebar_widgets_block;
 	}

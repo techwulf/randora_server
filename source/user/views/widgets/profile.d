@@ -10,7 +10,7 @@ class UserWidgetProfile : DivElement{
 		this.init();
 	}
 
-	void init(){
+	override void init(){
 		string user_id		= "0";
 		string user_avatar	= "profile-pic.jpg";
 		string user_name	= "Master Foo";
