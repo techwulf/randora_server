@@ -11,11 +11,15 @@ class IndexLayout : LayoutElement{
 	override void init(){
 		this ~= new DashboardWidget();
 		this ~= new WhiterElement();
+
 		this ~= new QuickstatsWidget();
 		this ~= new WhiterElement();
-		//this ~= new PieChartWidget();
-		//this ~= new WhiterElement();
+
+		this ~= new PieChartWidget();
+		this ~= new WhiterElement();
+
 		this ~= new BlockArea();
+		this ~= new WhiterElement();
 	}
 
 	class BlockArea : BlockAreaElement{

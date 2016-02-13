@@ -46,6 +46,7 @@ class PieChartWidget : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+						this ~= new Text("");
 					}
 				}
 			}
@@ -75,6 +76,7 @@ class PieChartWidget : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+						this ~= new Text("");
 					}
 				}
 			}
@@ -104,6 +106,7 @@ class PieChartWidget : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+						this ~= new Text("");
 					}
 				}
 			}
@@ -133,6 +136,7 @@ class PieChartWidget : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+						this ~= new Text("");
 					}
 				}
 			}
@@ -162,6 +166,7 @@ class PieChartWidget : DivElement{
 					this(){
 						super();
 						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+						this ~= new Text("");
 					}
 				}
 			}
