@@ -3,32 +3,168 @@ module home.views.widgets.pie_chart.pie_chart;
 import home;
 
 class PieChartWidget : DivElement{
-	this(){}
+	this(){
+		super();
+		this.tag.attr["class"] = "tile text-center";
+		init();
+	}
+	void init(){
+		this ~= new Tiles();
+	}
+	class Tiles : DivElement {
+		this(){
+			super();
+			this.tag.attr["class"] = "tile-dark p-10";
+			this ~= new PieA();
+			this ~= new PieB();
+			this ~= new PieC();
+			this ~= new PieD();
+			this ~= new PieE();
+		}
+		class PieA : DivElement {
+			this(){
+				super();
+				this.tag.attr["class"] = "pie-chart-tiny";
+				this.tag.attr["data-percent"] = "86";
+				this ~= new Percent();
+				this ~= new Chart();
+			}
+			class Percent : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "percent";
+				}
+			}
+			class Chart : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "pie-title";
+					this ~= new Text("New Visitors");
+					this ~= new Retweet();
+				}
+				class Retweet : IElement {
+					this(){
+						super();
+						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+					}
+				}
+			}
+		}
+		class PieB : DivElement {
+			this(){
+				super();
+				this.tag.attr["class"] = "pie-chart-tiny";
+				this.tag.attr["data-percent"] = "23";
+				this ~= new Percent();
+				this ~= new Chart();
+			}
+			class Percent : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "percent";
+				}
+			}
+			class Chart : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "pie-title";
+					this ~= new Text("Bounce Rate");
+					this ~= new Retweet();
+				}
+				class Retweet : IElement {
+					this(){
+						super();
+						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+					}
+				}
+			}
+		}
+		class PieC : DivElement {
+			this(){
+				super();
+				this.tag.attr["class"] = "pie-chart-tiny";
+				this.tag.attr["data-percent"] = "57";
+				this ~= new Percent();
+				this ~= new Chart();
+			}
+			class Percent : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "percent";
+				}
+			}
+			class Chart : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "pie-title";
+					this ~= new Text("Emails Sent");
+					this ~= new Retweet();
+				}
+				class Retweet : IElement {
+					this(){
+						super();
+						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+					}
+				}
+			}
+		}
+		class PieD : DivElement {
+			this(){
+				super();
+				this.tag.attr["class"] = "pie-chart-tiny";
+				this.tag.attr["data-percent"] = "34";
+				this ~= new Percent();
+				this ~= new Chart();
+			}
+			class Percent : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "percent";
+				}
+			}
+			class Chart : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "pie-title";
+					this ~= new Text("Sales Rate");
+					this ~= new Retweet();
+				}
+				class Retweet : IElement {
+					this(){
+						super();
+						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+					}
+				}
+			}
+		}
+		class PieE : DivElement {
+			this(){
+				super();
+				this.tag.attr["class"] = "pie-chart-tiny";
+				this.tag.attr["data-percent"] = "81";
+				this ~= new Percent();
+				this ~= new Chart();
+			}
+			class Percent : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "percent";
+				}
+			}
+			class Chart : SpanElement {
+				this(){
+					super();
+					this.tag.attr["class"] = "pie-title";
+					this ~= new Text("New Signups");
+					this ~= new Retweet();
+				}
+				class Retweet : IElement {
+					this(){
+						super();
+						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
+					}
+				}
+			}
+		}
+	}
 }
-
-/+
-<div class='tile text-center'>
-	<div class='tile-dark p-10'>
-		<div class='pie-chart-tiny' data-percent='86'>
-			<span class='percent'></span>
-			<span class='pie-title'>New Visitors <i class='m-l-5 fa fa-retweet'></i></span>
-		</div>
-		<div class='pie-chart-tiny' data-percent='23'>
-			<span class='percent'></span>
-			<span class='pie-title'>Bounce Rate <i class='m-l-5 fa fa-retweet'></i></span>
-		</div>
-		<div class='pie-chart-tiny' data-percent='57'>
-			<span class='percent'></span>
-			<span class='pie-title'>Emails Sent <i class='m-l-5 fa fa-retweet'></i></span>
-		</div>
-		<div class='pie-chart-tiny' data-percent='34'>
-			<span class='percent'></span>
-			<span class='pie-title'>Sales Rate <i class='m-l-5 fa fa-retweet'></i></span>
-		</div>
-		<div class='pie-chart-tiny' data-percent='81'>
-			<span class='percent'></span>
-			<span class='pie-title'>New Signups <i class='m-l-5 fa fa-retweet'></i></span>
-		</div>
-	</div>
-</div>
-+/
