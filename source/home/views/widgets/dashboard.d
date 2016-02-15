@@ -5,6 +5,15 @@ import home;
 class DashboardWidget : DivElement{
 	string _title = "";
 
+	string[][] datastructures = [
+		["img/shortcuts/money.png", "Purchases"],
+		["img/shortcuts/twitter.png", "Tweets"],
+		["img/shortcuts/calendar.png", "Calendar"],
+		["img/shortcuts/stats.png", "Statistics"],
+		["img/shortcuts/connections.png", "Connection"],
+		["img/shortcuts/reports.png", "Reports"]
+	];
+
 	this(){
 		super();
 		this._title = "Dashboard";
@@ -12,54 +21,36 @@ class DashboardWidget : DivElement{
 	}
 
 	override void init(){
-		this ~= new Title(this._title);
-		this ~= new ShortcutArea();
+		H4Element title = new H4Element(this._title);
+		title.add_class("page-title");
+
+		this ~= title;
+		this ~= new ShortcutArea(this.datastructures);
 	}
 
 	class ShortcutArea : DivElement{
-		this(){
+		this(string[][] datastructures){
 			super();
-			this.tag.attr["class"] = "block-area shortcut-area";
-			this ~= new Shortcut("img/shortcuts/money.png", "Purchases");
-			this ~= new Shortcut("img/shortcuts/twitter.png", "Tweets");
-			this ~= new Shortcut("img/shortcuts/calendar.png", "Calendar");
-			this ~= new Shortcut("img/shortcuts/stats.png", "Statistics");
-			this ~= new Shortcut("img/shortcuts/connections.png", "Connection");
-			this ~= new Shortcut("img/shortcuts/reports.png", "Reports");
-		}
+			this.add_class("block-area shortcut-area");
 
-		class Shortcut : AElement{
-			this(string image, string title){
-				super();
-				this.tag.attr["class"] = "shortcut tile";
-				this.tag.attr["href"] = "";
-				this ~= new Img(image);
-				this ~= new Small(title);
+			foreach(int key, string[] row; datastructures){
+				ImgElement image = new ImgElement();
+				image.tag.attr["src"] = row[0]; //TODO: add src attribute to Html5 library. Should access like: this.src = image;
+				image.tag.attr["alt"] = row[1]; //TODO: add alt attribute to Html5 library. Should access like: this.alt = "";
+
+				SmallElement title = new SmallElement(row[1]);
+				title.add_class("t-overflow");
+
+				AElement anchor = new AElement([
+					image,
+					title
+				]);
+				anchor
+					.add_class("shortcut")
+					.add_class("tile");
+
+				this ~= anchor;
 			}
-
-			class Img : ImgElement{
-				this(string image){
-					super();
-					this.tag.attr["src"] = image;
-					this.tag.attr["alt"] = "";
-				}
-			}
-
-			class Small : SmallElement{
-				this(string title){
-					super();
-					this.tag.attr["class"] = "t-overflow";
-					this ~= new Text(title);
-				}
-			}
-		}
-	}
-
-	class Title : H4Element{
-		this(string title){
-			super();
-			this.tag.attr["class"] = "page-title";
-			this ~= new Text(title);
 		}
 	}
 }
