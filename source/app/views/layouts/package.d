@@ -11,4 +11,4 @@ package import app.views.layouts.layout.sidebar_block;
 
 package import app.views.layouts.layout.layout;
 
-package import html5;
+package import randora_html5;
