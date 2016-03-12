@@ -8,7 +8,7 @@ license "Attribution-NonCommercial-ShareAlike 4.0 International"
 dependency "vibe-d" version="~>0.7.23"
 versions "VibeDefaultMain"
 
-dependency "randora-html5" version = "*"
+dependency "deepmagic" version = "~>0.1.0"
 
 targetPath "bin"
 

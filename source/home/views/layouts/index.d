@@ -3,13 +3,16 @@ module home.views.layouts.index;
 import home;
 
 class IndexLayout : LayoutElement{
-	this(){
+	string[][] _datastructure = null;
+
+	this(string[][] datastructure = null){
 		super();
+		this._datastructure = datastructure;
 		this.init();
 	}
 
 	override void init(){
-		this ~= new DashboardWidget();
+		this ~= new DashboardWidget(this._datastructure);
 		this ~= new WhiterElement();
 
 		this ~= new QuickstatsWidget();

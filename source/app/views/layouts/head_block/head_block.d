@@ -7,7 +7,7 @@ class AppLayoutHeadBlock : HeadElement{
 	private string _description			= "Randora Server Template";
 	private string _format_detection	= "telephone=no";
 	private string _keywords			= "Bootstrap, Template";
-	private string _viewport			= "width=device-width, init()ial-scale=1.0, maximum-scale=1.0";
+	private string _viewport			= "width=device-width, initial-scale=1.0, maximum-scale=1.0";
 
 	private string _title = "asdf";
 
