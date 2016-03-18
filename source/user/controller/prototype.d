@@ -2,7 +2,7 @@ module user.controller.prototype;
 
 import user;
 
-class UserControllerPrototype : AppControllerPrototype{
+class UserControllerPrototype : AppController{
 	UserModel	model	= null;
 
 	this(){

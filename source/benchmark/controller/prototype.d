@@ -2,7 +2,7 @@ module benchmark.controller.prototype;
 
 import benchmark;
 
-class BenchmarkControllerPrototype : AppControllerPrototype{
+class BenchmarkControllerPrototype : AppController{
 	this(){
 		super();
 		this.name = "benchmark";

@@ -6,7 +6,7 @@ import home;
 import user;
 import widget;
 
-class MainController : AppControllerPrototype{
+class MainController : AppController{
 	private BenchmarkController	_benchmark	= null;
 	private HomeController		_home		= null;
 	private UserController		_user		= null;

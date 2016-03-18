@@ -8,7 +8,8 @@ license "Attribution-NonCommercial-ShareAlike 4.0 International"
 dependency "vibe-d" version="~>0.7.23"
 versions "VibeDefaultMain"
 
-dependency "deepmagic" version = "~>0.1.0"
+dependency "workflow:deepmagic" version="~>0.1.0"
+subPackage "../DeepMagic/"
 
 targetPath "bin"
 

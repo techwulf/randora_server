@@ -18,9 +18,6 @@ class IndexLayout : LayoutElement{
 		this ~= new QuickstatsWidget();
 		this ~= new WhiterElement();
 
-		this ~= new PieChartWidget();
-		this ~= new WhiterElement();
-
 		this ~= new BlockArea();
 		this ~= new WhiterElement();
 	}
@@ -49,6 +46,7 @@ class IndexLayout : LayoutElement{
 				class Row : RowElement{
 					this(){
 						super();
+						this ~= new PieChartWidget();
 						this ~= new RecentPostingsWidget();
 						this ~= new TasksWidget();
 					}

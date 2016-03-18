@@ -22,18 +22,33 @@ class DashboardWidget : DivElement{
 
 	class ShortcutArea : DivElement{
 		this(string[][] datastructure){
-			super(Attributes(null, ["block-area","shortcut-area"]), "");
+			//super(Attributes(null, ["block-area","shortcut-area"]), "");
+			super();
+			this.add_class("block-area");
+			this.add_class("shortcut-area");
 
 			foreach(int key, string[] row; datastructure){
 				this ~= new AElement(
 					Attributes(null, ["shortcut", "tile"]),
 					[
 						new ImgElement(
-							Attributes(null,null,["src" : row[0], "alt" : row[1]]),
+							Attributes(
+								null,
+								null,
+								[
+									"src" : row[0],
+									"alt" : row[1]
+								]
+							),
 							""
 						),
 						new SmallElement(
-							Attributes(null,["t-overflow"]),
+							Attributes(
+								null,
+								[
+									"t-overflow"
+								]
+							),
 							row[1]
 						)
 					]

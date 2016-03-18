@@ -2,7 +2,7 @@ module home.views.prototype;
 
 import home;
 
-class HomeViewPrototype : AppLayoutPrototype{
+class HomeViewPrototype : AppLayout{
 	this(){
 
 	}
