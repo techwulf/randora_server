@@ -3,50 +3,50 @@ module home.views.layouts.index;
 import home;
 
 class IndexLayout : LayoutElement{
-	string[][] _datastructure = null;
+	HomeIndexDatastructure _datastructure;
 
-	this(string[][] datastructure = null){
+	this(HomeIndexDatastructure datastructure){
 		super();
 		this._datastructure = datastructure;
 		this.init();
 	}
 
 	override void init(){
-		this ~= new DashboardWidget(this._datastructure);
+		this ~= new DashboardWidget(this._datastructure.dashboards);
 		this ~= new WhiterElement();
 
 		this ~= new QuickstatsWidget();
 		this ~= new WhiterElement();
 
-		this ~= new BlockArea();
+		this ~= new BlockArea(this._datastructure.charts);
 		this ~= new WhiterElement();
 	}
 
 	class BlockArea : BlockAreaElement{
-		this(){
+		this(PieChart[] charts){
 			super();
-			this ~= new Row();
+			this ~= new Row(charts);
 		}
 
 		class Row : RowElement{
-			this(){
+			this(PieChart[] charts){
 				super();
-				this ~= new Col1(8);
+				this ~= new Col1(8, charts);
 				this ~= new Col2(4);
 				this ~= new ClearFixElement();
 			}
 
 			class Col1 : ColumnElement{
-				this(int grid = 12){
+				this(int grid = 12, PieChart[] charts = null){
 					super(grid);
-					this ~= new Row();
+					this ~= new Row(charts);
 					this ~= new ClearFixElement();
 				}
 
 				class Row : RowElement{
-					this(){
+					this(PieChart[] charts){
 						super();
-						this ~= new PieChartWidget();
+						this ~= new PieChartWidget(charts);
 						this ~= new RecentPostingsWidget();
 						this ~= new TasksWidget();
 					}

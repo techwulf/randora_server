@@ -4,11 +4,11 @@ import home;
 
 class DashboardWidget : DivElement{
 	string _title = "Dashboard";
-	string[][] _datastructure = null;
+	Dashboard[] dashboards = null;
 
-	this(string[][] datastructure){
+	this(Dashboard[] dashboards){
 		super();
-		this._datastructure = datastructure;
+		this.dashboards = dashboards;
 		this.init();
 	}
 
@@ -17,17 +17,16 @@ class DashboardWidget : DivElement{
 			Attributes(null, ["page-title"]),
 			this._title
 		);
-		this ~= new ShortcutArea(this._datastructure);
+		this ~= new ShortcutArea(this.dashboards);
 	}
 
 	class ShortcutArea : DivElement{
-		this(string[][] datastructure){
-			//super(Attributes(null, ["block-area","shortcut-area"]), "");
+		this(Dashboard[] dashboards){
 			super();
 			this.add_class("block-area");
 			this.add_class("shortcut-area");
 
-			foreach(int key, string[] row; datastructure){
+			foreach(int i, Dashboard dashboard; dashboards){
 				this ~= new AElement(
 					Attributes(null, ["shortcut", "tile"]),
 					[
@@ -36,8 +35,8 @@ class DashboardWidget : DivElement{
 								null,
 								null,
 								[
-									"src" : row[0],
-									"alt" : row[1]
+									"src" : dashboard.uri,
+									"alt" : dashboard.name
 								]
 							),
 							""
@@ -49,7 +48,7 @@ class DashboardWidget : DivElement{
 									"t-overflow"
 								]
 							),
-							row[1]
+							dashboard.name
 						)
 					]
 				);
