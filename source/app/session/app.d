@@ -2,7 +2,7 @@ module app.session.app;
 
 import app.session;
 
-class AppSession : AppSessionPrototype{
+class AppSession : DeepmagicSession{
 	import std.typecons;
 	import vibe.d;
 

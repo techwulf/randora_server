@@ -7,7 +7,7 @@
 		"randora-html5": "~master",
 		"hibernated": "0.2.26",
 		"openssl": "1.1.4+1.0.1g",
-		"deepmagic": "0.1.0",
+		"deepmagic": "0.1.1",
 		"memutils": "0.4.4",
 		"vibe-d": "0.7.28",
 		"libasync": "0.7.8",

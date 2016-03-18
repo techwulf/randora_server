@@ -8,9 +8,11 @@ class PieChartWidget : DivElement{
 		this.tag.attr["class"] = "tile text-center";
 		init();
 	}
+
 	override void init(){
 		this ~= new Tiles();
 	}
+
 	class Tiles : DivElement {
 		this(){
 			super();
