@@ -3,77 +3,70 @@ module home.views.layouts.index;
 import home;
 
 class IndexLayout : LayoutElement{
-	string[][] _datastructure = null;
+	HomeIndexDatastructure _datastructure;
 
-	this(string[][] datastructure = null){
+	this(HomeIndexDatastructure datastructure){
 		super();
 		this._datastructure = datastructure;
 		this.init();
 	}
 
 	override void init(){
-		this ~= new DashboardWidget(this._datastructure);
+		this ~= new DashboardWidget(this._datastructure.dashboards);
 		this ~= new WhiterElement();
 
-		this ~= new QuickstatsWidget();
+		this ~= new QuickstatsWidget(this._datastructure.quickstats);
 		this ~= new WhiterElement();
 
-		this ~= new BlockArea();
+		this ~= new BlockArea(this._datastructure);
 		this ~= new WhiterElement();
 	}
 
 	class BlockArea : BlockAreaElement{
-		this(){
+		this(HomeIndexDatastructure datastructure){
 			super();
-			this ~= new Row();
+			this ~= new Row(datastructure);
 		}
 
 		class Row : RowElement{
-			this(){
+			this(HomeIndexDatastructure datastructure){
 				super();
-				this ~= new Col1(8);
-				this ~= new Col2(4);
+				this ~= new Col1(datastructure, 8);
+				this ~= new Col2(datastructure, 4);
 				this ~= new ClearFixElement();
 			}
 
 			class Col1 : ColumnElement{
-				this(int grid = 12){
+				this(HomeIndexDatastructure datastructure, int grid = 12){
 					super(grid);
-					this ~= new Row();
+					this ~= new Row(datastructure);
 					this ~= new ClearFixElement();
 				}
 
 				class Row : RowElement{
-					this(){
+					this(HomeIndexDatastructure datastructure){
 						super();
-						this ~= new PieChartWidget();
-						this ~= new RecentPostingsWidget();
-						this ~= new TasksWidget();
+						this ~= new PieChartWidget(datastructure.charts);
+						this ~= new RecentPostingsWidget(datastructure.recent_posting);
+						this ~= new TasksWidget(datastructure.tasks);
 					}
-
-					class RecentPostings : DivElement{
-						this(){
-							super();
-							this.tag.attr["class"] = "col-md-6";
-							this ~= new RecentPostingsWidget();
-						}
-					}
-
+					/+
 					class Tasks : DivElement{
 						this(){
 							super();
-							this.tag.attr["class"] = "col-md-6";
+							this.add_class("col-md-6");
 							this ~= new TasksWidget();
 						}
 					}
+					+/
 				}
 
 			}
 
 			class Col2 : ColumnElement{
-				this(int grid = 12){
+				this(HomeIndexDatastructure datastructure, int grid = 12){
 					super(grid);
-					this ~= new UsaMapWidget();
+					this ~= new UsaMapWidget(datastructure.live_visits);
 					//this ~= new DynamicChartWidget();
 					//this ~= new ActivityWidget();
 					this ~= new ClearFixElement();
