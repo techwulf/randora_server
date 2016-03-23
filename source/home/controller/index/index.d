@@ -7,11 +7,6 @@ struct PieChart{
 	int percent = 0;
 }
 
-struct Dashboard{
-	string uri = "";
-	string name = "";
-}
-
 struct Stat{
 	int id = 0;
 	int value = 0;
@@ -60,14 +55,16 @@ struct HomeIndexDatastructure{
 		{"New Signups", 81}
 	];
 
-	Dashboard[] dashboards = [
-		{"img/shortcuts/money.png",			"Purchases"},
-		{"img/shortcuts/twitter.png",		"Tweets"},
-		{"img/shortcuts/calendar.png",		"Calendar"},
-		{"img/shortcuts/stats.png",			"Statistics"},
-		{"img/shortcuts/connections.png",	"Connection"},
-		{"img/shortcuts/reports.png",		"Reports"}
-	];
+	DashboardDatastructure dashboard = {
+		[
+			{"/img/shortcuts/money.png",		"Purchases"},
+			{"/img/shortcuts/twitter.png",		"Tweets"},
+			{"/img/shortcuts/calendar.png",		"Calendar"},
+			{"/img/shortcuts/stats.png",		"Statistics"},
+			{"/img/shortcuts/connections.png",	"Connection"},
+			{"/img/shortcuts/reports.png",		"Reports"}
+		]
+	};
 
 	QuickStats quickstats = {
 		title : "Quick Stats",
@@ -82,11 +79,11 @@ struct HomeIndexDatastructure{
 	RecentPost recent_posting = {
 		"Recent Postings",
 		[
-			{0, "img/profile-pics/1.jpg", "2 Hours ago", "Adrien San", "Cras molestie fermentum nibh, ac semper"},
-			{1, "img/profile-pics/2.jpg", "5 Hours ago", "David Villa", "Suspendisse in purus ut nibh placerat"},
-			{2, "img/profile-pics/3.jpg", "15/12/2013", "Mitch bradberry", "Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra"},
-			{3, "img/profile-pics/4.jpg", "14/12/2013", "Mitch bradberry", "Cras pulvinar euismod nunc quis gravida."},
-			{4, "img/profile-pics/5.jpg", "13/12/2013", "Mitch bradberry", "Integer a eros dapibus, vehicula quam accumsan, tincidunt purus"}
+			{0, "/img/profile-pics/1.jpg", "2 Hours ago", "Adrien San", "Cras molestie fermentum nibh, ac semper"},
+			{1, "/img/profile-pics/2.jpg", "5 Hours ago", "David Villa", "Suspendisse in purus ut nibh placerat"},
+			{2, "/img/profile-pics/3.jpg", "15/12/2013", "Mitch bradberry", "Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra"},
+			{3, "/img/profile-pics/4.jpg", "14/12/2013", "Mitch bradberry", "Cras pulvinar euismod nunc quis gravida."},
+			{4, "/img/profile-pics/5.jpg", "13/12/2013", "Mitch bradberry", "Integer a eros dapibus, vehicula quam accumsan, tincidunt purus"}
 		]
 	};
 

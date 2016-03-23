@@ -29,6 +29,8 @@ class MainController : AppController{
 
 		this.router.get("*", serveStaticFiles("./public/"));
 		this.router.get("/", &this.home.index.getIndex);
+		this.router.get("/home/", &this.home.index.getIndex);
+		this.router.get("/user/", &this.user.index.getIndex);
 
 		this.router.registerWebInterface(this, this.web_interface_settings);
 	}

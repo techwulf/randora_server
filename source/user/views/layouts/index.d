@@ -1,18 +1,19 @@
-module home.views.layouts.index;
+module user.views.layouts.index;
 
-import home;
+import user;
 
 class IndexLayout : LayoutElement{
-	HomeIndexDatastructure _datastructure;
+	UserIndexDatastructure _datastructure;
 
-	this(HomeIndexDatastructure datastructure){
+	this(UserIndexDatastructure datastructure){
 		super();
 		this._datastructure = datastructure;
 		this.init();
 	}
 
 	override void init(){
-		this ~= new DashboardWidget(this._datastructure.dashboard);
+		/+
+		this ~= new DashboardWidget(this._datastructure.dashboards);
 		this ~= new WhiterElement();
 
 		this ~= new QuickstatsWidget(this._datastructure.quickstats);
@@ -20,8 +21,9 @@ class IndexLayout : LayoutElement{
 
 		this ~= new BlockArea(this._datastructure);
 		this ~= new WhiterElement();
+		+/
 	}
-
+	/+
 	class BlockArea : BlockAreaElement{
 		this(HomeIndexDatastructure datastructure){
 			super();
@@ -74,4 +76,5 @@ class IndexLayout : LayoutElement{
 			}
 		}
 	}
+	+/
 }
