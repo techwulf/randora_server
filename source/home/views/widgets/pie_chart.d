@@ -2,13 +2,18 @@ module home.views.widgets.pie_chart.pie_chart;
 
 import home;
 
+struct PieChart{
+	string name = "";
+	int percent = 0;
+}
+
 class PieChartWidget : DivElement{
 	PieChart[] charts = null;
 
 	this(PieChart[] charts = null){
 		super();
-		this.add_class("tile");
-		this.add_class("text-center");
+		this ~= new Sass("tile");
+		this ~= new Sass("text-center");
 
 		this.charts = charts;
 		init();
@@ -21,8 +26,8 @@ class PieChartWidget : DivElement{
 	class Tiles : DivElement{
 		this(PieChart[] charts){
 			super();
-			this.add_class("tile-dark");
-			this.add_class("p-10");
+			this ~= new Sass("tile-dark");
+			this ~= new Sass("p-10");
 
 			foreach(int i, PieChart chart; charts){
 				this ~= new Pie(chart.percent, chart.name);
@@ -36,7 +41,7 @@ class PieChartWidget : DivElement{
 
 			this(int percent = 0, string title = ""){
 				super();
-				this.add_class("pie-chart-tiny");
+				this ~= new Sass("pie-chart-tiny");
 				this.percent = percent;
 				this.title = title;
 				this.tag.attr["data-percent"] = to!(string)(this.percent);
@@ -44,7 +49,7 @@ class PieChartWidget : DivElement{
 				this ~= new SpanElement(
 					Attributes(
 						null,
-						["percent"]
+						[new Sass("percent")]
 					),
 					""
 				);
@@ -53,7 +58,7 @@ class PieChartWidget : DivElement{
 				SpanElement span = new SpanElement(
 					Attributes(
 						null,
-						["pie-title"]
+						[new Sass("pie-title")]
 					),
 					""
 					/+

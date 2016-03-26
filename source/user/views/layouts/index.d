@@ -56,7 +56,7 @@ class IndexLayout : LayoutElement{
 					class Tasks : DivElement{
 						this(){
 							super();
-							this.add_class("col-md-6");
+							this ~= new Sass("col-md-6");
 							this ~= new TasksWidget();
 						}
 					}
