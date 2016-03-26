@@ -31,14 +31,15 @@ class IndexLayout : LayoutElement{
 		class Row : RowElement{
 			this(HomeIndexDatastructure datastructure){
 				super();
-				this ~= new Col1(datastructure, 8);
-				this ~= new Col2(datastructure, 4);
+				this ~= new Col1(datastructure);
+				this ~= new Col2(datastructure);
 				this ~= new ClearFixElement();
 			}
 
-			class Col1 : ColumnElement{
-				this(HomeIndexDatastructure datastructure, int grid = 12){
-					super(grid);
+			class Col1 : BootstrapColumn!(DivElement){
+				this(HomeIndexDatastructure datastructure){
+					this.md = 8;
+					super();
 					this ~= new Row(datastructure);
 					this ~= new ClearFixElement();
 				}
@@ -50,22 +51,13 @@ class IndexLayout : LayoutElement{
 						this ~= new RecentPostingsWidget(datastructure.recent_posting);
 						this ~= new TasksWidget(datastructure.tasks);
 					}
-					/+
-					class Tasks : DivElement{
-						this(){
-							super();
-							this.add_class("col-md-6");
-							this ~= new TasksWidget();
-						}
-					}
-					+/
 				}
-
 			}
 
-			class Col2 : ColumnElement{
-				this(HomeIndexDatastructure datastructure, int grid = 12){
-					super(grid);
+			class Col2 : BootstrapColumn!(DivElement){
+				this(HomeIndexDatastructure datastructure){
+					this.md = 4;
+					super();
 					this ~= new UsaMapWidget(datastructure.live_visits);
 					//this ~= new DynamicChartWidget();
 					//this ~= new ActivityWidget();

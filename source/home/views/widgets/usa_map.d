@@ -2,12 +2,16 @@ module home.views.widgets.usa_map.usa_map;
 
 import home;
 
+struct LiveVisits{
+	string title = "";
+}
+
 class UsaMapWidget : DivElement{
 	LiveVisits live_visits;
 
 	this(LiveVisits live_visits){
 		super();
-		this.add_class("tile");
+		this ~= new Sass("tile");
 		this.live_visits = live_visits;
 		init();
 	}
@@ -21,7 +25,7 @@ class UsaMapWidget : DivElement{
 	class Title : H2Element {
 		this(string title){
 			super();
-			this.add_class("tile-title");
+			this ~= new Sass("tile-title");
 			this ~= new Text(title);
 		}
 	}
@@ -29,8 +33,8 @@ class UsaMapWidget : DivElement{
 	class Config : DivElement {
 		this(){
 			super();
-			this.add_class("tile-config");
-			this.add_class("dropdown");
+			this ~= new Sass("tile-config");
+			this ~= new Sass("dropdown");
 			this ~= new Menu();
 			this ~= new DropMenu();
 		}
@@ -40,16 +44,16 @@ class UsaMapWidget : DivElement{
 				super();
 				this.tag.attr["data-toggle"] = "dropdown";
 				this.Href("");
-				this.add_class("tile-menu");
+				this ~= new Sass("tile-menu");
 				this ~= new Text("");
 			}
 		}
 		class DropMenu : UlElement {
 			this(){
 				super();
-				this.add_class("dropdown-menu");
-				this.add_class("pull-right");
-				this.add_class("text-right");
+				this ~= new Sass("dropdown-menu");
+				this ~= new Sass("pull-right");
+				this ~= new Sass("text-right");
 				this ~= new Refresh();
 				this ~= new Settings();
 			}

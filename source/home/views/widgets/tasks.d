@@ -2,6 +2,16 @@ module home.views.widgets.task.tasks;
 
 import home;
 
+struct ToDo{
+	int id = 0;
+	string value = "";
+}
+
+struct Tasks{
+	string title = "";
+	ToDo[] todo = null;
+}
+
 class TasksWidget : DivElement{
 	Tasks tasks;
 	ContextMenuDatastructure context_menu = {
@@ -14,7 +24,7 @@ class TasksWidget : DivElement{
 
 	this(Tasks tasks){
 		super();
-		this.add_class("tile");
+		this ~= new Sass("tile");
 		this.tasks = tasks;
 		this.init();
 	}
@@ -28,7 +38,7 @@ class TasksWidget : DivElement{
 	class Title : H2Element{
 		this(string title){
 			super();
-			this.add_class("tile-title");
+			this ~= new Sass("tile-title");
 			this ~= new Text(title);
 		}
 	}
@@ -36,7 +46,9 @@ class TasksWidget : DivElement{
 	class ListView : DivElement{
 		this(Tasks tasks){
 			super();
-			this.add_class(["listview", "todo-list", "sortable"]);
+			this ~= new Sass("listview");
+			this ~= new Sass("todo-list");
+			this ~= new Sass("sortable");
 			foreach(int i, ToDo todo; tasks.todo){
 				this ~= new Media(todo.value);
 			}
@@ -45,21 +57,22 @@ class TasksWidget : DivElement{
 		class Media : DivElement{
 			this(string text){
 				super();
-				this.add_class("media");
+				this ~= new Sass("media");
 				this ~= new CheckboxDiv(text);
 			}
 
 			class CheckboxDiv : DivElement{
 				this(string text){
 					super();
-					this.add_class(["checkbox", "m-0"]);
+					this ~= new Sass("checkbox");
+					this ~= new Sass("m-0");
 					this ~= new Label(text);
 				}
 
 				class Label : LabelElement{
 					this(string text){
 						super();
-						this.add_class("t-overflow");
+						this ~= new Sass("t-overflow");
 						this ~= new Input();
 						this ~= new Text(text);
 					}

@@ -2,6 +2,18 @@ module home.views.widgets.quickstats.quickstats;
 
 import home;
 
+struct Stat{
+	int id = 0;
+	int value = 0;
+	string title = "";
+	bool media = true;
+}
+
+struct QuickStats{
+	string title = "";
+	Stat[] stats = null;
+}
+
 class QuickstatsWidget : BlockAreaElement{
 	string title = "";
 	QuickStats quickstats;
@@ -28,18 +40,18 @@ class QuickstatsWidget : BlockAreaElement{
 	class Stats : DivElement{
 		this(Stat stat){
 			super();
-			this.add_class("col-md-3");
-			this.add_class("col-xs-6");
+			this ~= new Sass("col-md-3");
+			this ~= new Sass("col-xs-6");
 			this ~= new Tile(stat);
 		}
 
 		class Tile : DivElement{
 			this(Stat stat){
 				super();
-				this.add_class("tile");
-				this.add_class("quick-stats");
+				this ~= new Sass("tile");
+				this ~= new Sass("quick-stats");
 				if(stat.media){
-					this.add_class("media");
+					this ~= new Sass("media");
 				}
 
 				DivElement stats_line = new DivElement();
@@ -49,7 +61,7 @@ class QuickstatsWidget : BlockAreaElement{
 				}else{
 					stats_line.Id("stats-line-"~to!(string)(stat.id));
 				}
-				stats_line.add_class("pull-left");
+				stats_line ~= new Sass("pull-left");
 				stats_line ~= new Text("");
 
 				this ~= stats_line;
@@ -60,9 +72,9 @@ class QuickstatsWidget : BlockAreaElement{
 				this(Stat stat){
 					super();
 					if(stat.media){
-						this.add_class("media-body");
+						this ~= new Sass("media-body");
 					}else{
-						this.add_class("data");
+						this ~= new Sass("data");
 					}
 
 					H2Element h2 = new H2Element();
@@ -83,7 +95,7 @@ class QuickstatsWidget : BlockAreaElement{
 	class Title : H2Element{
 		this(string title){
 			super();
-			this.add_class("tile-title");
+			this ~= new Sass("tile-title");
 			this ~= new Text(title);
 		}
 	}
