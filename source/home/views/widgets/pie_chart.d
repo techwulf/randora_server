@@ -2,173 +2,81 @@ module home.views.widgets.pie_chart.pie_chart;
 
 import home;
 
+struct PieChart{
+	string name = "";
+	int percent = 0;
+}
+
 class PieChartWidget : DivElement{
-	this(){
+	PieChart[] charts = null;
+
+	this(PieChart[] charts = null){
 		super();
-		this.tag.attr["class"] = "tile text-center";
+		this ~= new Sass("tile");
+		this ~= new Sass("text-center");
+
+		this.charts = charts;
 		init();
 	}
+
 	override void init(){
-		this ~= new Tiles();
+		this ~= new Tiles(this.charts);
 	}
-	class Tiles : DivElement {
-		this(){
+
+	class Tiles : DivElement{
+		this(PieChart[] charts){
 			super();
-			this.tag.attr["class"] = "tile-dark p-10";
-			this ~= new PieA();
-			this ~= new PieB();
-			this ~= new PieC();
-			this ~= new PieD();
-			this ~= new PieE();
-		}
-		class PieA : DivElement {
-			this(){
-				super();
-				this.tag.attr["class"] = "pie-chart-tiny";
-				this.tag.attr["data-percent"] = "86";
-				this ~= new Percent();
-				this ~= new Chart();
-			}
-			class Percent : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "percent";
-				}
-			}
-			class Chart : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "pie-title";
-					this ~= new Text("New Visitors");
-					this ~= new Retweet();
-				}
-				class Retweet : IElement {
-					this(){
-						super();
-						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
-						this ~= new Text("");
-					}
-				}
+			this ~= new Sass("tile-dark");
+			this ~= new Sass("p-10");
+
+			foreach(int i, PieChart chart; charts){
+				this ~= new Pie(chart.percent, chart.name);
 			}
 		}
-		class PieB : DivElement {
-			this(){
+
+		class Pie : DivElement{
+			import std.conv;
+			int percent = 0;
+			string title = "";
+
+			this(int percent = 0, string title = ""){
 				super();
-				this.tag.attr["class"] = "pie-chart-tiny";
-				this.tag.attr["data-percent"] = "23";
-				this ~= new Percent();
-				this ~= new Chart();
-			}
-			class Percent : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "percent";
-				}
-			}
-			class Chart : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "pie-title";
-					this ~= new Text("Bounce Rate");
-					this ~= new Retweet();
-				}
-				class Retweet : IElement {
-					this(){
-						super();
-						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
-						this ~= new Text("");
-					}
-				}
-			}
-		}
-		class PieC : DivElement {
-			this(){
-				super();
-				this.tag.attr["class"] = "pie-chart-tiny";
-				this.tag.attr["data-percent"] = "57";
-				this ~= new Percent();
-				this ~= new Chart();
-			}
-			class Percent : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "percent";
-				}
-			}
-			class Chart : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "pie-title";
-					this ~= new Text("Emails Sent");
-					this ~= new Retweet();
-				}
-				class Retweet : IElement {
-					this(){
-						super();
-						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
-						this ~= new Text("");
-					}
-				}
-			}
-		}
-		class PieD : DivElement {
-			this(){
-				super();
-				this.tag.attr["class"] = "pie-chart-tiny";
-				this.tag.attr["data-percent"] = "34";
-				this ~= new Percent();
-				this ~= new Chart();
-			}
-			class Percent : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "percent";
-				}
-			}
-			class Chart : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "pie-title";
-					this ~= new Text("Sales Rate");
-					this ~= new Retweet();
-				}
-				class Retweet : IElement {
-					this(){
-						super();
-						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
-						this ~= new Text("");
-					}
-				}
-			}
-		}
-		class PieE : DivElement {
-			this(){
-				super();
-				this.tag.attr["class"] = "pie-chart-tiny";
-				this.tag.attr["data-percent"] = "81";
-				this ~= new Percent();
-				this ~= new Chart();
-			}
-			class Percent : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "percent";
-				}
-			}
-			class Chart : SpanElement {
-				this(){
-					super();
-					this.tag.attr["class"] = "pie-title";
-					this ~= new Text("New Signups");
-					this ~= new Retweet();
-				}
-				class Retweet : IElement {
-					this(){
-						super();
-						this.tag.attr["class"] = "m-l-5 fa fa-retweet";
-						this ~= new Text("");
-					}
-				}
+				this ~= new Sass("pie-chart-tiny");
+				this.percent = percent;
+				this.title = title;
+				this.tag.attr["data-percent"] = to!(string)(this.percent);
+
+				this ~= new SpanElement(
+					Attributes(
+						null,
+						[new Sass("percent")]
+					),
+					""
+				);
+
+				//Chart
+				SpanElement span = new SpanElement(
+					Attributes(
+						null,
+						[new Sass("pie-title")]
+					),
+					""
+					/+
+					//TODO: Retweet block causes rendering glitches
+					[
+						//Retweet
+						new IElement(
+							Attributes(
+								null,
+								["m-l-5", "fa", "fa-retweet"]
+							),
+							null
+						)
+					]+/
+
+				);
+				span ~= new Text(this.title);
+				this ~= span;
 			}
 		}
 	}

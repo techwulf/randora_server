@@ -2,7 +2,7 @@ module widget.controller.prototype;
 
 import widget;
 
-class WidgetControllerPrototype : AppControllerPrototype{
+class WidgetControllerPrototype : AppController{
 	this(){
 		super();
 	}

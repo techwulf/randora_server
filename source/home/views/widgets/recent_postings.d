@@ -2,95 +2,72 @@ module home.views.widgets.recent_postings.recent_postings;
 
 import home;
 
-class RecentPostingsWidget : DivElement{
+struct Post{
+	int id = 0;
+	string uri = "";
+	string time = "";
+	string from = "";
+	string message = "";
+}
+
+struct RecentPost{
 	string title = "";
-	this(){
+	Post[] posts;
+}
+
+class RecentPostingsWidget : DivElement{
+	RecentPost recent_post;
+	ContextMenuDatastructure context_menu = {
+		[
+			{"posts-refresh", "Refresh"},
+			{"posts-settings", "Settings"}
+		]
+	};
+
+	this(RecentPost post){
 		super();
-		this.tag.attr["class"] = "tile";
-		this.title = "Recent Postings";
+		this ~= new Sass("tile");
+		this.recent_post = post;
 		init();
 	}
 
 	override void init(){
-		this ~= new Title(this.title);
-		this ~= new Dropdown();
-		this ~= new Listview();
+		this ~= new Title(this.recent_post.title);
+		this ~= new ContextMenuWidget(this.context_menu);
+		this ~= new Listview(this.recent_post.posts);
 	}
 
 	class Title : H2Element{
 		this(string title){
 			super();
-			this.tag.attr["class"] = "tile-title";
+			this ~= new Sass("tile-title");
 			this ~= new Text(title);
 		}
 	}
 
-	class Dropdown : DivElement{
-		this(){
-			super();
-			this.tag.attr["class"] = "tile-config dropdown";
-			this ~= new DropdownAnchor();
-			this ~= new DropdownMenu();
-		}
-
-		class DropdownAnchor : AElement{
-			this(){
-				super();
-				this.tag.attr["class"] = "tile-menu";
-				this.tag.attr["data-toggle"] = "dropdown";
-				this.tag.attr["href"] = "";
-				this ~= new Text("");
-			}
-		}
-
-		class DropdownMenu : UlElement{
-			this(){
-				super();
-				this.tag.attr["class"] = "dropdown-menu animated pull-right text-right";
-				this ~= new ListElement("Refresh");
-				this ~= new ListElement("Settings");
-			}
-
-			class ListElement : LiElement{
-				this(string text){
-					super();
-					this ~= new ListAnchor(text);
-				}
-
-				class ListAnchor :  AElement{
-					this(string text){
-						super();
-						this.tag.attr["href"] = "";
-						this ~= new Text(text);
-					}
-				}
-			}
-		}
-	}
-
 	class Listview : DivElement{
-		this(){
+		this(Post[] posts){
 			super();
-			this.tag.attr["class"] = "listview narrow";
-			this ~= new Media("img/profile-pics/1.jpg", "2 Hours ago", "Adrien San", "Cras molestie fermentum nibh, ac semper");
-			this ~= new Media("img/profile-pics/2.jpg", "5 Hours ago", "David Villa", "Suspendisse in purus ut nibh placerat");
-			this ~= new Media("img/profile-pics/3.jpg", "15/12/2013", "Mitch bradberry", "Cras pulvinar euismod nunc quis gravida. Suspendisse pharetra");
-			this ~= new Media("img/profile-pics/4.jpg", "14/12/2013", "Mitch bradberry", "Cras pulvinar euismod nunc quis gravida.");
-			this ~= new Media("img/profile-pics/5.jpg", "13/12/2013", "Mitch bradberry", "Integer a eros dapibus, vehicula quam accumsan, tincidunt purus");
+			this ~= new Sass("listview");
+			this ~= new Sass("narrow");
+			foreach(int i, Post post; posts){
+				this ~= new Media(post);
+			}
 		}
 
 		class Media : DivElement{
-			this(string uri, string time, string from, string message){
+			this(Post post){
 				super();
-				this.tag.attr["class"] = "media p-l-5";
-				this ~= new ProfilePic(uri);
-				this ~= new MediaBody(time, from, message);
+				this ~= new Sass("media");
+				this ~= new Sass("p-l-5");
+				this ~= new ProfilePic(post.uri);
+				this ~= new MediaBody(post.time, post.from, post.message);
 			}
 
 			class ProfilePic : DivElement{
 				this(string uri){
 					super();
-					this.tag.attr["class"] = "pull-left";
+					this ~= new Sass("pull-left");
 					this ~= new Img(uri);
 				}
 
@@ -107,7 +84,7 @@ class RecentPostingsWidget : DivElement{
 			class MediaBody : DivElement{
 				this(string time, string from, string message){
 					super();
-					this.tag.attr["class"] = "media-body";
+					this ~= new Sass("media-body");
 					this ~= new Time(time, from);
 					this ~= new BrElement();
 					this ~= new Message(message);
@@ -116,7 +93,7 @@ class RecentPostingsWidget : DivElement{
 				class Time : SmallElement{
 					this(string time, string from){
 						super();
-						this.tag.attr["class"] = "text-muted";
+						this ~= new Sass("text-muted");
 						this ~= new Text("On "~time~" By "~from);
 					}
 				}
@@ -124,7 +101,7 @@ class RecentPostingsWidget : DivElement{
 				class Message : AElement{
 					this(string message){
 						super();
-						this.tag.attr["class"] = "t-overflow";
+						this ~= new Sass("t-overflow");
 						this.tag.attr["href"] = "";
 						this ~= new Text("message");
 					}

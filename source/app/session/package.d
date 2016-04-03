@@ -1,5 +1,5 @@
 module app.session;
 
-package import app.session.prototype;
+package import deepmagic.session;
 
 package import app.session.app;

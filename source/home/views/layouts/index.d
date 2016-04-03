@@ -3,84 +3,54 @@ module home.views.layouts.index;
 import home;
 
 class IndexLayout : LayoutElement{
-	string[][] _datastructure = null;
+	HomeIndexDatastructure _datastructure;
 
-	this(string[][] datastructure = null){
+	this(HomeIndexDatastructure datastructure){
 		super();
 		this._datastructure = datastructure;
 		this.init();
 	}
 
 	override void init(){
-		this ~= new DashboardWidget(this._datastructure);
+		this ~= new DashboardWidget(this._datastructure.dashboard);
 		this ~= new WhiterElement();
 
-		this ~= new QuickstatsWidget();
+		this ~= new QuickstatsWidget(this._datastructure.quickstats);
 		this ~= new WhiterElement();
 
-		this ~= new PieChartWidget();
+		this ~= new DivElement(
+			Attributes(null, [new Sass("block-area")]),
+			[
+				new DivElement(
+					Attributes(null, [new BootstrapRow()]),
+					[
+						new DivElement(
+							Attributes(null, [new BootstrapColumn(8)]),
+							[
+								new DivElement(
+									Attributes(null, [new BootstrapRow()]),
+									[
+										new PieChartWidget(this._datastructure.charts),
+										new RecentPostingsWidget(this._datastructure.recent_posting),
+										new TasksWidget(this._datastructure.tasks)
+									]
+								)
+							]
+						),
+						new DivElement(
+							Attributes(null, [new BootstrapColumn(4)]),
+							[
+								new UsaMapWidget(this._datastructure.live_visits),
+								//new DynamicChartWidget(),
+								//new ActivityWidget(),
+								new ClearFixElement()
+							]
+						)
+					]
+				)
+			]
+		);
+
 		this ~= new WhiterElement();
-
-		this ~= new BlockArea();
-		this ~= new WhiterElement();
-	}
-
-	class BlockArea : BlockAreaElement{
-		this(){
-			super();
-			this ~= new Row();
-		}
-
-		class Row : RowElement{
-			this(){
-				super();
-				this ~= new Col1(8);
-				this ~= new Col2(4);
-				this ~= new ClearFixElement();
-			}
-
-			class Col1 : ColumnElement{
-				this(int grid = 12){
-					super(grid);
-					this ~= new Row();
-					this ~= new ClearFixElement();
-				}
-
-				class Row : RowElement{
-					this(){
-						super();
-						this ~= new RecentPostingsWidget();
-						this ~= new TasksWidget();
-					}
-
-					class RecentPostings : DivElement{
-						this(){
-							super();
-							this.tag.attr["class"] = "col-md-6";
-							this ~= new RecentPostingsWidget();
-						}
-					}
-
-					class Tasks : DivElement{
-						this(){
-							super();
-							this.tag.attr["class"] = "col-md-6";
-							this ~= new TasksWidget();
-						}
-					}
-				}
-
-			}
-
-			class Col2 : ColumnElement{
-				this(int grid = 12){
-					super(grid);
-					this ~= new UsaMapWidget();
-					//this ~= new DynamicChartWidget();
-					//this ~= new ActivityWidget();
-					this ~= new ClearFixElement();
-				}
-			}
-		}
 	}
 }

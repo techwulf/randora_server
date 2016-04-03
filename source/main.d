@@ -6,7 +6,7 @@ import home;
 import user;
 import widget;
 
-class MainController : AppControllerPrototype{
+class MainController : AppController{
 	private BenchmarkController	_benchmark	= null;
 	private HomeController		_home		= null;
 	private UserController		_user		= null;
@@ -29,6 +29,8 @@ class MainController : AppControllerPrototype{
 
 		this.router.get("*", serveStaticFiles("./public/"));
 		this.router.get("/", &this.home.index.getIndex);
+		this.router.get("/home/", &this.home.index.getIndex);
+		this.router.get("/user/", &this.user.index.getIndex);
 
 		this.router.registerWebInterface(this, this.web_interface_settings);
 	}

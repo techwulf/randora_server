@@ -2,12 +2,26 @@ module home.views.widgets.quickstats.quickstats;
 
 import home;
 
+struct Stat{
+	int id = 0;
+	int value = 0;
+	string title = "";
+	bool media = true;
+}
+
+struct QuickStats{
+	string title = "";
+	Stat[] stats = null;
+}
+
 class QuickstatsWidget : BlockAreaElement{
 	string title = "";
+	QuickStats quickstats;
 
-	this(){
+	this(QuickStats quickstats){
 		super();
-		this.title = "Quick Stats";
+		this.quickstats = quickstats;
+		this.title = this.quickstats.title;
 		this.init();
 	}
 
@@ -16,50 +30,60 @@ class QuickstatsWidget : BlockAreaElement{
 
 		RowElement row = new RowElement();
 
-		row ~= new Stats("stats-line-2", "98", "Tickets Today");
-		row ~= new Stats("stats-line-3", "1452", "Shipments Today", "media");
-		row ~= new Stats("stats-line-4", "4896", "Orders Today", "media");
-		row ~= new Stats("stats-line", "29356", "Site Visits Today", "media");
+		foreach(int i, Stat stat; this.quickstats.stats){
+			row ~= new Stats(stat);
+		}
 
 		this ~= row;
 	}
 
 	class Stats : DivElement{
-		this(string id, string data_value, string text, string media = ""){
+		this(Stat stat){
 			super();
-			this.tag.attr["class"] = "col-md-3 col-xs-6";
-			this ~= new Tile(id, data_value, text, media);
+			this ~= new Sass("col-md-3");
+			this ~= new Sass("col-xs-6");
+			this ~= new Tile(stat);
 		}
 
 		class Tile : DivElement{
-			this(string id, string data_value, string text, string media = ""){
+			this(Stat stat){
 				super();
-				this.tag.attr["class"] = "tile quick-stats " ~ media;
+				this ~= new Sass("tile");
+				this ~= new Sass("quick-stats");
+				if(stat.media){
+					this ~= new Sass("media");
+				}
 
 				DivElement stats_line = new DivElement();
-				stats_line.tag.attr["id"] = id;
-				stats_line.tag.attr["class"] = "pull-left";
+				import std.conv;
+				if(stat.id==1){
+					stats_line.Id("stats-line");
+				}else{
+					stats_line.Id("stats-line-"~to!(string)(stat.id));
+				}
+				stats_line ~= new Sass("pull-left");
 				stats_line ~= new Text("");
 
 				this ~= stats_line;
-				this ~= new MediaBody(data_value, text, media);
+				this ~= new MediaBody(stat);
 			}
 
 			class MediaBody : DivElement{
-				this(string data_value, string text, string media){
+				this(Stat stat){
 					super();
-					if(media == ""){
-						this.tag.attr["class"] = "data";
+					if(stat.media){
+						this ~= new Sass("media-body");
 					}else{
-						this.tag.attr["class"] = "media-body";
+						this ~= new Sass("data");
 					}
 
 					H2Element h2 = new H2Element();
-					h2.tag.attr["data_value"] = data_value;
+					import std.conv;
+					h2.tag.attr["data_value"] = to!string(stat.value);
 					h2 ~= new Text("0");
 
 					SmallElement small = new SmallElement();
-					small ~= new Text(text);
+					small ~= new Text(stat.title);
 
 					this ~= h2;
 					this ~= small;
@@ -71,7 +95,7 @@ class QuickstatsWidget : BlockAreaElement{
 	class Title : H2Element{
 		this(string title){
 			super();
-			this.tag.attr["class"] = "tile-title";
+			this ~= new Sass("tile-title");
 			this ~= new Text(title);
 		}
 	}

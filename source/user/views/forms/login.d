@@ -45,10 +45,10 @@ class UserFormsLogin : FormElement{
 
 		InputElement cb = new InputElement();
 		cb.tag.attr["type"] = "checkbox";
-		cb ~= new Text("Remember Me");
 
 		LabelElement label = new LabelElement();
 		label ~= cb;
+		label ~= new Text("Remember Me");
 
 		DivElement checkbox = new DivElement();
 		checkbox.tag.attr["class"] = "checkbox m-b-20";

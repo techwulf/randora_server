@@ -1,7 +1,6 @@
 module home.views.widgets;
 
 package import home.views.widgets.activity.activity;
-package import home.views.widgets.dashboard.dashboard;
 package import home.views.widgets.dynamic_chart.dynamic_chart;
 package import home.views.widgets.home_menu.home_menu;
 package import home.views.widgets.pie_chart.pie_chart;
