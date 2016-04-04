@@ -1,2 +1,0 @@
-//- P #{response.cookies}
-//- P #{response.statusCode}

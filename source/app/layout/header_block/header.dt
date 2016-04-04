@@ -1,8 +1,0 @@
-header#header.media
-
-	a#menu-toggle(href="#")
-
-	a.logo.pull-left(href="/") SUPER ADMIN 1.0
-
-	.media-body
-		include layout/header/top_menu
