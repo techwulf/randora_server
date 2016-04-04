@@ -1,6 +1,0 @@
-// Sidbar Widgets
-.side-widgets.overflow
-	include user/sidebar/profile
-	include widget/calendar/sidebar/calendar
-	include widget/feed/sidebar/feeds
-	include widget/project/widgets/projects
